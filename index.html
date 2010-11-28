@@ -1,0 +1,35 @@
+---
+layout: default
+title: Broccolini
+---
+
+<div id="home">
+  <div class="bio">
+    <p><strong>Hello, I'm Diana Mounter</strong> (AKA broccolini).</p>
+    <p>I'm a user interface and user experience designer.</p>
+    <p>I sketch designs, architecture and workflows for websites and applications; design and facilitate workshops with stakeholders; plan and conduct research into user needs (so that we have a better chance of building the right thing); and take an agile approach when it comes to the production phase of projects.</p>
+      <p>I like working on/with sustainability, social, data viz, innovative and experimental projects.</p>
+    <p>I am currently an Experience Architect at <a href="http://digitaleskimo.net">Digital Eskimo</a> which fills up the majority of my time, though I will do the odd side project if it interests me, is for a valuable cause, or allows me to stretch my skills.</p>
+  </div> 
+    
+  <h1>blog posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h1>talks &#38; presentations etc.</h1>
+  <ul class="posts">
+    <li><span>Sept 2008</span> &raquo; <a href="http://www.zdnet.com.au/videos/how-i-build-cool-stuff-for-government-22464550.htm">Video: Webjam 10 - How I build cool stuff for Local Government</a></li>
+    <li><span>Sept 2008</span> &raquo; <a href="http://www.webdirections.org/resources/diana-mounter-custom-v-cms-dont-take-sides/">Slides and Audio: Web Directions 2008 Presentation - Custom Vs CMS</a></li>
+  </ul>
+
+  <h1>prominent projects</h1>
+  <ul class="posts">
+    <li><a href="http://reduceyourfootprint.com.au/">Reduce Your Footprint:</a> A site for residents of the Sydney eastern suburbs to help reduce the areas ecological footprint.</li>
+    <li><a href="http://sustainability.unsw.edu.au/">UNSW Sustainability:</a> A website that pulls in electricity meter readings from the UNSW campus.</li>
+    <li><a href="http://culturalawards2009.lgsa.org.au/">LGSA Cultural Awards 2009:</a> A user-generated-content site to promote local government cultural projects.</li>
+    <li><a href="http://stories.lgwebnetwork.org/2009/09/stories-issue-1-august-2009/">LG Web Network Stories Magazine</a> An online and printed magazine - I produced and built the site and printed version for the first issue.</li>
+  </ul>
+</div>
