@@ -17,14 +17,13 @@ html, body {
 
 body {
   background-color: #f4f4f4;
-	color: #444;
+	color: #202020;
   font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	color: #444;
   font-family: georgia, serif;
 	font-weight: normal;
 }
@@ -42,19 +41,15 @@ h2 {
 }
 
 p {
-  margin: 1em 0;
+  margin: 1.5em 0;
 }
 
 a {
-  color: #3c7836;
+  color: #666666;
 }
 
 a:hover {
-  color: #ff4b33;
-}
-
-a:visited {
-  color: #743399;
+  color: #000;
 }
 
 table {
@@ -75,6 +70,7 @@ ul.posts {
 
   ul.posts li {
     line-height: 1.75em;
+		margin-bottom: 0.75em;
   }
 
   ul.posts span {
@@ -94,7 +90,7 @@ ul.posts {
   text-align: left;
   width: 40em;
   margin: 3em auto 2em auto;
-  line-height: 1.5em;
+  line-height: 1.7em;
 }
 
 .title {
@@ -104,7 +100,7 @@ ul.posts {
 }
 
   .site .title a {
-    color: #77c86f;
+    color: #77C86F;
     text-decoration: none;
 		font-family: georgia, serif;
 		font-size: 3em;
@@ -116,7 +112,7 @@ ul.posts {
   }
 
   .site .title a.extra {
-    color: #444;
+    color: #202020;
 		font-size: 2em;
     text-decoration: none;
     margin-left: 1em;
@@ -127,20 +123,19 @@ ul.posts {
   }
 
 	.site .bio {
-		color: #444;
 		line-height: 1.5em;
 		margin-bottom: 50px;
 	}
 
   .site .meta {
-    color: #444;
+    color: #202020;
 		font-family: Monaco,"Courier New",monospace;
 		font-size: 0.8em;
   }
 
   .site .footer {
     font-size: 80%;
-    color: #444;
+    color: #202020;
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
@@ -152,7 +147,6 @@ ul.posts {
     }
 
       .site .footer .contact a {
-        color: #004B91;
       }
 
     .site .footer .rss {
