@@ -24,20 +24,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: georgia, serif;
+  font-family: courier, georgia, serif;
 	font-weight: normal;
 }
 
 h1 {
   margin-bottom: 0.5em;
 	font-size: 1.8em;
-	font-style: italic;
 }
 
 h2 {
 	font-size: 1.5em;
-	font-style: italic;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 p {
@@ -65,7 +63,7 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 70px;
 }
 
   ul.posts li {
@@ -96,20 +94,28 @@ ul.posts {
 .title {
   color: #a00;
   font-weight: bold;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
   .site .title a {
-    color: #77C86F;
+		color: #202020;
+		background: url(../images/fighters.png) no-repeat 320px 0;
     text-decoration: none;
-		font-family: georgia, serif;
-		font-size: 3em;
+		font-family: courier, georgia, serif;
+		font-size: 4em;
 		font-weight: normal;
+		height: 50px;
+		display: block;
+		padding-top: 140px;
   }
 
   .site .title a:hover {
-    color: black;
+		background: url(../images/fighters.png) no-repeat 320px -194px;
   }
+
+	.site .title img {
+		margin-top: -50px;
+	}
 
   .site .title a.extra {
     color: #202020;
@@ -124,7 +130,7 @@ ul.posts {
 
 	.site .bio {
 		line-height: 1.5em;
-		margin-bottom: 50px;
+		margin-bottom: 100px;
 	}
 
   .site .meta {
