@@ -44,10 +44,13 @@ p {
 
 a {
   color: #666666;
+	text-decoration: none;
+	border-bottom: 1px dashed;
 }
 
 a:hover {
   color: #000;
+	border-bottom: 1px dashed;
 }
 
 table {
@@ -107,6 +110,7 @@ ul.posts {
 		height: 50px;
 		display: block;
 		padding-top: 140px;
+		border-bottom: none;
   }
 
   .site .title a:hover {
@@ -153,7 +157,12 @@ ul.posts {
     }
 
       .site .footer .contact a {
+				border-bottom: none;
       }
+
+			.site .footer .contact a:hover {
+				border-bottom: thin dashed;
+			}
 
     .site .footer .rss {
       margin-top: 1.1em;
