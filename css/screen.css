@@ -18,7 +18,7 @@ html, body {
 body {
   background-color: #f4f4f4;
 	color: #202020;
-  font: 13.34px helvetica, arial, clean, sans-serif;
+  font: 13.34px "Helvetica Neue", Helvetica, Arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -227,3 +227,52 @@ ul.posts {
   #related h2 {
     margin-bottom: 1em;
   }
+
+
+	/*****************************************************************************/
+	/*
+	/* Disqus comments
+	/*
+	/*****************************************************************************/
+	
+	
+
+#disqus-comments {
+	margin: 50px 0 50px 0;
+	border-top: 4px solid #eee;
+}
+
+#disqus-comments a {
+	border-bottom: none;
+}
+
+#disqus-comments p, h1, h2, h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, clean, sans-serif; 
+}
+
+#disqus-comments a.dsq-subscribe-email em {
+	text-decoration: none;
+}
+
+#disqus-comments a.dsq-subscribe-rss em {
+	text-decoration: none;
+}
+
+/*#site #dsq-content h3 {
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+#dsq-content div, #dsq-content p, #dsq-content h3 {
+	display: block;
+}
+
+#dsq-content h3{
+	float: none;
+}
+#dsq-content ul, #dsq-content li, #dsq-content ol, #dsq-content cite, #dsq-content a, #dsq-content img, #dsq-content select {
+	display: inline;
+  max-width: none;
+  width: auto;
+}*/
+
