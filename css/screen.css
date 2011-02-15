@@ -246,9 +246,11 @@ ul.posts {
 	border-bottom: none;
 }
 
+/*
 #disqus-comments p, h1, h2, h3 {
 	font-family: "Helvetica Neue", Helvetica, Arial, clean, sans-serif; 
-}
+}*/
+
 
 #disqus-comments a.dsq-subscribe-email em {
 	text-decoration: none;
