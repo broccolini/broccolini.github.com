@@ -229,12 +229,12 @@ ul.posts {
   }
 
 
-	/*****************************************************************************/
-	/*
-	/* Disqus comments
-	/*
-	/*****************************************************************************/
-	
+/*****************************************************************************/
+/*
+/* Disqus comments
+/*
+/*****************************************************************************/
+
 	
 
 #disqus-comments {
@@ -260,21 +260,22 @@ ul.posts {
 	text-decoration: none;
 }
 
-/*#site #dsq-content h3 {
-    line-height: 1.5em;
-    margin-bottom: 1em;
+/*****************************************************************************/
+/*
+/* Pages
+/*
+/*****************************************************************************/
+
+div.jobs h3 {
+	margin: 20px 0 5px 0;
 }
 
-#dsq-content div, #dsq-content p, #dsq-content h3 {
-	display: block;
+div.jobs p {
+	margin-top: 0;
+	padding-top: 0;
 }
 
-#dsq-content h3{
-	float: none;
-}
-#dsq-content ul, #dsq-content li, #dsq-content ol, #dsq-content cite, #dsq-content a, #dsq-content img, #dsq-content select {
-	display: inline;
-  max-width: none;
-  width: auto;
-}*/
+
+
+
 
