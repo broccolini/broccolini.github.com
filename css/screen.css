@@ -66,7 +66,7 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 70px;
+  margin: 1.5em 0 50px;
 }
 
   ul.posts li {
@@ -89,7 +89,7 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: left;
-  width: 40em;
+  width: 55em;
   margin: 3em auto 2em auto;
   line-height: 1.7em;
 }
@@ -146,9 +146,11 @@ ul.posts {
   .site .footer {
     font-size: 80%;
     color: #202020;
+		float: left;
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
+		width: 805px;
   }
 
     .site .footer .contact {
@@ -236,34 +238,109 @@ ul.posts {
 	  margin-bottom: 1em;
 	}
 
+
+#portfolio h1, h1.mywork {
+	margin-top: 70px;
+}
+
 #portfolio h2 {
 	margin-bottom: 20px;
 }
 
-#portfolio img {
+img, #portfolio img {
 	border: dashed 1px #ccc;
-	margin-top: 30px;
 }
 
 #portfolio img a {
 	border-bottom: none;
 }
 
-ul.points {
+ul.points, ul.projects, ul.experience {
   margin-bottom: 70px;
 }
 
-  ul.points li {
-    line-height: 1.25em;
-		margin-bottom: 0.75em;
-  }
+ul.points li, ul.projects li, ul.experience li {
+	line-height: 1.25em;
+	margin-bottom: 0.75em;
+}
 
-  ul.points span {
-    color: #444;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 0.8em;
-  }
+ul.points span {
+  color: #444;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 0.8em;
+}
 
+ul.projects, ul.experience {
+	display: block;
+	margin: 50px 0;
+}
+
+ul.projects li, ul.experience li {
+	list-style-type: none;
+	float: left;
+	display: block;
+	margin-bottom: 50px;
+	width:;
+}
+
+ul.projects h3, ul.experience h3 {
+	font-family: helvetica;
+	font-size: 2.3em;
+	line-height: 1.2em;
+	
+}
+
+ul.projects span, ul.projects span, ul.experience span {
+	width: 240px;
+	margin: 0 20px 12px 0;
+	float: left;
+}
+
+ul.projects h3 a, ul.experience h3 a {
+	border-bottom: none;
+}
+
+ul.projects span, ul.experience span {
+	line-height: 1.7em;
+}
+
+ul.projects li img, ul.experience li img {
+	float: left;
+	margin: 0;
+}
+
+ul.experience h3 {
+	width: 490px;
+	float: left;
+}
+
+ul.experience span img {
+	margin-right: 0 20px 12px 0;
+}
+
+ul.experience li.last, ul.projects li.last {
+	margin-bottom: 90px;
+	width: 55em;
+}
+
+ul.points li.last {
+	margin-bottom: 30px;
+}
+
+/*#projects p, #talks p {
+	width: 40em;
+}*/
+
+
+/*#projects {
+	margin-bottom: 50px;
+	
+}
+
+#talks {
+	margin-top: 50px;
+}
+*/
 
 /*****************************************************************************/
 /*
