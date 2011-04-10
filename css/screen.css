@@ -438,6 +438,10 @@ h2.portfolio {
 	border: dashed 1px #ccc;
 }
 
+.portfolio img.thumb {
+	margin-right: 12.9px;
+}
+
 .portfolio img:hover {
 	border: dashed 1px #ff4b33;
 }
