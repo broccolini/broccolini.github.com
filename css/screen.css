@@ -24,22 +24,24 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: courier, georgia, serif;
+	font-family: courier, georgia, serif;
 	font-weight: normal;
 }
 
 h1 {
-  margin-bottom: 0.5em;
-	font-size: 1.8em;
+	font-size: 2.5em;
+	line-height: 1em;
+	text-transform: uppercase;
 }
 
 h2 {
-	font-size: 1.5em;
-	margin-top: 50px;
+	font-size: 1.8em;
+	line-height: 1.2em;
 }
 
 p {
-  margin: 1.5em 0;
+	line-height: 1.7em;
+  margin: 4px 0 20px 0;
 }
 
 a {
@@ -49,7 +51,7 @@ a {
 }
 
 a:hover {
-  color: #000;
+  color: #ff4b33;
 	border-bottom: 1px dashed;
 }
 
@@ -89,7 +91,7 @@ ul.posts {
 .site {
   font-size: 110%;
   text-align: left;
-  width: 55em;
+  width: 750px;
   margin: 3em auto 2em auto;
   line-height: 1.7em;
 }
@@ -102,19 +104,19 @@ ul.posts {
 
   .site .title a {
 		color: #202020;
-		background: url(../images/fighters.png) no-repeat 320px 0;
+		background: url(../images/fighters.png) no-repeat 570px 0;
     text-decoration: none;
 		font-family: courier, georgia, serif;
 		font-size: 4em;
 		font-weight: normal;
 		height: 50px;
 		display: block;
-		padding-top: 140px;
+		padding: 140px 0 0 250px;
 		border-bottom: none;
   }
 
   .site .title a:hover {
-		background: url(../images/fighters.png) no-repeat 320px -194px;
+		background: url(../images/fighters.png) no-repeat 570px -194px;
   }
 
 	.site .title img {
@@ -150,7 +152,7 @@ ul.posts {
     border-top: 4px solid #eee;
     margin-top: 2em;
     overflow: hidden;
-		width: 805px;
+		width: 750px;
   }
 
     .site .footer .contact {
@@ -175,6 +177,11 @@ ul.posts {
       .site .footer .rss img {
         border: 0;
       }
+
+			.site .footer .columnB h1 {
+				margin-top: 6px;
+				text-transform: none;
+			}
 
 /*****************************************************************************/
 /*
@@ -239,7 +246,7 @@ ul.posts {
 	}
 
 
-#portfolio h1, h1.mywork {
+/*#portfolio h1, h1.mywork {
 	margin-top: 70px;
 }
 
@@ -325,7 +332,7 @@ ul.experience li.last, ul.projects li.last {
 
 ul.points li.last {
 	margin-bottom: 30px;
-}
+}*/
 
 /*#projects p, #talks p {
 	width: 40em;
@@ -400,6 +407,100 @@ h2.portfolio {
 }
 
 
+/*****************************************************************************/
+/*
+/* Portfolio
+/*
+/*****************************************************************************/
+
+.portfolio {
+	width: 750px;
+	margin-top: 50px;
+}
+
+.columnA {
+	width: 200px;
+	margin: 0 50px 50px 0;
+	float: left;
+}
+
+.columnB {
+	width: 490px;
+	margin: 1px 10px 50px 0;
+	float: left;
+}
+
+.portfolio img {
+	border: dashed 1px #ccc;
+}
+
+.portfolio img:hover {
+	border: dashed 1px #ff4b33;
+}
+
+.portfolio a.img{
+	border-bottom: none;
+}
+
+.portfolio ul {
+  margin-bottom: 70px;
+}
+
+.portfolio ul li {
+	line-height: 1.25em;
+	margin-bottom: 0.75em;
+}
+
+.portfolio ul li {
+	border-top: 2px solid #202020;
+	list-style-type: none;
+	margin-bottom: 50px;
+	padding: 2px 0 0;
+}
+
+.portfolio ul h2 a {
+	color: #202020;
+	border-bottom: none;
+}
+
+.portfolio ul h2 a:hover {
+	color: #ff4b33;
+}
 
 
+/*****************************************************************************/
+/*
+/* Detail
+/*
+/*****************************************************************************/
+
+.detail {
+	width: 750px;
+	margin-top: 50px;
+}
+
+.detail ul.summary {
+	margin-top: 6px;
+}
+
+.detail ul.summary li {
+  border-top: 1px dashed #CCCCCC;
+  font-size: 90%;
+  line-height: 1.2em;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.detail ul.points {
+  margin-bottom: 50px;
+}
+
+.detail ul.points li {
+	margin-bottom: 1em;
+}
+
+a.back {
+	text-transform: uppercase;
+	font-size: 90%;
+}
 
