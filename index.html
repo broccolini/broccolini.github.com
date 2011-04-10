@@ -3,39 +3,77 @@ layout: default
 title: Broccolini
 ---
 
-<div id="home">
-  <div class="bio">
+  <div class="portfolio">
+
+  <div class="columnA">
+    <h1 class="hai">Oh Hai!</h1>
+  </div><!-- End columnA -->
+  
+  <div class="columnB">
     <p><strong>Hello, I'm Diana Mounter</strong> (AKA broccolini).</p>
     <p>I'm a user experience designer.</p>
     <p>I sketch designs, architecture and workflows for websites and applications; design and facilitate workshops with stakeholders; plan and conduct research into user needs (so that we have a better chance of building the right thing); and take an agile approach when it comes to the production phase of projects.</p>
       <p>I like working on/with sustainability, social, data viz, innovative and experimental projects.</p>
     <p>I am currently an Experience Architect at <a href="http://digitaleskimo.net">Digital Eskimo</a> which fills up the majority of my time, though I will do the odd side project if it interests me, is for a valuable cause, or allows me to stretch my skills.</p>
-  </div> 
+    </div><!-- End columnB -->
     
-  <h1>blog posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  <div class="columnA">  
+  <h1>Projects</h1>
+  <p>I research and design user experiences, and develop concepts into UI specifications.<!-- My role on a project usually starts from the scoping and research phase, using insights to develop concepts, and then developing those into interface specifications. As a user experience designer and producer I continue to work closely with teams throughout the production phase, developing branding and design 'look and feel', exploring implementation options for features, continuing to test what we build so that it informs the development of the final product. --></p>
+  </div><!-- End columnA -->
 
-  <h1>talks &#38; presentations</h1>
-  <ul class="posts">
-    <li><span>11 Feb 2011</span> &raquo; <a href="http://www.slideshare.net/diana.mounter/scrum-master-lordoftheuniversefinal">Slides: Ignite Sydney - How I became ScrumMaster Lord of the Universe</a></li>
-    <li><span>02 Dec 2010</span> &raquo; <a href="http://www.slideshare.net/diana.mounter/testing-the-release-early-the-release-often-mantra">Slides: Testing the release early: the "release often" mantra</a></li>
-    <li><span>29 March 2010</span> &raquo; <a href="http://www.slideshare.net/diana.mounter/social-mediaforvisualartists-upload">Slides: Social Media for Visual Artists</a></li>
-    <li><span>22 March 2010</span> &raquo; <a href="http://www.slideshare.net/diana.mounter/the-role-of-personas-in-usercentred-design">Slides: The role of personas in user-centred design</a></li>
-    <li><span>26 Sept 2008</span> &raquo; <a href="http://www.webdirections.org/resources/diana-mounter-custom-v-cms-dont-take-sides/">Slides and Audio: Web Directions 2008 Presentation - Custom Vs CMS</a></li>
-    <li><span>25 Sept 2008</span> &raquo; <a href="http://www.zdnet.com.au/videos/how-i-build-cool-stuff-for-government-22464550.htm">Video: Webjam 10 - How I build cool stuff for Local Government</a></li>
-  </ul>
+<div class="columnB">
+    <ul>  
+    <li><h2><a href="/projects/virtual-learning-environment.html">Virtual Learning Environment</a></h2>
+    <p>I was the producer and developed the user experience strategy for an online learning tool. We were asked to develop a prototype though the first version was used for a real course by students in the Asia Pacific.</p>
+      <a class="img" href="/projects/virtual-learning-environment.html"><img src="/images/portfolio/vle-home1.jpg"></a>
+    </li>   
+    <!-- <li><span><h3><a href="#">GreenHome website</a></h3>Lorizzle the bizzle dolor rizzle amizzle, own yo' adipiscing shit. Nullizzle sapizzle velit, shit we gonna chung, suscipit quizzle, gravida vizzle, daahng dawg. Pellentesque fo shizzle my nizzle i'm in the shizzle. Sed erizzle.</span><img src="/images/portfolio/gh-home.jpg"></li> -->
+    <li><h2><a href="/projects/urban-sketch-lab.html">Urban Sketch Lab</a></h2>
+    <p>I was the producer and experience architect for developing an interactive installation and accompanying event website and blog. This project taught me a lot about designing interactions for use during and after events.</p>
+    <a class="img" href="/projects/urban-sketch-lab.html"><img src="/images/portfolio/USL-prototype.jpg"></a>
+      </li>
+    <li><h2><a href="/projects/designing-broccolini.html">Designing broccolini.net</a></h2>
+    <p>Being your own client is hard. To get past staring at a blank screen I took a strategic approach like I usually would on projects at work. I allowed myself just one weekend to design and build it so it is essentially the MVP version of my own website.</p>
+    <a class="img" href="/projects/designing-broccolini.html"><img src="/images/portfolio/fighters-sketch.jpg"></a>
+      </li>
+    <li class="last">
+      <p>More projects I'm proud of: <a href="http://bouncr.com">Bouncr</a>; <a href="http://www2.acfonline.org.au/">ACF GreenHome</a>; <a href="http://sustainability.unsw.edu.au/">UNSW Sustainability</a>; <a href="http://culturalawards2009.lgsa.org.au/">LGSA Cultural Awards 2009</a>.</p>
+      </li>  
+    </ul>
+  </div><!-- End columnB -->
+  
+</div><!-- End portfolio -->
 
-  <h1>prominent projects</h1>
-  <ul class="posts">
-    <li><a href="http://bouncr.com">Bouncr</a> - an application for shortening email addresses: The application was a <a href="http://startupbus.com">StartupBus</a> finalist and winner of the San Francisco bus. I worked on the user experience design and information architecture, and assisted with agile project management.</li>
-    <li><a href="http://www2.acfonline.org.au/">ACF GreenHome:</a> Greenhome seeks to engage with and educate communities about environmental issues within the household context. I worked on the user experience strategy and interface design together with my colleagues at Digital Eskimo. The project taught me a lot about behaviour change in the online context, designing iteratively, and working with a distributed team.</li>
-    <li><a href="http://hothouselaunch.unsw.edu.au">HotHouse</a> - blog, event website, and interactive installation: Producer and experience architect for online experience and production of an interactive digital installation to engage designers with an event experience that continued online.</li>
-    <li><a href="http://sustainability.unsw.edu.au/">UNSW Sustainability:</a> A website that pulls in electricity meter readings from the UNSW campus. A small project that I hope grows to make a big impact and be part of embedding the culture of sustainable living in every aspect of UNSW.</li>
-    <li><a href="http://culturalawards2009.lgsa.org.au/">LGSA Cultural Awards 2009:</a> A user-generated-content site to promote local government cultural projects. It was a great experience to see the diversity of cultural projects developed in partnership with Local Government and artists and creative people in the community. The best thing about the project was seeing the videos of stories from people in the community, how they benefited from the projects and their fascinating stories.</li>
-    <li><a href="http://stories.lgwebnetwork.org/2009/09/stories-issue-1-august-2009/">LG Web Network Stories Magazine</a> An online and printed magazine for a community of people working on the web in Local Government. I produced and built the Wordpress site and printed version for the first issue.</li>
+
+<div class="portfolio">
+  <div class="columnA">
+  <h1>Talks</h1>
+  <p>I like to make my talks entertaining, these examples show my personality, things that influence my work practice, and my amazing stick men drawing skillz.</p>
+  </div><!-- End columnA -->
+  
+<div class="columnB">
+  <ul>  
+  <li>
+    <h2><a href="/talks/scrummaster-lord-of-the-universe.html">How I became ScrumMaster Lord of the Universe</a></h2>
+    <p>My <a href="http://ignitesydney.com">Ignite</a> talk is a humorous yet honest reflection on how I learnt some hard life lessons after doing the ScrumMaster certification.</p>
+    <a class="img" href="/talks/scrummaster-lord-of-the-universe.html"><img src="/images/talks/scrum-boardroom.jpg"></a>
+    </li>
+    
+    <!-- <li><h2><a href="#">Better Experience Design</a></h2>
+      <p>A quick five minute "lightning talk" for colleagues on key things that have influenced my user experience and interaction design.</p>
+      <img src="/images/talks/better-ed.jpg">
+      </li> -->
+      
+      <li>
+        <h2><a href="/talks/build-cool-stuff-for-local-government.html">How I build cool stuff for Local Government</a></h2>
+        <p>I had 3 minutes to impress the Webjam crowd. As one of  few non-programmers presenting I talked about how I got stuff done using a plethora of web apps whilst working in a not for profit.</p>
+        <a class="img" href="/talks/build-cool-stuff-for-local-government.html"><img src="/images/talks/webjam.jpg"></a></li> 
+  
+        <li class="last">
+          <p>More talks and presentations I'm proud of: <a href="http://www.slideshare.net/diana.mounter/testing-the-release-early-the-release-often-mantra">Testing the release early: the "release often" mantra</a>; <a href="http://www.slideshare.net/diana.mounter/social-mediaforvisualartists-upload">Social Media for Visual Artists</a>; <a href="http://www.slideshare.net/diana.mounter/the-role-of-personas-in-usercentred-design">The role of personas in user-centered design</a>.</p>
+          </li>  
   </ul>
+  </div><!-- End columnB -->
+
 </div>

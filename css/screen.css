@@ -34,6 +34,10 @@ h1 {
 	text-transform: uppercase;
 }
 
+h1.hai {
+	margin-top: 6px;
+}
+
 h2 {
 	font-size: 1.8em;
 	line-height: 1.2em;
@@ -68,7 +72,7 @@ table {
 
 ul.posts {
   list-style-type: none;
-  margin: 1.5em 0 50px;
+  margin: 12px 0 50px;
 }
 
   ul.posts li {
@@ -238,11 +242,11 @@ ul.posts {
   }
 
 	#related {
-	  margin-top: 2em;
+		font-size: 90%;
+	  margin-top: 70px;
 	}
 
 	#related h2 {
-	  margin-bottom: 1em;
 	}
 
 
