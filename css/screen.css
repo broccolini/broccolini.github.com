@@ -161,7 +161,7 @@ ul.posts {
 
     .site .footer .contact {
       float: left;
-      margin-right: 3em;
+      margin: 0 3em 0 2px;
     }
 
       .site .footer .contact a {
@@ -250,109 +250,6 @@ ul.posts {
 	}
 
 
-/*#portfolio h1, h1.mywork {
-	margin-top: 70px;
-}
-
-#portfolio h2 {
-	margin-bottom: 20px;
-}
-
-img, #portfolio img {
-	border: dashed 1px #ccc;
-}
-
-#portfolio img a {
-	border-bottom: none;
-}
-
-ul.points, ul.projects, ul.experience {
-  margin-bottom: 70px;
-}
-
-ul.points li, ul.projects li, ul.experience li {
-	line-height: 1.25em;
-	margin-bottom: 0.75em;
-}
-
-ul.points span {
-  color: #444;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 0.8em;
-}
-
-ul.projects, ul.experience {
-	display: block;
-	margin: 50px 0;
-}
-
-ul.projects li, ul.experience li {
-	list-style-type: none;
-	float: left;
-	display: block;
-	margin-bottom: 50px;
-	width:;
-}
-
-ul.projects h3, ul.experience h3 {
-	font-family: "Helvetica Neue", Helvetica, Arial, clean, sans-serif;
-	font-size: 2.3em;
-	line-height: 1.2em;
-	
-}
-
-ul.projects span, ul.projects span, ul.experience span {
-	width: 240px;
-	margin: 0 20px 12px 0;
-	float: left;
-}
-
-ul.projects h3 a, ul.experience h3 a {
-	border-bottom: none;
-}
-
-ul.projects span, ul.experience span {
-	line-height: 1.7em;
-}
-
-ul.projects li img, ul.experience li img {
-	float: left;
-	margin: 0;
-}
-
-ul.experience h3 {
-	width: 490px;
-	float: left;
-}
-
-ul.experience span img {
-	margin-right: 0 20px 12px 0;
-}
-
-ul.experience li.last, ul.projects li.last {
-	margin-bottom: 90px;
-	width: 55em;
-}
-
-ul.points li.last {
-	margin-bottom: 30px;
-}*/
-
-/*#projects p, #talks p {
-	width: 40em;
-}*/
-
-
-/*#projects {
-	margin-bottom: 50px;
-	
-}
-
-#talks {
-	margin-top: 50px;
-}
-*/
-
 /*****************************************************************************/
 /*
 /* Disqus comments
@@ -369,12 +266,6 @@ ul.points li.last {
 #disqus-comments a {
 	border-bottom: none;
 }
-
-/*
-#disqus-comments p, h1, h2, h3 {
-	font-family: "Helvetica Neue", Helvetica, Arial, clean, sans-serif; 
-}*/
-
 
 #disqus-comments a.dsq-subscribe-email em {
 	text-decoration: none;
@@ -433,6 +324,10 @@ h2.portfolio {
 	margin: 1px 10px 50px 0;
 	float: left;
 }
+
+/*.intro {
+	padding-top: 20px;
+} --- fix baseline for intro*/
 
 .portfolio img {
 	border: dashed 1px #ccc;
@@ -502,6 +397,18 @@ h2.portfolio {
 .detail ul.points {
   margin-bottom: 50px;
 }
+
+.detail ul.experience {
+	list-style-type: none;
+}
+
+	ul.experience h3 {
+		font-size: 1.5em;
+	}
+	
+	ul.experience li {
+		margin-top: 10px;
+	}
 
 .detail ul.points li {
 	margin-bottom: 1em;
