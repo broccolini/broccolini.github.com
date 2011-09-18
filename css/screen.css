@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2.5em;
 	line-height: 1em;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 h1.hai {
@@ -323,10 +323,17 @@ h2.portfolio {
 }
 
 .columnA {
+	color: #444;
 	width: 200px;
 	margin: 0 50px 50px 0;
 	float: left;
 }
+
+	.columnA p {
+	font-family: courier, 
+	georgia, serif;
+	}
+
 
 .columnB {
 	width: 490px;
