@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2.5em;
 	line-height: 1em;
-	text-transform: lowercase;
 }
 
 h1.hai {
@@ -79,12 +78,12 @@ table {
 /*
 /*****************************************************************************/
 
-ul.posts {
+ul.posts, ol.posts {
   list-style-type: none;
-  margin: 12px 0 50px;
+  margin: 12px 0 50px 10px;
 }
 
-  ul.posts li {
+  ul.posts li, ol.post li {
     line-height: 1.75em;
 		margin-bottom: 0.75em;
   }
