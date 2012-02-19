@@ -115,6 +115,10 @@ p.hello {
 	font-weight: bold;
 }
 
+p.caption {
+	font-size: 12px;
+}
+
 ul li {
 	list-style: circle;
 }
@@ -124,8 +128,33 @@ ul.meta {
 }
 
 ul.meta li {
-	margin-bottom: 15px;
 	list-style: none;
+}
+
+ul.meta li, ul.portfolio li {
+	margin-bottom: 15px;
+}
+
+
+.banner a {
+	text-decoration: none;
+}
+
+.banner a h1 {
+	background: url(../images/fighters.png) no-repeat 628px 0;
+	display: block;
+	padding: 140px 0 0 0;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+.banner a:hover h1 {
+	background: url(../images/fighters.png) no-repeat 628px -204px;
+}
+
+
+img.portfolio {
+	margin-top: 3em;
 }
 
 
