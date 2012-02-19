@@ -85,14 +85,18 @@ h1, h2 {
 
 h2 {
 	font-size: 50px;
-	width: 780px;
+	width: 100%;
 	display: block;
 }
 
-
+h2.portfolio {
+	margin-top: 115px;
+}
 
 h3 {
-	font-size: 36px;
+	font-size: 30px;
+	font-weight: normal;
+	margin-top: 3em;
 }
 
 
@@ -101,18 +105,27 @@ h3, h4 {
 }
 
 
-p {
+p, p.description-text, ul li {
 	margin: 0 0 35px;
-	line-height: 1.4em;
+	line-height: 1.6em;
+	font-weight: 200;
 }
 
-p.description-text, ul li {
-	font-weight: 200;
+p.hello {
+	font-weight: bold;
 }
 
 ul li {
 	list-style: circle;
-	line-height: 1.4em;
+}
+
+ul.meta {
+	margin: 0 0 0 -40px;
+}
+
+ul.meta li {
+	margin-bottom: 15px;
+	list-style: none;
 }
 
 
@@ -153,6 +166,10 @@ div.container {
 	padding: 35px 0 0;
 }
 
+div.detail {
+	width: 100%;
+}
+
 div.description {
 	display: block;
 	width: 380px;
@@ -171,6 +188,18 @@ div.footer {
 	display: block;
 }
 
+div.minor {
+	display: block;
+	width: 180px;
+	float: left;
+	margin: 0 40px 0 0;
+}
+
+div.major {
+	width: 560px;
+	display: block;
+	float: left;
+}
 
 
 
