@@ -140,6 +140,13 @@ ul.meta li, ul.portfolio li {
 	margin-bottom: 15px;
 }
 
+a {
+	color: #338bff;
+}
+
+a:hover {
+	color: #fe4b33;
+}
 
 .banner a {
 	text-decoration: none;
