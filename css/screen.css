@@ -109,6 +109,10 @@ h3, h4 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h3.talks {
+	margin-bottom: 0;
+}
+
 
 p, p.description-text, ul li {
 	margin: 0 0 35px;
@@ -122,6 +126,9 @@ p.hello {
 
 p.caption {
 	font-size: 12px;
+}
+
+p.talk-date {
 }
 
 ul li {
