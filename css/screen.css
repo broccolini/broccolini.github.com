@@ -93,6 +93,11 @@ h2.portfolio {
 	margin-top: 115px;
 }
 
+h2.footer {
+	font-size: 40px;
+	padding-bottom: 11px;
+}
+
 h3 {
 	font-size: 30px;
 	font-weight: normal;
@@ -215,7 +220,16 @@ div.feature-image {
 div.footer {
 	width: 780px;
 	display: block;
+	margin: 0 auto;
 }
+
+div.social {
+	display: block;
+	width: 230px;
+	float: left;
+	margin: 0 30px 0 0;
+}
+
 
 div.minor {
 	display: block;
