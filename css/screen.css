@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|Inconsolata);
+
 * @group Meyer Reset */
 
 html, body, div, span, applet, object, iframe,
@@ -78,9 +80,10 @@ h1 {
 
 h1, h2 {
 	color: #333;
-	font-family: "courier new", georgia, serif;
-	font-weight: 200;
+	font-family: "Arvo", georgia, serif;
+	font-weight: normal;
 	padding-bottom: 0px;
+		-webkit-font-smoothing: antialiased;
 }
 
 h2 {

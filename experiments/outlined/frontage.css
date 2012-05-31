@@ -1,0 +1,24 @@
+@font-face {
+	font-family: Frontage-Outline;
+	src: url('Frontage-Outline.otf');
+}
+
+body {
+  background-color: #7A060C;
+}
+
+#wrapper {
+  width: 90%;
+  margin: 200px auto;
+}
+
+h1 {
+  font-family: 'Frontage-Outline';
+  font-size: 50px;
+  text-align: center;
+  color: #7A060C;
+  letter-spacing: -5px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.25), 
+	             0 -1px 10px rgba(0,0,0,.1),
+	             0  1px 10px #7A060C;
+}
