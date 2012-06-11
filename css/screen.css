@@ -69,25 +69,30 @@ Text styles
 
 body {
 	font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #333;
+	color: #3D3A3A;
 	background-color: #fafafa;
 	padding-bottom: 60px;
+	font-weight: normal;
 }
 
 h1 {
 	font-size: 59px;
 }
 
-h1, h2 {
-	color: #333;
+h1, h2, h3, h4 {
 	font-family: "Arvo", georgia, serif;
-	font-weight: normal;
+}
+	
+h1, h2{
+	color: #3D3A3A;
+	font-weight: 400;
 	padding-bottom: 0px;
-		-webkit-font-smoothing: antialiased;
+/*	border-bottom: 2px solid rgba(61,58,58,0.3);
+*/		-webkit-font-smoothing: antialiased;
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 42px;
 	width: 100%;
 	display: block;
 }
@@ -97,7 +102,7 @@ h2.portfolio {
 }
 
 h2.footer {
-	font-size: 40px;
+	font-size: 30px;
 	padding-bottom: 12px;
 }
 
@@ -105,11 +110,6 @@ h3 {
 	font-size: 30px;
 	font-weight: normal;
 	margin-top: 3em;
-}
-
-
-h3, h4 {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h3.talks {
@@ -165,7 +165,7 @@ a:hover {
 .banner a h1 {
 	background: url(../images/fighters.png) no-repeat 628px 0;
 	display: block;
-	padding: 140px 0 0 0;
+	padding: 130px 0 0 0;
 	border-bottom: none;
 	text-decoration: none;
 }
@@ -212,9 +212,14 @@ div.container {
 	width: 780px;
 	margin: 0 auto;
 	display: block;
-	border-top: 4px solid;
-	margin-top: -58px;
+	border-top: 1px dashed rgba(61,58,58,0.4);
+	margin-top: -39px;
 	padding: 35px 0 0;
+}
+
+
+div.header {
+	margin-top: -49px;
 }
 
 div.detail {
