@@ -16,10 +16,9 @@ h1 {
 }
 .inset-text {
     /* Shadows are visible under slightly transparent text color */
-    color: rgba(108,108,108, 0.8);
-		text-shadow:	1px 1px 1px #DED9D5, 
-									0 -2px -1px #373635, 
-									0 2px 1px #fff;
+    color: #84878A;
+		text-shadow:	0 -2px 0 #333, 
+									0 2px 1px #EFEDEA;
 }
 /* Don't show shadows when selecting text */
 ::-moz-selection { background: #5af; color: #fff; text-shadow: none; }
