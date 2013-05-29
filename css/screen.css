@@ -1,270 +1,139 @@
-@import url(http://fonts.googleapis.com/css?family=Arvo:400,700,400italic|Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 
-* @group Meyer Reset */
+/* MeyerWeb Reset */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
+del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Base text styles */
+
+body {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #242428;
+	background-color: white;
 	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
+	line-height: 1.8em;
+	font-weight: 200;
+	text-align: center;
+	-webkit-font-smoothing: subpixel-antialiased;	
 }
 
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
+h1, h2, h3 {
+	font-family: 'Yanone Kaffeesatz', "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	font-weight: 400;
+	color: #323232;
+	text-transform: lowercase;
+	line-height: 1.2em;
 }
 
-/* remember to highlight inserts somehow! */
-ins {
-	text-decoration: none;
-}
-del {
-	text-decoration: line-through;
+p, ul, ol, dl {
+  margin:0 0 15px;
 }
 
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-.clear { clear: both; }
-
-::-webkit-input-placeholder { color: #00A5D8; opacity: .7; }
-:-moz-placeholder { color: #00A5D8; opacity: .7; border: none; }
-:required { box-shadow: none; }
-
-
-/* @end */
-
-/* background: #FAFAFA url(../img/bg.png) 0 65px repeat-x; */
-
-/* @group Global */
-
-
-/*
-Text styles
-
-*/
-
-body {
-	font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #3D3A3A;
-	background-color: #fafafa;
-	padding-bottom: 60px;
-	font-weight: normal;
-}
 
 h1 {
-	font-size: 59px;
-}
-
-h1, h2, h3, h4 {
-	font-family: "Arvo", georgia, serif;
-}
-	
-h1, h2{
-	color: #3D3A3A;
-	font-weight: 400;
-	padding-bottom: 0px;
-/*	border-bottom: 2px solid rgba(61,58,58,0.3);
-*/		-webkit-font-smoothing: antialiased;
-}
-
-h2 {
-	font-size: 42px;
-	width: 100%;
-	display: block;
-}
-
-h2.portfolio {
-	margin-top: 115px;
-}
-
-h2.footer {
-	font-size: 30px;
-	padding-bottom: 12px;
-}
-
-h3 {
-	font-size: 30px;
-	font-weight: normal;
-	margin-top: 3em;
-}
-
-h3.talks {
-	margin-bottom: 0;
-}
-
-
-p, p.description-text, ul li {
-	margin: 0 0 35px;
-	line-height: 1.6em;
-	font-weight: 200;
-}
-
-p.hello {
-	font-weight: bold;
-}
-
-p.caption {
-	font-size: 12px;
-}
-
-p.talk-date {
-}
-
-ul li {
-	list-style: circle;
-}
-
-ul.meta {
-	margin: 0 0 0 -40px;
-}
-
-ul.meta li {
-	list-style: none;
-}
-
-ul.meta li, ul.portfolio li {
-	margin-bottom: 15px;
+	font-size: 84px;
+	margin: 40px 0 20px;
 }
 
 a {
-	color: #338bff;
+	color: #323232;
+	text-decoration: none;
 }
 
 a:hover {
-	color: #fe4b33;
+	text-decoration: underline;
 }
 
-.banner a {
-	text-decoration: none;
+em {
+	font-style: italic;
 }
 
-.banner a h1 {
-	background: url(../images/fighters.png) no-repeat 628px 0;
+strong {
+  font-weight:700;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 30px;
+	min-height: 80px;
+}
+
+li {
+	list-style-type: none;
+	width: 225px;
+	margin: 0 25px;
 	display: block;
-	padding: 130px 0 0 0;
-	border-bottom: none;
-	text-decoration: none;
+	float:left;
 }
 
-.banner a:hover h1 {
-	background: url(../images/fighters.png) no-repeat 628px -204px;
-}
-
-
-img.portfolio {
-	margin-top: 3em;
-}
-
-
-
-/*
-layout
-*/
-
-div.background {
-	width: 100%;
-}
-
-div.page {
-	width: 100%;
-	margin: 0 auto;	
-	max-width: 780px;
-}
-
-div.block {
-	width: 100%;
-	padding-top: 75px;
-	display: block;
-	clear: both;
-}
-
-div.container-title {
-	width: 780px;
-	display: block;
+section.detail p.caption {
+	font-weight: bold;
+	font-size: 12px;
+	opacity: 0.7;
+	width: 300px;
+	text-align: center;
 	margin: 0 auto;
 }
 
-div.container {
-	width: 780px;
-	margin: 0 auto;
-	display: block;
-	border-top: 1px dashed rgba(61,58,58,0.4);
-	margin-top: -39px;
-	padding: 35px 0 0;
+section.detail p.short {
+	margin-top: -20px;
 }
 
-
-div.header {
-	margin-top: -49px;
-}
-
-div.detail {
-	width: 100%;
-}
-
-div.description {
-	display: block;
-	width: 380px;
-	float: left;
-	margin: 0 20px 0 0;
-}
-
-div.feature-image {
-	width: 380px;
-	display: block;
-	float: left;
-}
-
-div.footer {
-	width: 780px;
-	display: block;
+/* Wrapper */
+.wrapper {
+  width: 560px;
 	margin: 0 auto;
 }
 
-div.social {
-	display: block;
-	width: 230px;
-	float: left;
-	margin: 0 30px 0 0;
+.wrapper-large {
+	width: 900px;
+	margin: 0 auto;
 }
 
-
-div.minor {
-	display: block;
-	width: 180px;
-	float: left;
-	margin: 0 40px 0 0;
+.wrapper p {
+	margin-bottom: 30px;
 }
 
-div.major {
-	width: 560px;
-	display: block;
-	float: left;
+img.different {
+	width: 900px;
+	margin: 35px 0;
+	opacity: 0.9;
 }
 
+p.intro {
+	font-family: 'Yanone Kaffeesatz', "Helvetica Neue", Helvetica, Arial, sans-serif ;
+	font-size: 38px;
+	font-weight: 400;
+	color: #323232;
+	margin-bottom: 30px;
+}
 
+.links {
+	padding-top: 10px;
+}
 
+.links p {
+/*	font-size: 20px;
+*/	margin:0 0 5px;
+font-weight: bold;
+}
