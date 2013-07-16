@@ -78,7 +78,8 @@ header {
   background-position: 50% 30%;
   height: 380px;
   min-height: 380px;
-  width: 100%;
+  width: 1100px;
+  margin: 0 auto;
 }
 
 header h1 {
