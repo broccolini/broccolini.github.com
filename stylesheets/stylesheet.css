@@ -101,6 +101,14 @@ header h2 {
   width: 420px;
 }
 
+header a {
+  color: #444;
+}
+
+header a:hover {
+  color: #333;
+}
+
 .inner {
   position: relative;
   width: 940px;
