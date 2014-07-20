@@ -47,6 +47,7 @@ h2, .h2, .f2 {
 h3, .h3, .f3 {
   font-size: 1.25rem;
   line-height: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 p, .p, .f4, h4, h5, h6, dl, ol, ul {
@@ -92,7 +93,7 @@ a {
  }
 
 a:hover {
-  text-decoration: underline;
+  color: #4C6175;
 }
 
 @media screen and (min-width: 64em) {
