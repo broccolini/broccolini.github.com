@@ -31,7 +31,7 @@ body {
   font-family: 'Lato', Helvetica, sans-serif;
   line-height: 1.5rem;
   font-weight: 400;
-  color: #708090;
+  color: #444;
 }
 
 h1, .h1, .f1 {
@@ -86,14 +86,21 @@ small, .small, .f5 {
   }
 }
 
-a {
-  color: #708090;
-  font-weight: 600;
+a, .icon {
+  color: #F75A3E;
   text-decoration: none;
  }
 
 a:hover {
-  color: #4C6175;
+  color: #222;
+}
+
+a .icon {
+  fill: #F75A3E;
+}
+
+a:hover .icon {
+  fill: #222;
 }
 
 @media screen and (min-width: 64em) {
@@ -518,7 +525,6 @@ strong, .bold {
 .bg-white { background-color: #fffafa; }
 .tomato { color: #ff6347; }
 .bg-tomato { background-color: #ff6347; }
-.fill-gray { fill: #708090; }
 
 .border-top { border-top: 1px solid #D4D9DD; }
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
