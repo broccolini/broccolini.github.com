@@ -86,8 +86,13 @@ small, .small, .f5 {
   }
 }
 
-a, .icon {
+a {
   color: #F75A3E;
+  text-decoration: none;
+}
+
+.icon {
+  color: #818181;
   text-decoration: none;
  }
 
@@ -96,11 +101,16 @@ a:hover {
 }
 
 a .icon {
-  fill: #F75A3E;
+  fill: #818181;
 }
 
 a:hover .icon {
   fill: #222;
+}
+
+.btn-outline {
+  border-radius: 10px;
+  border: solid 2px;
 }
 
 @media screen and (min-width: 64em) {
@@ -484,6 +494,10 @@ strong, .bold {
   width: 100%;
 }
 
+.width-one-third {
+  width: 30%;
+}
+
 .half-width {
   width: 50%;
 }
@@ -526,8 +540,21 @@ strong, .bold {
 .tomato { color: #ff6347; }
 .bg-tomato { background-color: #ff6347; }
 
+.gray { color: #818181; }
+
 .border-top { border-top: 1px solid #D4D9DD; }
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
+
+.bg-gradient { 
+  background: #444444; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #444444 0%, #ff6347 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#444444), color-stop(100%,#ff6347)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #444444 0%,#ff6347 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #444444 0%,#ff6347 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #444444 0%,#ff6347 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #444444 0%,#ff6347 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444444', endColorstr='#ff6347',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 
 
 
