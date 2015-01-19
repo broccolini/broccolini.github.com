@@ -50,12 +50,12 @@ h3, .h3, .f3 {
   margin-bottom: 0.5rem;
 }
 
-p, .p, .f4, h4, h5, h6, dl, ol, ul {
+p, .p, .h4, .f4, h4, h5, h6, dl, ol, ul {
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
 
-small, .small, .f5 {
+small, .text-small, .f5 {
   font-size: .875rem;
   line-height: 1.5rem;
 }
@@ -76,7 +76,7 @@ small, .small, .f5 {
     line-height: 2rem;
   }
 
-  .p {
+  .h4, .p {
     font-size: 1.25rem;
     line-height: 2rem;
   }
@@ -123,7 +123,18 @@ a:hover .icon {
     font-size: 3rem;
     line-height: 4rem;
   }
+
+  .h3 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .h4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
+
 strong, .bold {
   font-weight: 900;
 }
@@ -151,6 +162,10 @@ strong, .bold {
 
 .right-align {
   text-align: right;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
 }
 
 .measure {
@@ -494,7 +509,7 @@ strong, .bold {
   width: 100%;
 }
 
-.width-one-third {
+.third-width {
   width: 30%;
 }
 
@@ -541,6 +556,16 @@ strong, .bold {
 .bg-tomato { background-color: #ff6347; }
 
 .gray { color: #818181; }
+
+hr {
+  background-color: #D4D9DD;
+  border: 0;
+  height: 1px;
+}
+
+.hr-small {
+  width: 20%;
+}
 
 .border-top { border-top: 1px solid #D4D9DD; }
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
