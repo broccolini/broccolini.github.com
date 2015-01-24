@@ -411,8 +411,9 @@ strong, .bold {
   padding-bottom: 4rem;
 }
 
-.p10 {
-  padding: 10rem;
+.py8 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .px10 {
@@ -519,6 +520,20 @@ strong, .bold {
 
 .mobile-show {
   display: none;
+}
+
+.table {
+  display: table;
+  width: 100%;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.min-h100 {
+  min-height: 100%;
 }
 
 @media screen and (max-width: 48em) {
