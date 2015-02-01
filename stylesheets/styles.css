@@ -87,7 +87,7 @@ small, .text-small, .f5 {
 }
 
 a {
-  color: #ff5448;
+  color: #3ea570;
   text-decoration: none;
 }
 
@@ -557,7 +557,7 @@ strong, .bold {
 
 /* Images */
 .broccolini-and-bot {
-  max-width: 256px;
+  max-width: 200px;
   opacity: 0.9;
 }
 .icon {
@@ -593,14 +593,8 @@ hr {
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
 
 .bg-gradient { 
-  background: #ff6347; /* Old browsers */
-  background: -moz-linear-gradient(-45deg,  #f73e60 0%, #ff6347 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#f73e60), color-stop(100%,#ff6347)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg,  #f73e60 0%,#ff6347 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg,  #f73e60 0%,#ff6347 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg,  #f73e60 0%,#ff6347 100%); /* IE10+ */
-  background: linear-gradient(135deg, #f73e60 0%,#ff6347 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#944', endColorstr='#ff6347',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  background: #3fa769; /* Old browsers */
+  background: linear-gradient(#78bcad,#3fa769); /* W3C */
 }
 
 
