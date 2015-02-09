@@ -87,7 +87,7 @@ small, .text-small, .f5 {
 }
 
 a {
-  color: #449fab;
+  color: #0BC17F;
   text-decoration: none;
 }
 
@@ -593,8 +593,8 @@ hr {
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
 
 .bg-gradient { 
-  background: #50969f; /* Old browsers */
-  background: linear-gradient(#78bcad,#50969f); /* W3C */
+  background: #0BC17F; /* Old browsers */
+  background-image: linear-gradient(#00A375, #18E78A);
 }
 
 
