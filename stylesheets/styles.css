@@ -31,7 +31,7 @@ body {
   font-family: 'Lato', Helvetica, sans-serif;
   line-height: 1.5rem;
   font-weight: 400;
-  color: #444;
+  color: #222;
 }
 
 h1, .h1, .f1 {
@@ -87,25 +87,25 @@ small, .text-small, .f5 {
 }
 
 a {
-  color: #0BC17F;
+  color: #ff003b;
   text-decoration: none;
 }
 
 .icon {
-  color: #818181;
+  color: #333;
   text-decoration: none;
  }
 
 a:hover {
-  color: #222;
+  text-decoration: underline;
 }
 
 a .icon {
-  fill: #818181;
+  fill: #333;
 }
 
 a:hover .icon {
-  fill: #222;
+  fill: #000;
 }
 
 .btn-outline {
@@ -557,14 +557,28 @@ strong, .bold {
 
 /* Images */
 .broccolini-and-bot {
-  max-width: 200px;
+  background-image: url(../images/broccolini-and-bot.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /*max-width: 200px;*/
   opacity: 0.9;
 }
+
 .icon {
   margin-right: 0.5rem;
 }
 
 /* Themes */
+
+.secondary-link {
+  color: #333;
+  text-decoration: underline;
+}
+
+.secondary-link:hover {
+  color: #111;
+}
 
 .white { color: #ffffff; }
 
@@ -573,11 +587,37 @@ strong, .bold {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.black-alpha { 
+  color: rgba(0, 0, 0);
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.bg-black-alpha {
+  background-color: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+
+}
+
 .bg-white { background-color: #ffffff; }
 .tomato { color: #ff6347; }
 .bg-tomato { background-color: #ff6347; }
 
-.gray { color: #818181; }
+.gray { color: #333; }
+
+.yellow { color: #fff700; }
+.bg-yellow { background-color: #fff700; }
+.purple { color: #9000ff; }
+.bg-purple { background-color: #9000ff; }
+.red { color: #ff003b; }
+.bg-red { background-color: #ff003b; }
+.green { color: #01FF70; }
+.bg-green { background-color: #01FF70; }
+.gray-light { color: #f5f5f1; }
+.bg-gray-light { background-color: #f5f5f1; }
+.black { color: #111; }
+.bg-black { background-color: #333; }
+
+
 
 hr {
   background-color: #D4D9DD;
@@ -593,8 +633,8 @@ hr {
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
 
 .bg-gradient { 
-  background: #0BC17F; /* Old browsers */
-  background-image: linear-gradient(#00A375, #18E78A);
+  background: #fff700; /* Old browsers */
+  background-image: linear-gradient(45deg, #FFEE00, #FFFF00);
 }
 
 
