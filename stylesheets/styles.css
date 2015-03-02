@@ -565,6 +565,18 @@ strong, .bold {
   opacity: 0.9;
 }
 
+.batman-background {
+  background-image: url(../images/batman-bg.svg);
+  background-size: 256px;
+  background-position-x: center;
+}
+
+.mic-background {
+  background-image: url(../images/mic2.svg);
+  background-size: 128px;
+  background-position: center;
+}
+
 .icon {
   margin-right: 0.5rem;
 }
@@ -585,6 +597,11 @@ strong, .bold {
 .white-alpha { 
   color: rgba(255, 255, 255);
   color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-white-alpha { 
+  background-color: rgba(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .black-alpha { 
