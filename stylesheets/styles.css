@@ -31,7 +31,7 @@ body {
   font-family: 'Lato', Helvetica, sans-serif;
   line-height: 1.5rem;
   font-weight: 400;
-  color: #222;
+  color: #111;
 }
 
 h1, .h1, .f1 {
@@ -87,8 +87,9 @@ small, .text-small, .f5 {
 }
 
 a {
-  color: #ff003b;
-  text-decoration: none;
+  /*color: #ff003b;*/
+  color: #222;
+  text-decoration: underline;
 }
 
 .icon {
@@ -97,7 +98,7 @@ a {
  }
 
 a:hover {
-  text-decoration: underline;
+  opacity: 0.9;
 }
 
 a .icon {
@@ -557,24 +558,37 @@ strong, .bold {
 
 /* Images */
 .broccolini-and-bot {
-  background-image: url(../images/broccolini-and-bot.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  /*max-width: 200px;*/
+  max-width: 256px;
   opacity: 0.9;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
 .batman-background {
   background-image: url(../images/batman-bg.svg);
-  background-size: 256px;
+  background-size: 196px;
   background-position-x: center;
+  background-repeat: repeat-x;
+
 }
 
 .mic-background {
-  background-image: url(../images/mic2.svg);
-  background-size: 128px;
-  background-position: center;
+  background-image: url(../images/mic3.svg);
+  background-size: 166px;
+  background-position-x: center;
+}
+
+.pen-nib {
+  
+  position: relative;
+  bottom: 0;
+  right: 0;
+  max-width: 128px;
 }
 
 .icon {
@@ -632,7 +646,7 @@ strong, .bold {
 .gray-light { color: #f5f5f1; }
 .bg-gray-light { background-color: #f5f5f1; }
 .black { color: #111; }
-.bg-black { background-color: #333; }
+.bg-black { background-color: #222; }
 
 
 
