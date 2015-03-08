@@ -161,6 +161,10 @@ strong, .bold {
   text-align: center;
 }
 
+.relative {
+  position: relative;
+}
+
 .right-align {
   text-align: right;
 }
@@ -559,6 +563,15 @@ strong, .bold {
 /* Images */
 .broccolini-and-bot {
   max-width: 256px;
+  opacity: 0.8;
+}
+
+.broccolini-bat {
+  background-image: url(../images/broccolini-bat2.svg);
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  width: 196px;
   opacity: 0.9;
 }
 
@@ -567,21 +580,12 @@ strong, .bold {
   background-size: 196px;
   background-position-x: center;
   background-repeat: repeat-x;
-
 }
 
 .mic-background {
   background-image: url(../images/mic3.svg);
   background-size: 166px;
   background-position-x: center;
-}
-
-.pen-nib {
-  
-  position: relative;
-  bottom: 0;
-  right: 0;
-  max-width: 128px;
 }
 
 .icon {
@@ -613,7 +617,7 @@ strong, .bold {
 
 .black-alpha { 
   color: rgba(0, 0, 0);
-  color: rgba(0, 0, 0, 0.9);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .bg-black-alpha {
