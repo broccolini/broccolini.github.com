@@ -660,9 +660,14 @@ hr {
 .border-top { border-top: 1px solid #D4D9DD; }
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
 
-.bg-gradient { 
+.bg-gradient-yellow { 
   background: #fff700; /* Old browsers */
   background-image: linear-gradient(45deg, #FFEE00, #FFFF00);
+}
+
+.bg-gradient-blk { 
+  background: #222; /* Old browsers */
+  background-image: linear-gradient(#111, #242424);
 }
 
 
