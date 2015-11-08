@@ -161,6 +161,10 @@ strong, .bold {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .relative {
   position: relative;
 }
@@ -660,11 +664,23 @@ hr {
 .border-top { border-top: 1px solid #D4D9DD; }
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
 
+.border-yellow {
+  border: solid;
+  border-width: 4px;
+  border-color: #FFEB3B;
+}
+
+/* Custom gradient for Batman background */
 .bg-gradient-blk { 
   background: #222; /* Old browsers */
   background-image: linear-gradient(#111, #3a3a3a);
 }
 
+@media screen and (min-width: 48em) {
+  .hide-mobile {
+    display: none;
+  }
+}
 
 
 
