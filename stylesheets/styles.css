@@ -632,8 +632,8 @@ strong, .bold {
 
 .gray { color: #333; }
 
-.yellow { color: #fff700; }
-.bg-yellow { background-color: #fff700; }
+.yellow { color: #FFEB3B; }
+.bg-yellow { background-color: #FFEB3B; }
 .purple { color: #9000ff; }
 .bg-purple { background-color: #9000ff; }
 .red { color: #ff003b; }
@@ -660,14 +660,9 @@ hr {
 .border-top { border-top: 1px solid #D4D9DD; }
 .border-bottom { border-bottom: 1px solid #D4D9DD; }
 
-.bg-gradient-yellow { 
-  background: #fff700; /* Old browsers */
-  background-image: linear-gradient(45deg, #FFEE00, #FFFF00);
-}
-
 .bg-gradient-blk { 
   background: #222; /* Old browsers */
-  background-image: linear-gradient(#111, #262626);
+  background-image: linear-gradient(#111, #3a3a3a);
 }
 
 
