@@ -1,0 +1,252 @@
+{
+  "name": "broccolini.github.com",
+  "library": "styled-components",
+  "components": [
+    {
+      "name": "ButtonOutline",
+      "type": "button",
+      "props": {
+        "fontSize": 2,
+        "py": 2,
+        "color": "blue",
+        "bg": "transparent",
+        "borderRadius": 0,
+        "pl": 3,
+        "pr": 3,
+        "hover": {
+          "color": "white",
+          "backgroundColor": "blue"
+        },
+        "focus": {}
+      },
+      "style": {
+        "display": "inline-block",
+        "fontFamily": "inherit",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "inherit",
+        "appearance": "none"
+      },
+      "examples": [
+        "<ButtonOutline>Potato</ButtonOutline>",
+        "<ButtonOutline>Hello there potato, how are you?</ButtonOutline>"
+      ],
+      "system": [
+        "borderRadius",
+        "hover",
+        "focus"
+      ]
+    },
+    {
+      "name": "Heading",
+      "type": "h2",
+      "props": {
+        "fontSize": 5,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": 1.25
+      },
+      "examples": [
+        "<Heading>Hello</Heading>",
+        "<Heading>Diana Mounter</Heading>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Box",
+      "type": "div",
+      "props": {
+        "fontSize": 3
+      },
+      "style": {
+        "lineHeight": "1.5"
+      },
+      "examples": [
+        "<Box>Hello</Box>",
+        "<Box p={3} bg='yellow'>Hello</Box>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Media",
+      "imports": [
+        "Box",
+        "Text",
+        "LinkDark",
+        "Heading",
+        "SubHeading",
+        "Link"
+      ],
+      "jsx": "<Box mb={3}>\n  <Link href={props.href}>\n    <SubHeading mb={1}>\n      {props.title}\n    </SubHeading>\n  </Link>\n  <Text>\n    {props.text}\n  </Text>\n</Box>",
+      "examples": [
+        "<Media\nhref='http://broccolini.net/'\ntitle='Color Systems'\ntext='A short talk on the work behind updating GitHubs color palette'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Text",
+      "type": "div",
+      "props": {
+        "fontSize": 4
+      },
+      "style": {
+        "lineHeight": "1.25"
+      },
+      "examples": [
+        "<Text>Hello</Text>",
+        "<Text>A short talk on the work behind updating GitHub's color palette, introducing a new system to organize thousands of hex values, and implementing a more inclusive and accessible color scheme.</Text>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Link",
+      "type": "a",
+      "props": {
+        "color": "blue",
+        "hover": {
+          "color": "#3549e5"
+        }
+      },
+      "style": {},
+      "examples": [
+        "<Link href='#'>Get on my wavelength</Link>"
+      ],
+      "system": [
+        "hover",
+        "focus"
+      ]
+    },
+    {
+      "name": "LinkDark",
+      "type": "a",
+      "props": {
+        "color": "black",
+        "hover": {
+          "color": "#3b52ff"
+        }
+      },
+      "style": {
+        "textDecoration": "none"
+      },
+      "examples": [
+        "<LinkDark href='#'>Hello</LinkDark>"
+      ],
+      "system": [
+        "hover"
+      ]
+    },
+    {
+      "name": "HeadingAccent",
+      "type": "Heading",
+      "props": {},
+      "style": {
+        "borderBottomColor": "yellow",
+        "borderBottomWidth": "4px",
+        "borderBottomStyle": "solid"
+      },
+      "examples": [
+        "<HeadingAccent>\nColor Systems\n</HeadingAccent>"
+      ],
+      "system": []
+    },
+    {
+      "name": "SubHeading",
+      "type": "h2",
+      "props": {
+        "fontSize": 4,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": 1.25
+      },
+      "examples": [
+        "<SubHeading>Hello</SubHeading>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Heading1",
+      "type": "h1",
+      "props": {
+        "fontSize": 8,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": 1.25
+      },
+      "examples": [
+        "<Heading1>Hello</Heading1>"
+      ],
+      "system": []
+    },
+    {
+      "name": "LeadText",
+      "type": "div",
+      "props": {
+        "fontSize": 5
+      },
+      "style": {},
+      "examples": [
+        "<LeadText>Hello</LeadText>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Container",
+      "type": "div",
+      "props": {},
+      "style": {
+        "maxWidth": "800px"
+      },
+      "examples": [
+        "<Container>Container</Container>"
+      ],
+      "system": []
+    },
+    {
+      "name": "LinkWavy",
+      "type": "a",
+      "props": {
+        "color": "blue"
+      },
+      "style": {
+        "webkitTextDecoration": "underline wavy yellow",
+        "textDecoration": "underline wavy yellow"
+      },
+      "examples": [
+        "<LinkWavy>Hello</LinkWavy>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Image",
+      "type": "img",
+      "props": {
+        "bg": "gray"
+      },
+      "style": {
+        "display": "block",
+        "maxWidth": "256px",
+        "height": "auto"
+      },
+      "examples": [
+        "<Image src='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D' />"
+      ],
+      "system": []
+    },
+    {
+      "name": "Grid",
+      "imports": [
+        "Box"
+      ],
+      "jsx": "<Box>\n</Box>",
+      "examples": [
+        "<Grid />"
+      ]
+    }
+  ]
+}
