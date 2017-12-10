@@ -10,7 +10,7 @@
     64,
     128,
     256,
-    384
+    320
   ],
   "fontSizes": [
     12,
@@ -31,8 +31,14 @@
     "blueDark": "#3549e5",
     "yellow": "#ffeb3b",
     "white": "#fff",
-    "grayLight": "#eaeaec"
+    "grayLight": "#ebebec"
   },
   "textColor": "black",
-  "lineHeight": "1.5"
+  "lineHeight": "1.5",
+  "breakpoints": [
+    40,
+    48,
+    64,
+    72
+  ]
 }

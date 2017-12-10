@@ -79,7 +79,7 @@
         "SubHeading",
         "Link"
       ],
-      "jsx": "<Box mb={3}>\n  <Link href={props.href}>\n    <SubHeading mb={1}>\n      {props.title}\n    </SubHeading>\n  </Link>\n  <Text>\n    {props.text}\n  </Text>\n</Box>",
+      "jsx": "<Box mb={4}>\n  <Link href={props.href}>\n    <SubHeading mb={1}>\n      {props.title}\n    </SubHeading>\n  </Link>\n  <Text>\n    {props.text}\n  </Text>\n</Box>",
       "examples": [
         "<Media\nhref='http://broccolini.net/'\ntitle='Color Systems'\ntext='A short talk on the work behind updating GitHubs color palette'\n/>"
       ],
@@ -198,12 +198,19 @@
     {
       "name": "Container",
       "type": "div",
-      "props": {},
-      "style": {
-        "maxWidth": "800px"
+      "props": {
+        "width": [
+          1,
+          0.75
+        ],
+        "ml": [
+          "10%",
+          "25%"
+        ]
       },
+      "style": {},
       "examples": [
-        "<Container>Container</Container>"
+        "<Container bg='yellow'>Container</Container>"
       ],
       "system": []
     },
@@ -230,8 +237,7 @@
       },
       "style": {
         "display": "block",
-        "maxWidth": "256px",
-        "height": "auto"
+        "maxWidth": "100%"
       },
       "examples": [
         "<Image src='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D' />"
@@ -239,14 +245,18 @@
       "system": []
     },
     {
-      "name": "Grid",
+      "name": "Card",
       "imports": [
+        "LinkDark",
+        "Image",
+        "SubHeading",
         "Box"
       ],
-      "jsx": "<Box>\n</Box>",
+      "jsx": "<Box width='100%'>\n  <Image src={props.src}>\n  </Image>\n  <LinkDark href={props.href}>\n    <SubHeading mt={1}>\n      {props.title}\n    </SubHeading>\n  </LinkDark>\n</Box>",
       "examples": [
-        "<Grid />"
-      ]
+        "<Card \nsrc='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\nhref='#url'\ntitle='hello'\n/>"
+      ],
+      "system": []
     }
   ]
 }
