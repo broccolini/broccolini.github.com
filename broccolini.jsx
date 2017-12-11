@@ -1,6 +1,7 @@
+<meta name='viewport' content='width=device-width,initial-scale=1' />
 <Box ml={['10%','0']}>
-<Container mt={[4,6,'20%']} mb={2}>
-  <Box width={[1,1,3/4,2/3]} pr={3}>
+<Container mt={[4,6,6,'20%']} mb={2}>
+  <Box width={[1,1,2/3,3/4]} pr={3}>
    <LeadText>
    <LinkDark href='http://broccolini.net'>
       broccolini
@@ -14,7 +15,7 @@
 <Flex>
   <Container mb={7} bg='yellow'>
     <Box width={[1,1,1,2/3]}>
-      <Text p={3} pr={3,2,0}>
+      <Text p={3} pr={2,2,3,3}>
       I'm a designer with a passion for the web. I specialize in design systems, and have a background in user-centered design. Currently I manage the design systems team at GitHub, and organize the <LinkDark href='http://designsystems.nyc'>NYC chapter of the Design Systems Coalition</LinkDark>. I write and speak about design, code, and working with people.  I live in Brooklyn, NY, and I love it.
       </Text>
     </Box>
@@ -135,51 +136,49 @@
     </HeadingAccent>
   </Container>
     <Flex mb={3} ml={['10%','25%', 0]} wrap>
-      <Box width={[1,3/4,1/4,1/4]} px={2}>
+      <Box width={[1,3/4,1/3,1/4]} px={2}>
       </Box>
-      <Box width={[1,3/4,1/4,1/4]} px={2} mb={3,3,4}>
+      <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
         src='images/50-shades.png'
         href='http://broccolini.net/50shadesofblk/'
         title='50 Shades of black'
         />
       </Box>
-      <Box width={[1,3/4,1/4,1/4]} px={2} mb={3,3,4}>
+      <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
         src='images/wkyuan.png'
         href='http://whatkeepsyouupatnight.io/'
         title='What keeps you up at night?'
         />
       </Box>
-      <Box width={[1,3/4,1/4,1/4]} px={2} mb={3,3,4}>
+      <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
         src='images/swiss.png'
         href='http://broccolini.net/swiss/'
         title='Swiss Jekyll theme'
         />
       </Box>
-      <Box width={[1,3/4,1/4,1/4]} px={2} mb={3,3,4}>
+      <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
         src='images/athena.png'
         href='http://broccolini.net/athena/'
         title='Athena Jekyll theme'
         />
       </Box>
-      <Box width={[1,3/4,1/4,1/4]} px={2} mb={3,3,4}>
+      <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
         src='images/soundsradcakes.png'
         href='http://soundsradcakes.com/'
         title='Soundsradcakes'
         />
       </Box>
-      <Box width={[1,3/4,1/4,1/4]} px={2} mb={3,3,4}>
+      <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
         src='images/robotodex.png'
         href='http://robotodex.com/'
         title='Robotodex'
         />
-      </Box>
-      <Box width={[1,2/5,1/4]} px={2}>
       </Box>
     </Flex>
 </Box>
