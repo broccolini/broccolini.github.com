@@ -140,7 +140,9 @@
     {
       "name": "HeadingAccent",
       "type": "Heading",
-      "props": {},
+      "props": {
+        "fontSize": 5
+      },
       "style": {
         "borderBottomColor": "yellow",
         "borderBottomWidth": "4px",
@@ -206,7 +208,7 @@
           0.75
         ],
         "ml": [
-          "10%",
+          "0%",
           "20%",
           "33.333333%",
           "25%"
@@ -256,11 +258,309 @@
         "SubHeading",
         "Box"
       ],
-      "jsx": "<Box width='100%'>\n  <Image src={props.src}>\n  </Image>\n  <LinkDark href={props.href}>\n    <SubHeading mt={1}>\n      {props.title}\n    </SubHeading>\n  </LinkDark>\n</Box>",
+      "jsx": "<Box width='100%'>\n  <Image src={props.src}>\n  </Image>\n  <LinkDark href={props.href}>\n    <SubHeading mt={2}>\n      {props.title}\n    </SubHeading>\n  </LinkDark>\n</Box>",
       "examples": [
         "<Card \nsrc='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\nhref='#url'\ntitle='hello'\n/>"
       ],
       "system": []
+    },
+    {
+      "name": "LinkLight",
+      "type": "a",
+      "props": {
+        "color": "white",
+        "hover": {
+          "color": "#ffeb3b"
+        }
+      },
+      "style": {
+        "textDecoration": "none"
+      },
+      "examples": [
+        "<LinkLight href='#url'>Hello</LinkLight>\n"
+      ],
+      "system": [
+        "hover"
+      ]
+    },
+    {
+      "name": "MediaSmall",
+      "imports": [
+        "Box",
+        "SubHeading",
+        "Text",
+        "Link"
+      ],
+      "jsx": "<Box mb={3}>\n  <Link href={props.href}>\n    <SubHeading>\n      {props.title}\n    </SubHeading>\n  </Link>\n  <Text>\n    {props.text}\n  </Text>\n</Box>",
+      "examples": [
+        "<MediaSmall\nhref='http://broccolini.net/'\ntitle='Color Systems'\ntext='Clarity, November 2017'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "NavList",
+      "imports": [
+        "NavLink",
+        "Box"
+      ],
+      "jsx": "\n<Box>\n  <NavLink href={props.href}>\n    {props.title}\n  </NavLink>\n</Box>",
+      "examples": [
+        "<NavList\n  href='#url'\n  title='NavList item'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "List",
+      "type": "ul",
+      "props": {},
+      "style": {},
+      "examples": [
+        "<List>Hello</List>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Nav",
+      "type": "nav",
+      "props": {},
+      "style": {},
+      "examples": [
+        "<Nav>Hello</Nav>"
+      ],
+      "system": []
+    },
+    {
+      "name": "NavLink",
+      "type": "LinkDark",
+      "props": {
+        "fontSize": 5,
+        "fontWeight": "bold",
+        "hover": {
+          "backgroundColor": "#ffeb3b"
+        }
+      },
+      "style": {
+        "lineHeight": "1.25"
+      },
+      "examples": [
+        "<NavLink>Writing</NavLink>"
+      ],
+      "system": [
+        "fontWeight",
+        "hover"
+      ]
+    }
+  ],
+  "layout": [
+    {
+      "name": "ButtonOutline",
+      "i": "0",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Heading",
+      "i": "1",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 12,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Box",
+      "i": "2",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Media",
+      "i": "3",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Text",
+      "i": "4",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 16,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Link",
+      "i": "5",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LinkDark",
+      "i": "6",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "HeadingAccent",
+      "i": "7",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "SubHeading",
+      "i": "8",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 20,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Heading1",
+      "i": "9",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LeadText",
+      "i": "10",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 16,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Container",
+      "i": "11",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 12,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LinkWavy",
+      "i": "12",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 12,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Image",
+      "i": "13",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Card",
+      "i": "14",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 12,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LinkLight",
+      "i": "15",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "MediaSmall",
+      "i": "16",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "NavList",
+      "i": "17",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 16,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "List",
+      "i": "18",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Nav",
+      "i": "19",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 16,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "NavLink",
+      "i": "20",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 4,
+      "moved": false,
+      "static": false
     }
   ]
 }
