@@ -91,7 +91,7 @@
         href='http://designsystems.nyc/'
         title='Design Systems Coalition NYC'
         />
-        <Text mt={1}>The DSC is a community for people who are passionate about design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
+        <Text mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
         </Text>
       </Box>
       <Box width={[1,3/4,1/2,1/3]} px={2} mb={3,3,4}>
