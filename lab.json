@@ -349,6 +349,85 @@
         "fontWeight",
         "hover"
       ]
+    },
+    {
+      "name": "VideoCard",
+      "imports": [
+        "Image",
+        "LinkLight",
+        "Box",
+        "Heading",
+        "LinkCard",
+        "ImageYellow"
+      ],
+      "jsx": "<Box bg='black' width='100%'>\n  <LinkCard href={props.href}>\n    <ImageYellow src={props.src}>\n    </ImageYellow>\n    <Heading mt={2}>\n      {props.title}\n    </Heading>\n  </LinkCard>\n</Box>",
+      "examples": [
+        "<VideoCard bg='black' \nsrc='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\nhref='#url'\ntitle='hello'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "LinkCard",
+      "type": "a",
+      "props": {
+        "color": "yellow",
+        "hover": {
+          "color": "#fff",
+          "& img": {
+            "transition": "all 0.10s",
+            "filter": "hue-rotate(177deg)",
+            "outline-style": "solid",
+            "outline-width": "4px",
+            "outline-color": "white"
+          }
+        }
+      },
+      "style": {
+        "webkitTextDecoration": "none",
+        "textDecoration": "none"
+      },
+      "examples": [
+        "<LinkCard>\nHello</LinkCard>"
+      ],
+      "system": [
+        "hover",
+        "active",
+        "focus"
+      ]
+    },
+    {
+      "name": "ImageYellow",
+      "type": "Image",
+      "props": {
+        "bg": "yellow"
+      },
+      "style": {
+        "backgroundBlendMode": "multiply"
+      },
+      "examples": [
+        "<ImageYellow src='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D' />"
+      ],
+      "system": []
+    },
+    {
+      "name": "ImageBg",
+      "type": "div",
+      "props": {
+        "p": 4
+      },
+      "style": {
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "backgroundImage": "url(${props.src})",
+        "&:hover": {
+          "backgroundImage": "url(${props.hover})"
+        }
+      },
+      "examples": [
+        "<ImageBg src='https://images.unsplash.com/photo-1429305254053-2a1bfe816f36?auto=format&fit=crop&w=1778&q=80'\nhover='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\n>Hello</ImageBg>"
+      ],
+      "system": []
     }
   ],
   "layout": [
@@ -368,7 +447,7 @@
       "w": 3,
       "h": 4,
       "x": 3,
-      "y": 12,
+      "y": 16,
       "moved": false,
       "static": false
     },
@@ -378,7 +457,7 @@
       "w": 3,
       "h": 4,
       "x": 6,
-      "y": 8,
+      "y": 12,
       "moved": false,
       "static": false
     },
@@ -448,7 +527,7 @@
       "w": 3,
       "h": 4,
       "x": 3,
-      "y": 8,
+      "y": 12,
       "moved": false,
       "static": false
     },
@@ -458,7 +537,7 @@
       "w": 3,
       "h": 4,
       "x": 6,
-      "y": 16,
+      "y": 20,
       "moved": false,
       "static": false
     },
@@ -498,7 +577,7 @@
       "w": 3,
       "h": 4,
       "x": 6,
-      "y": 12,
+      "y": 16,
       "moved": false,
       "static": false
     },
@@ -528,7 +607,7 @@
       "w": 3,
       "h": 4,
       "x": 3,
-      "y": 16,
+      "y": 20,
       "moved": false,
       "static": false
     },
@@ -559,6 +638,26 @@
       "h": 4,
       "x": 0,
       "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "VideoCard",
+      "i": "21",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LinkCard",
+      "i": "22",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 8,
       "moved": false,
       "static": false
     }

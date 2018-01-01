@@ -13,15 +13,15 @@
     </Heading1>
   </Box>
 </Container>
-<Box ml={2}>
-  <Container mb={[5,6,7]} bg='yellow'>
+<Container mb={[5,6,7]}>
+  <Box ml={2} bg='yellow'>
     <Box width={[1,1,1,2/3]}>
       <Text py={3} pl={3} pr={[2,2,3,3]}>
       I'm a designer with a passion for the web. I specialize in design systems, and have a background in user-centered design. Currently I manage the design systems team at GitHub, and organize the <LinkDark href='http://designsystems.nyc'>NYC chapter of the Design Systems Coalition</LinkDark>. I write and speak about design, code, and working with people.  I live in Brooklyn, NY, and I love it.
       </Text>
     </Box>
-  </Container>
-</Box>
+  </Box>
+</Container>
 <Container mb={6}>
 <Box py={2} ml={2}>
 <Nav>
@@ -84,8 +84,9 @@
       Highlights
     </HeadingAccent>
 
-    <Flex mb={3}wrap>
-      <Box width={[1,3/4,1/2,1/3]} px={2} mb={3,3,4}>
+    <Flex ml={2}mb={3}wrap>
+
+      <Box width={[1,3/4,1/2,1/3]} pr={'24px'} mb={3,3,4}>
         <Card
         src='images/dsc-yellow.png'
         href='http://designsystems.nyc/'
@@ -94,7 +95,7 @@
         <Text mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
         </Text>
       </Box>
-      <Box width={[1,3/4,1/2,1/3]} px={2} mb={3,3,4}>
+      <Box width={[1,3/4,1/2,1/3]} pl={1} pr={2} mb={3,3,4}>
         <Card
         src='images/primer.png'
         href='http://primer.github.io/'
@@ -103,16 +104,35 @@
         <Text mt={1}>I helped form the GitHub design systems team in early 2016. I contribute to and guide the evolution of Primer, our (proudly) open-sourced design system.
         </Text>
       </Box>
+
     </Flex>
-    </Container>
+  </Container>
 </Box>
 
 <Flex>
-  <Container mb={5}>
+  <Container>
     <HeadingAccent mb={4} ml={2}>
       Talks
     </HeadingAccent>
-    <Box width={[1,1,3/4,2/3]} px={2}>
+  </Container>
+</Flex>
+
+<Container mb={[4]}>
+  <Box ml={2} bg='black'>
+      <Box width={[1,3/4,1,2/3]} p={3} pr={2}>
+        <VideoCard
+          src='images/color-systems.png'
+          href='http://firstmarkcap.com/insights/color-systems-at-github/'
+          title='Color Systems @ Design Driven, March 2017'
+          />
+      </Box>
+  </Box>
+  </Container>
+
+  <Flex>
+    <Container mb={5}>
+    <Box ml={2}>
+    <Box width={[1,1,3/4,2/3]} pr={2}>
       <MediaSmall
       href='https://www.clarityconf.com/the-interaction-of-color-systems/'
       title='Interaction of Color Systems'
