@@ -171,6 +171,9 @@
       href='https://speakerdeck.com/broccolini/responding-to-change'
       title='Responding to Change'
       text='Agile Asbury, October 2014'/>
+
+      <Text pt={4}>More talks on <Link href='https://speakerdeck.com/broccolini'>speakerdeck</Link> and <Link href='https://www.slideshare.net/diana.mounter/presentations'>slideshare</Link>.</Text>
+    </Box>
     </Box>
   </Container>
 </Flex>
