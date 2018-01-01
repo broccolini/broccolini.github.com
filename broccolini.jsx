@@ -234,10 +234,6 @@
     </HeadingAccent>
     <Box width={3/4} px={2}>
     <Media
-    href='http://spec.fm/podcasts/design-details/19431'
-    title='Design Details, episode 74'
-    text='Hear me talk about my journey to Etsy, the startup bus, why Git is a valuable tool for designers, and onboarding designers at Etsy.'/>
-    <Media
     href='http://www.fullstackradio.com/75'
     title='Full Stack Radio, episode 75'
     text='In this interview I talk about using design systems to tame legacy CSS, and how GitHub is using utility classes to make it easier to build more consistent, maintainable user interfaces.'/>
@@ -245,6 +241,10 @@
     href='https://www.uxpin.com/studio/blog/githubs-design-system-interview-diana-mounter/'
     title='UXPin interview'
     text='In this interview I talk about lessons learned in building and maintaining GitHub’s design system, Primer.'/>
+    <Media
+    href='http://spec.fm/podcasts/design-details/19431'
+    title='Design Details, episode 74'
+    text='Hear me talk about my journey to Etsy, the startup bus, why Git is a valuable tool for designers, and onboarding designers at Etsy.'/>
     </Box>
   </Container>
   </Flex>
