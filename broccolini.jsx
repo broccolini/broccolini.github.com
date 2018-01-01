@@ -249,12 +249,12 @@
   </Container>
   </Flex>
   </Box>
-  <Box bg='grayLight'>
+  <Box bg='yellow'>
     <Container>
       <Box ml={['10%','0']}>
         <Text py={3} pl={2} pr={[2,2,3,3]}>
-        <LinkDark href='https://twitter.com/broccolini' mr={2}>Twitter</LinkDark> 
-        <LinkDark href='https://github.com/broccolini' mr={2}>GitHub</LinkDark> 
+        <LinkDark href='https://twitter.com/broccolini' mr={2}>Twitter</LinkDark>
+        <LinkDark href='https://github.com/broccolini' mr={2}>GitHub</LinkDark>
         <LinkDark href='https://medium.com/@broccolini' mr={2}>Medium</LinkDark>
         </Text>
       </Box>
