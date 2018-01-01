@@ -30,8 +30,8 @@
     title='Writing'
   />
   <NavList
-    href='#proud-of'
-    title='Hightlights'
+    href='#highlights'
+    title='Highlights'
   />
   <NavList
     href='#talks'
