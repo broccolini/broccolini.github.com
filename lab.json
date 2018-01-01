@@ -353,14 +353,13 @@
     {
       "name": "VideoCard",
       "imports": [
-        "Image",
         "LinkLight",
         "Box",
         "Heading",
         "LinkCard",
-        "ImageYellow"
+        "ImageFit"
       ],
-      "jsx": "<Box bg='black' width='100%'>\n  <LinkCard href={props.href}>\n    <ImageYellow src={props.src}>\n    </ImageYellow>\n    <Heading mt={2}>\n      {props.title}\n    </Heading>\n  </LinkCard>\n</Box>",
+      "jsx": "<Box bg='black' width='100%'>\n  <LinkCard href={props.href}>\n    <ImageFit src={props.src}>\n    </ImageFit>\n    <Heading mt={2}>\n      {props.title}\n    </Heading>\n  </LinkCard>\n</Box>",
       "examples": [
         "<VideoCard bg='black' \nsrc='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\nhref='#url'\ntitle='hello'\n/>"
       ],
@@ -426,6 +425,19 @@
       },
       "examples": [
         "<ImageBg src='https://images.unsplash.com/photo-1429305254053-2a1bfe816f36?auto=format&fit=crop&w=1778&q=80'\nhover='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\n>Hello</ImageBg>"
+      ],
+      "system": []
+    },
+    {
+      "name": "ImageFit",
+      "type": "img",
+      "props": {},
+      "style": {
+        "display": "block",
+        "width": "100%"
+      },
+      "examples": [
+        "<ImageFit />"
       ],
       "system": []
     }
