@@ -17,7 +17,7 @@
   <Box ml={2} bg='yellow'>
     <Box width={[1,1,1,2/3]}>
       <Text py={3} pl={3} pr={[2,2,3,3]}>
-      I'm a designer with a passion for the web. I specialize in design systems, and have a background in user-centered design. Currently I manage the design systems team at GitHub, and organize the <LinkDark href='http://designsystems.nyc'>NYC chapter of the Design Systems Coalition</LinkDark>. I write and speak about design, code, and working with people.  I live in Brooklyn, NY, and I love it.
+      I'm a designer with a passion for the web. I specialize in design systems and have a background in user-centered design. Currently leading design systems at GitHub and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people.  Living in Brooklyn, NY, and loving it.
       </Text>
     </Box>
   </Box>
