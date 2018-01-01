@@ -65,7 +65,7 @@
     <Media
     href='https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/'
     title='Rebuilding the Foundation of Etsy’s Seller Tools'
-    text='How we redesigned the seller-facing web app, and built a new style guide in the process. Written for Etsy&#8217;s Code as Craft blog, in collaboration with coworkers from the shop management team.'/>
+    text='How we redesigned the seller-facing web app, and built a new style guide in the process. Written for Etsy’s Code as Craft blog, in collaboration with coworkers from the shop management team.'/>
     <Media
     href='https://medium.com/@broccolini/embracing-change-in-your-workplace-544ec73db0c8'
     title='Embracing Change in Your Workplace'
