@@ -138,7 +138,7 @@
       <MediaSmall
       href='https://speakerdeck.com/broccolini/building-design-systems-at-github'
       title='Building Design Systems at GitHub'
-      text='NYC Design Systems Coalition, December 2016'/>
+      text='Design Systems Coalition NYC, December 2016'/>
       <MediaSmall
       href='https://speakerdeck.com/broccolini/competence-compassion-and-confidence'
       title='Competence, Compassion, and Confidence'
