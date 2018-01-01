@@ -50,7 +50,7 @@
  </Container>
 <Flex>
   <Container mb={4}>
-    <HeadingAccent mb={4} ml={2}>
+    <HeadingAccent mb={4} ml={2} id='writing'>
       Writing
     </HeadingAccent>
     <Box width={[1,1,1,2/3]} px={2}>
@@ -80,7 +80,7 @@
 
 <Box mb={5}>
   <Container>
-    <HeadingAccent mb={4} ml={2}>
+    <HeadingAccent mb={4} ml={2} id='highlights'>
       Highlights
     </HeadingAccent>
 
@@ -111,7 +111,7 @@
 
 <Flex>
   <Container>
-    <HeadingAccent mb={4} ml={2}>
+    <HeadingAccent mb={4} ml={2} id='talks'>
       Talks
     </HeadingAccent>
   </Container>
@@ -199,7 +199,7 @@
 </Flex>
 <Box mb={5}>
   <Container>
-    <HeadingAccent mb={4} ml={2}>
+    <HeadingAccent mb={4} ml={2} id='side-projects'>
       Side projects
     </HeadingAccent>
   </Container>
@@ -252,7 +252,7 @@
 </Box>
 <Flex>
   <Container mb={5}>
-    <HeadingAccent mb={4} ml={2}>
+    <HeadingAccent mb={4} ml={2} id='interviews'>
       Interviews
     </HeadingAccent>
     <Box width={3/4} px={2}>
