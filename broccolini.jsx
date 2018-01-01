@@ -122,7 +122,7 @@
       <Box width={[1,3/4,1,2/3]} p={3} pr={2}>
         <VideoCard
           src='images/color-systems.png'
-          href='http://firstmarkcap.com/insights/color-systems-at-github/'
+          href='https://youtu.be/R4QZJ3qWjLw'
           title='Color Systems @ Design Driven, March 2017'
           />
       </Box>
