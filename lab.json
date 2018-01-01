@@ -258,7 +258,7 @@
         "SubHeading",
         "Box"
       ],
-      "jsx": "<Box width='100%'>\n  <Image src={props.src}>\n  </Image>\n  <LinkDark href={props.href}>\n    <SubHeading mt={2}>\n      {props.title}\n    </SubHeading>\n  </LinkDark>\n</Box>",
+      "jsx": "<Box width='100%'>\n  <LinkDark href={props.href}>\n  <Image src={props.src}>\n  </Image>\n    <SubHeading mt={2}>\n      {props.title}\n    </SubHeading>\n  </LinkDark>\n</Box>",
       "examples": [
         "<Card \nsrc='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\nhref='#url'\ntitle='hello'\n/>"
       ],
