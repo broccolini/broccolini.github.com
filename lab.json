@@ -340,7 +340,7 @@
         }
       },
       "style": {
-        "lineHeight": "1.25"
+        "lineHeight": "1.5"
       },
       "examples": [
         "<NavLink>Writing</NavLink>"
@@ -477,7 +477,7 @@
       "w": 3,
       "h": 4,
       "x": 0,
-      "y": 16,
+      "y": 20,
       "moved": false,
       "static": false
     },
@@ -517,7 +517,7 @@
       "w": 3,
       "h": 4,
       "x": 0,
-      "y": 20,
+      "y": 24,
       "moved": false,
       "static": false
     },
@@ -557,7 +557,7 @@
       "w": 3,
       "h": 4,
       "x": 0,
-      "y": 12,
+      "y": 16,
       "moved": false,
       "static": false
     },
@@ -597,7 +597,7 @@
       "w": 3,
       "h": 4,
       "x": 0,
-      "y": 8,
+      "y": 12,
       "moved": false,
       "static": false
     },
@@ -627,7 +627,7 @@
       "w": 3,
       "h": 4,
       "x": 9,
-      "y": 16,
+      "y": 20,
       "moved": false,
       "static": false
     },
@@ -637,7 +637,7 @@
       "w": 3,
       "h": 4,
       "x": 0,
-      "y": 4,
+      "y": 8,
       "moved": false,
       "static": false
     },
@@ -658,6 +658,26 @@
       "h": 4,
       "x": 6,
       "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "ImageYellow",
+      "i": "23",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 16,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "ImageBg",
+      "i": "24",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 4,
       "moved": false,
       "static": false
     }
