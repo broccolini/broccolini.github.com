@@ -238,9 +238,7 @@
     {
       "name": "Image",
       "type": "img",
-      "props": {
-        "bg": "gray"
-      },
+      "props": {},
       "style": {
         "display": "block",
         "maxWidth": "100%"
