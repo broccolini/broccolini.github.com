@@ -1,0 +1,707 @@
+{
+  "name": "broccolini.github.com",
+  "library": "styled-components",
+  "components": [
+    {
+      "name": "ButtonOutline",
+      "type": "button",
+      "props": {
+        "fontSize": 2,
+        "py": 2,
+        "color": "blue",
+        "bg": "transparent",
+        "borderRadius": 0,
+        "pl": 3,
+        "pr": 3,
+        "hover": {
+          "color": "white",
+          "backgroundColor": "blue"
+        },
+        "focus": {}
+      },
+      "style": {
+        "display": "inline-block",
+        "fontFamily": "inherit",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "inherit",
+        "appearance": "none"
+      },
+      "examples": [
+        "<ButtonOutline>Potato</ButtonOutline>",
+        "<ButtonOutline>Hello there potato, how are you?</ButtonOutline>"
+      ],
+      "system": [
+        "borderRadius",
+        "hover",
+        "focus"
+      ]
+    },
+    {
+      "name": "Heading",
+      "type": "h2",
+      "props": {
+        "fontSize": 5,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": 1.25
+      },
+      "examples": [
+        "<Heading>Heading</Heading>",
+        "<Heading>Diana Mounter</Heading>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Box",
+      "type": "div",
+      "props": {
+        "fontSize": 3
+      },
+      "style": {
+        "lineHeight": "1.5"
+      },
+      "examples": [
+        "<Box>Hello box</Box>",
+        "<Box p={3} bg='yellow'>Hello</Box>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Media",
+      "imports": [
+        "Box",
+        "Text",
+        "LinkDark",
+        "Heading",
+        "SubHeading",
+        "Link"
+      ],
+      "jsx": "<Box mb={4}>\n  <Link href={props.href}>\n    <SubHeading mb={1}>\n      {props.title}\n    </SubHeading>\n  </Link>\n  <Text>\n    {props.text}\n  </Text>\n</Box>",
+      "examples": [
+        "<Media\nhref='http://broccolini.net/'\ntitle='Media title'\ntext='Media description'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Text",
+      "type": "div",
+      "props": {
+        "fontSize": 4
+      },
+      "style": {
+        "lineHeight": "1.25"
+      },
+      "examples": [
+        "<Text>Hello text</Text>",
+        "<Text>A short talk on the work behind updating GitHub's color palette, introducing a new system to organize thousands of hex values, and implementing a more inclusive and accessible color scheme.</Text>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Link",
+      "type": "a",
+      "props": {
+        "color": "blue",
+        "hover": {
+          "color": "#3549e5"
+        }
+      },
+      "style": {},
+      "examples": [
+        "<Link href='#'>Link</Link>"
+      ],
+      "system": [
+        "hover",
+        "focus"
+      ]
+    },
+    {
+      "name": "LinkDark",
+      "type": "a",
+      "props": {
+        "color": "black",
+        "hover": {
+          "color": "#3b52ff"
+        }
+      },
+      "style": {
+        "textDecoration": "none"
+      },
+      "examples": [
+        "<LinkDark href='#'>Dark link</LinkDark>"
+      ],
+      "system": [
+        "hover"
+      ]
+    },
+    {
+      "name": "HeadingAccent",
+      "type": "Heading",
+      "props": {
+        "fontSize": 5
+      },
+      "style": {
+        "borderBottomColor": "yellow",
+        "borderBottomWidth": "4px",
+        "borderBottomStyle": "solid"
+      },
+      "examples": [
+        "<HeadingAccent>\nHeading with border\n</HeadingAccent>"
+      ],
+      "system": []
+    },
+    {
+      "name": "SubHeading",
+      "type": "h2",
+      "props": {
+        "fontSize": 4,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": 1.25
+      },
+      "examples": [
+        "<SubHeading>SubHeading</SubHeading>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Heading1",
+      "type": "h1",
+      "props": {
+        "fontSize": 8,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": 1.25
+      },
+      "examples": [
+        "<Heading1>Heading 1</Heading1>"
+      ],
+      "system": []
+    },
+    {
+      "name": "LeadText",
+      "type": "div",
+      "props": {
+        "fontSize": 5
+      },
+      "style": {},
+      "examples": [
+        "<LeadText>Lead text</LeadText>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Container",
+      "type": "div",
+      "props": {
+        "width": [
+          1,
+          0.8,
+          0.6666666666666666,
+          0.75
+        ],
+        "ml": [
+          "0%",
+          "20%",
+          "33.333333%",
+          "25%"
+        ]
+      },
+      "style": {},
+      "examples": [
+        "<Container bg='yellow'>Container</Container>"
+      ],
+      "system": []
+    },
+    {
+      "name": "LinkWavy",
+      "type": "a",
+      "props": {
+        "color": "blue"
+      },
+      "style": {
+        "webkitTextDecoration": "underline wavy yellow",
+        "textDecoration": "underline wavy yellow"
+      },
+      "examples": [
+        "<LinkWavy>Hello</LinkWavy>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Image",
+      "type": "img",
+      "props": {
+        "bg": "gray"
+      },
+      "style": {
+        "display": "block",
+        "maxWidth": "100%"
+      },
+      "examples": [
+        "<Image src='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D' />"
+      ],
+      "system": []
+    },
+    {
+      "name": "Card",
+      "imports": [
+        "LinkDark",
+        "Image",
+        "SubHeading",
+        "Box"
+      ],
+      "jsx": "<Box width='100%'>\n  <LinkDark href={props.href}>\n  <Image src={props.src}>\n  </Image>\n    <SubHeading mt={2}>\n      {props.title}\n    </SubHeading>\n  </LinkDark>\n</Box>",
+      "examples": [
+        "<Card \nsrc='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\nhref='#url'\ntitle='Card'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "LinkLight",
+      "type": "a",
+      "props": {
+        "color": "white",
+        "hover": {
+          "color": "#ffeb3b"
+        }
+      },
+      "style": {
+        "textDecoration": "none"
+      },
+      "examples": [
+        "<LinkLight href='#url'>Link Light</LinkLight>\n"
+      ],
+      "system": [
+        "hover"
+      ]
+    },
+    {
+      "name": "MediaSmall",
+      "imports": [
+        "Box",
+        "SubHeading",
+        "Text",
+        "Link"
+      ],
+      "jsx": "<Box mb={3}>\n  <Link href={props.href}>\n    <SubHeading>\n      {props.title}\n    </SubHeading>\n  </Link>\n  <Text>\n    {props.text}\n  </Text>\n</Box>",
+      "examples": [
+        "<MediaSmall\nhref='http://broccolini.net/'\ntitle='Media small title'\ntext='Event, date'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "NavList",
+      "imports": [
+        "NavLink",
+        "Box"
+      ],
+      "jsx": "\n<Box>\n  <NavLink href={props.href}>\n    {props.title}\n  </NavLink>\n</Box>",
+      "examples": [
+        "<NavList\n  href='#url'\n  title='NavList item'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "List",
+      "type": "ul",
+      "props": {},
+      "style": {},
+      "examples": [
+        "<List>Hello</List>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Nav",
+      "type": "nav",
+      "props": {},
+      "style": {},
+      "examples": [
+        "<Nav>Hello</Nav>"
+      ],
+      "system": []
+    },
+    {
+      "name": "NavLink",
+      "type": "LinkDark",
+      "props": {
+        "fontSize": 5,
+        "fontWeight": "bold",
+        "hover": {
+          "backgroundColor": "#ffeb3b"
+        }
+      },
+      "style": {
+        "lineHeight": "1.5"
+      },
+      "examples": [
+        "<NavLink>Nav link</NavLink>"
+      ],
+      "system": [
+        "fontWeight",
+        "hover"
+      ]
+    },
+    {
+      "name": "VideoCard",
+      "imports": [
+        "LinkLight",
+        "Box",
+        "Heading",
+        "LinkCard",
+        "ImageFit"
+      ],
+      "jsx": "<Box bg='black' width='100%'>\n  <LinkCard href={props.href}>\n    <ImageFit src={props.src}>\n    </ImageFit>\n    <Heading mt={2}>\n      {props.title}\n    </Heading>\n  </LinkCard>\n</Box>",
+      "examples": [
+        "<VideoCard bg='black' \nsrc='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\nhref='#url'\ntitle='hello'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "LinkCard",
+      "type": "a",
+      "props": {
+        "color": "yellow",
+        "hover": {
+          "color": "#fff",
+          "& img": {
+            "transition": "all 0.10s",
+            "filter": "hue-rotate(177deg)",
+            "outline-style": "solid",
+            "outline-width": "4px",
+            "outline-color": "white"
+          }
+        }
+      },
+      "style": {
+        "webkitTextDecoration": "none",
+        "textDecoration": "none"
+      },
+      "examples": [
+        "<LinkCard bg='black'>\nLink Card</LinkCard>"
+      ],
+      "system": [
+        "hover",
+        "active",
+        "focus"
+      ]
+    },
+    {
+      "name": "ImageYellow",
+      "type": "Image",
+      "props": {
+        "bg": "yellow"
+      },
+      "style": {
+        "backgroundBlendMode": "multiply"
+      },
+      "examples": [
+        "<ImageYellow src='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D' />"
+      ],
+      "system": []
+    },
+    {
+      "name": "ImageBg",
+      "type": "div",
+      "props": {
+        "p": 4
+      },
+      "style": {
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center",
+        "backgroundImage": "url(${props.src})",
+        "&:hover": {
+          "backgroundImage": "url(${props.hover})"
+        }
+      },
+      "examples": [
+        "<ImageBg src='https://images.unsplash.com/photo-1429305254053-2a1bfe816f36?auto=format&fit=crop&w=1778&q=80'\nhover='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D'\n>Hello</ImageBg>"
+      ],
+      "system": []
+    },
+    {
+      "name": "ImageFit",
+      "type": "img",
+      "props": {},
+      "style": {
+        "display": "block",
+        "width": "100%"
+      },
+      "examples": [
+        "<ImageFit src='https://images.unsplash.com/photo-1484728863103-3f0403e03a7b?auto=format&fit=crop&w=3302&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D' />"
+      ],
+      "system": []
+    }
+  ],
+  "layout": [
+    {
+      "name": "ButtonOutline",
+      "i": "0",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 20,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Heading",
+      "i": "1",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Box",
+      "i": "2",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 16,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Media",
+      "i": "3",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Text",
+      "i": "4",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Link",
+      "i": "5",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LinkDark",
+      "i": "6",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 16,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "HeadingAccent",
+      "i": "7",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "SubHeading",
+      "i": "8",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Heading1",
+      "i": "9",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 0,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LeadText",
+      "i": "10",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Container",
+      "i": "11",
+      "w": 3,
+      "h": 4,
+      "x": 0,
+      "y": 12,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LinkWavy",
+      "i": "12",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 24,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Image",
+      "i": "13",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 12,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Card",
+      "i": "14",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 12,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LinkLight",
+      "i": "15",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 12,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "MediaSmall",
+      "i": "16",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "NavList",
+      "i": "17",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "List",
+      "i": "18",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 20,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "Nav",
+      "i": "19",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 28,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "NavLink",
+      "i": "20",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 4,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "VideoCard",
+      "i": "21",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 16,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "LinkCard",
+      "i": "22",
+      "w": 3,
+      "h": 4,
+      "x": 6,
+      "y": 8,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "ImageYellow",
+      "i": "23",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 24,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "ImageBg",
+      "i": "24",
+      "w": 3,
+      "h": 4,
+      "x": 9,
+      "y": 28,
+      "moved": false,
+      "static": false
+    },
+    {
+      "name": "ImageFit",
+      "i": "25",
+      "w": 3,
+      "h": 4,
+      "x": 3,
+      "y": 16,
+      "moved": false,
+      "static": false
+    }
+  ]
+}
