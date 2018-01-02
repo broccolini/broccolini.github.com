@@ -99,7 +99,7 @@
         </Box>
         <Box width={[1,3/4,1/2,1/3]} pl={1} pr={2} mb={3,3,4}>
           <Card
-          src='images/primer.png'
+          src='images/primer.svg'
           href='http://primer.github.io/'
           title='Primer design system'
           />
@@ -206,42 +206,42 @@
       </Box>
       <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
-        src='images/50-shades.png'
+        src='images/50-shades.svg'
         href='http://broccolini.net/50shadesofblk/'
         title='50 Shades of black'
         />
       </Box>
       <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
-        src='images/wkyuan.png'
+        src='images/wkyuan.svg'
         href='http://whatkeepsyouupatnight.io/'
         title='What keeps you up at night?'
         />
       </Box>
       <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
-        src='images/swiss.png'
+        src='images/swiss.svg'
         href='http://broccolini.net/swiss/'
         title='Swiss Jekyll theme'
         />
       </Box>
       <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
-        src='images/athena.png'
+        src='images/athena.svg'
         href='http://broccolini.net/athena/'
         title='Athena Jekyll theme'
         />
       </Box>
       <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
-        src='images/soundsradcakes.png'
+        src='images/soundsradcakes.svg'
         href='http://soundsradcakes.com/'
         title='Soundsradcakes'
         />
       </Box>
       <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
         <Card
-        src='images/robotodex.png'
+        src='images/robotodex.svg'
         href='http://robotodex.com/'
         title='Robotodex'
         />
