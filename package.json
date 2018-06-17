@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "This is the repo for my personal website, built with [Iso](https://github.com/c8r/iso).",
   "scripts": {
-    "start": "x0 pages",
+    "start": "x0 pages -o",
     "build": "x0 build pages -d ."
   },
   "repository": {
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/broccolini/broccolini.github.com#readme",
   "devDependencies": {
-    "@compositor/x0": "^5.0.8"
+    "@compositor/x0": "^5.0.8",
+    "grid-styled": "^4.1.1",
+    "react": "^16.4.1",
+    "styled-components": "^3.3.2",
+    "styled-system": "^2.3.1"
   }
 }
