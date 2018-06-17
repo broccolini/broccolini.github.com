@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "broccolini.github.com",
+  "version": "1.0.0",
+  "description": "This is the repo for my personal website, built with [Iso](https://github.com/c8r/iso).",
+  "scripts": {
+    "start": "x0 pages",
+    "build": "x0 build pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/broccolini/broccolini.github.com.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/broccolini/broccolini.github.com/issues"
+  },
+  "homepage": "https://github.com/broccolini/broccolini.github.com#readme"
+}
