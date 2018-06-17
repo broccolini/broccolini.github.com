@@ -1,7 +1,7 @@
+export { Box, Flex } from 'grid-styled'
 export { default as theme } from './theme'
 export { default as ButtonOutline } from './ButtonOutline'
 export { default as Heading } from './Heading'
-export { default as Box } from './Box'
 export { default as Media } from './Media'
 export { default as Text } from './Text'
 export { default as Link } from './Link'
