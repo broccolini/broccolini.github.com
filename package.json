@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/broccolini/broccolini.github.com/issues"
   },
-  "homepage": "https://github.com/broccolini/broccolini.github.com#readme"
+  "homepage": "https://github.com/broccolini/broccolini.github.com#readme",
+  "devDependencies": {
+    "@compositor/x0": "^5.0.8"
+  }
 }
