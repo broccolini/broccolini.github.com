@@ -183,7 +183,7 @@ export default () =>
               />
               <MediaSmall
               href='https://designersandgeeks.com/events/colorful-journey-into-design-systems'
-              title='A colorful journey into design systems'
+              title='A Colorful Journey Into Design Systems'
               text='Designers and Geeks, May 2018'
               />
 
