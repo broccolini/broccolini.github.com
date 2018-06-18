@@ -89,6 +89,10 @@ export default () =>
             </HeadingAccent>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
               <Media
+              href='https://hackdesign.org/lessons/96-design-system-fundamentals'
+              title='Hack Design: Design System Fundamentals'
+              text='With so many examples of design systems out there, it can be hard to know where to start or know what is right for your company. This lesson introduces you to the fundamentals of building design systems.'/>
+              <Media
               href='https://the-pastry-box-project.net/diana-mounter/2018-january-25'
               title='The Peacock’s Demo: a design fable'
               text='I’m contributing to The Pastry Box Project by writing design fables. The fables I choose to write about are inspired by my own experiences as a designer and working in the tech industry.'/>
@@ -152,32 +156,13 @@ export default () =>
           </HeadingAccent>
         </Container>
       </Flex>
-      <Flex>
-        <Container mb={3}>
-          <Box ml={2}>
-            <SubHeading mb={2}>Next speaking at...</SubHeading>
-              <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
-                <Link
-                href='https://designersandgeeks.com/events/colorful-journey-into-design-systems'
-                >
-                  <SubHeading mb={2}>Designers + Geeks NYC - May 24</SubHeading>
-                </Link>
-                <Link
-                href='https://www.webconf.asia/'
-                >
-                  <SubHeading mb={3}>Web Conf Asia - June 8-9 </SubHeading>
-                </Link>
-              </Box>
-            </Box>
-          </Container>
-        </Flex>
       <Container mb={[4]}>
         <Box ml={2} bg='black'>
             <Box width={[1,3/4,1,2/3]} p={3} pr={2}>
               <VideoCard
-                src='https://user-images.githubusercontent.com/334891/39968286-b9130000-5698-11e8-8ad5-dce033c20805.png'
-                href='https://youtu.be/Hx02SaL_IH0'
-                title='Design Systems: when and how much? @ Active Ingredients'
+                src='https://user-images.githubusercontent.com/334891/41517856-4c054a1c-728c-11e8-8e80-f57ed29b6780.png'
+                href='https://youtu.be/AbpS3Z3xXE0'
+                title='Interaction of Color Systems @ CSS Conf Australia'
                 />
             </Box>
           </Box>
@@ -187,12 +172,28 @@ export default () =>
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
               <MediaSmall
+              href='https://designsystems.rethinkhq.com/schedule/'
+              title='You vs. the design system they told you not to worry about'
+              text='RETHINK Design Systems, June 2018'
+              />
+              <MediaSmall
+              href='https://www.webconf.asia/speakers'
+              title='Interaction of Color Systems'
+              text='Web Conf Asia, June 2018'
+              />
+              <MediaSmall
+              href='https://designersandgeeks.com/events/colorful-journey-into-design-systems'
+              title='A colorful journey into design systems'
+              text='Designers and Geeks, May 2018'
+              />
+
+              <MediaSmall
               href='https://www.webaquebec.org/programmation/interaction-of-color-systems'
               title='Interaction of Color Systems'
               text='Web A Québec, April 2018'
               />
               <MediaSmall
-              href='https://2018.cssconf.com.au/speakers#broccolini'
+              href='https://youtu.be/AbpS3Z3xXE0'
               title='Interaction of Color Systems'
               text='CSS Conf Australia, March 2018'
               />
