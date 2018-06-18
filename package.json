@@ -2,7 +2,7 @@
   "private": true,
   "name": "broccolini.github.com",
   "version": "1.0.0",
-  "description": "This is the repo for my personal website, built with [Iso](https://github.com/c8r/iso).",
+  "description": "The personal website of Diana Mounter, built with [x0](https://github.com/c8r/x0).",
   "scripts": {
     "start": "x0 pages -o",
     "build": "x0 build pages -d . --static"
