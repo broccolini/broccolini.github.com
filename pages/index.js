@@ -48,7 +48,7 @@ export default () =>
         <Box ml={2} bg='yellow'>
           <Box width={[1,1,1,2/3,1/2]}>
             <Text py={3} pl={3} pr={[2,2,2,3,3]}>
-            I'm a designer with a passion for the web. I specialize in design systems and have a background in user-centered design. Currently leading design systems at GitHub and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people.  Living in Brooklyn, NY, and loving it.
+            I’m a designer with a passion for the web. I specialize in design systems and have a background in user-centered design. Currently leading design operations & systems at GitHub and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people.  Living in Brooklyn, NY, and loving it.
             </Text>
           </Box>
         </Box>
@@ -88,6 +88,10 @@ export default () =>
               Writing
             </HeadingAccent>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
+              <Media
+              href='https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542'
+              title='Design Systems at GitHub'
+              text='For years GitHub designers have documented UI patterns and shared common styles, but it wasn’t until 2016 that the design systems team was formed. This post shares a brief history of how the team grew, what we’ve been working on, and what’s next.'/>
               <Media
               href='https://hackdesign.org/lessons/96-design-system-fundamentals'
               title='Hack Design: Design System Fundamentals'
