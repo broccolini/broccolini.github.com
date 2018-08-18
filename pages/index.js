@@ -176,6 +176,11 @@ export default () =>
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
               <MediaSmall
+              href='https://github.com/broccolini/design-systems-and-react'
+              title='Design Systems and React'
+              text='ZEIT React Meetup, August 2018'
+              />
+              <MediaSmall
               href='https://designsystems.rethinkhq.com/schedule/'
               title='You vs. the design system they told you not to worry about'
               text='RETHINK Design Systems, June 2018'
