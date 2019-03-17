@@ -142,8 +142,8 @@ export default () =>
             </Box>
             <Box width={[1,3/4,1/2,1/3]} pl={1} pr={2} mb={3,3,4}>
               <Card
-              src='http://broccolini.net/images/primer.svg'
-              href='http://primer.github.io/'
+              src='https://user-images.githubusercontent.com/334891/54498469-4c351e80-48de-11e9-8602-124af67dba8a.png'
+              href='http://primer.style'
               title='Primer design system'
               />
               <Text mt={1}>I helped form the GitHub design systems team in early 2016. I contribute to and guide the evolution of Primer, our (proudly) open-sourced design system.
