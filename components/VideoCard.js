@@ -6,7 +6,7 @@ import LinkCard from './LinkCard'
 import ImageFit from './ImageFit'
 
 const VideoCard = props => (
-  <Box bg="black" width="100%">
+  <Box width="100%">
     <LinkCard href={props.href}>
       <ImageFit src={props.src} />
       <Heading mt={2}>{props.title}</Heading>
