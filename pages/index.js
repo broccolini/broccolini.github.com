@@ -160,13 +160,23 @@ export default () =>
           </HeadingAccent>
         </Container>
       </Flex>
+      <Flex>
+        <Container mb={4}>
+        <Box ml={2}>
+          <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
+          <Link href='https://www.designconference.aiga.org/event/craft'>
+            <SubHeading>AIGA Design Conference - Pasadena CA, April 2019</SubHeading>
+          </Link>
+        </Box>
+        </Container>
+      </Flex>
       <Container mb={[4]}>
         <Box ml={2} bg='black'>
             <Box width={[1,3/4,1,2/3]} p={3} pr={2}>
               <VideoCard
-                src='https://user-images.githubusercontent.com/334891/41517856-4c054a1c-728c-11e8-8e80-f57ed29b6780.png'
-                href='https://youtu.be/AbpS3Z3xXE0'
-                title='Interaction of Color Systems @ CSS Conf Australia'
+                src='https://user-images.githubusercontent.com/334891/54493950-aff22400-48ab-11e9-9af2-a5a15f398e87.png'
+                href='https://youtu.be/hftvh9SNEZQ'
+                title='Design System APIs @ Design Systems London'
                 />
             </Box>
           </Box>
@@ -176,12 +186,17 @@ export default () =>
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
               <MediaSmall
+              href='https://youtu.be/hftvh9SNEZQ'
+              title='Design System APIs and the developer experience'
+              text='Design Systems London, November 2018'
+              />
+              <MediaSmall
               href='https://github.com/broccolini/design-systems-and-react'
               title='Design Systems and React'
               text='ZEIT React Meetup, August 2018'
               />
               <MediaSmall
-              href='https://designsystems.rethinkhq.com/schedule/'
+              href='https://www.rethinkhq.com/videos/you-vs-the-design-system-they-told-you-not-to-worry-about-diana-mounter-github'
               title='You vs. the design system they told you not to worry about'
               text='RETHINK Design Systems, June 2018'
               />
