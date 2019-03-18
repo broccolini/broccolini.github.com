@@ -47,6 +47,7 @@ export default () =>
         <Box py={2} ml={2}>
           <Nav>
             <NavList width={1/5}
+              color='black'
               href='#writing'
               title='Writing'
             />
@@ -119,7 +120,7 @@ export default () =>
           <HeadingAccent mb={4} ml={2} id='highlights'>
             Highlights
           </HeadingAccent>
-          <Flex ml={2} mb={3} wrap>
+          <Flex ml={2} mb={3} flexWrap='wrap'>
             <Box width={[1, 3/4, 1/2, 1/3]} pr={'24px'} mb={[3,3,4]}>
               <Card
               src='http://broccolini.net/images/dsc-yellow.png'
@@ -264,7 +265,7 @@ export default () =>
             Side projects
           </HeadingAccent>
         </Container>
-        <Flex mb={3} ml={['0','20%','0','0']} wrap>
+        <Flex mb={3} ml={['0','20%','0','0']} flexWrap='wrap'>
           <Box width={[1,3/4,1/3,1/4]} px={2}>
           </Box>
           <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>

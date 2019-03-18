@@ -4,7 +4,7 @@ import Box from './Box'
 
 const NavList = props => (
   <Box>
-    <NavLink href={props.href}>{props.title}</NavLink>
+    <NavLink color='black' href={props.href}>{props.title}</NavLink>
   </Box>
 )
 
