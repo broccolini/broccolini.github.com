@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from '../layout'
 import {
   Box,
   Flex,
@@ -30,7 +31,7 @@ import {
 } from '../components'
 
 export default () =>
-  <React.Fragment>
+  <Layout>
     <Box ml={['10%','0']}>
       <Container mt={[5,6,6,'20%']} mb={2}>
         <Box width={[1,1,1,2/3]} pl={2} pr={3}>
@@ -369,4 +370,4 @@ export default () =>
         </Box>
       </Container>
     </Box>
-  </React.Fragment>
+  </Layout>

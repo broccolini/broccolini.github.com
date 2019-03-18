@@ -1,4 +1,4 @@
-export { Box, Flex } from 'grid-styled'
+export { Box, Flex } from '@rebass/grid'
 export { default as theme } from './theme'
 export { default as ButtonOutline } from './ButtonOutline'
 export { default as Heading } from './Heading'
