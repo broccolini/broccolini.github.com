@@ -3,7 +3,6 @@ import { space, fontSize, width, color } from 'styled-system'
 import Heading from './Heading'
 
 const HeadingAccent = styled(Heading)(
-  [],
   props => ({
     borderBottomColor: 'yellow',
     borderBottomWidth: '4px',

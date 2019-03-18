@@ -1,22 +1,20 @@
 import styled from 'styled-components'
-import { space, fontSize, width, color, hover, focus } from 'styled-system'
+import { space, fontSize, width, color } from 'styled-system'
 
 const Link = styled('a')(
-  [],
-  props => ({}),
+  props => ({
+    '&:hover': {
+      color: '#3549e5'
+    }
+  }),
   space,
   fontSize,
   width,
   color,
-  hover,
-  focus
 )
 
 Link.defaultProps = {
   color: 'blue',
-  hover: {
-    color: '#3549e5'
-  }
 }
 
 export default Link

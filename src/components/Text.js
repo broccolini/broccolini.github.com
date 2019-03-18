@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import { space, fontSize, width, color } from 'styled-system'
 
 const Text = styled('div')(
-  [],
   props => ({
     lineHeight: '1.25'
   }),

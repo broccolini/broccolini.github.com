@@ -3,29 +3,17 @@ import Layout from '../layout'
 import {
   Box,
   Flex,
-  ButtonOutline,
   Card,
   Container,
-  Heading,
   Heading1,
   HeadingAccent,
-  Image,
-  ImageBg,
-  ImageFit,
-  ImageYellow,
   LeadText,
   Link,
-  LinkCard,
   LinkDark,
-  LinkLight,
-  LinkWavy,
-  List,
   Media,
   MediaSmall,
   Nav,
-  NavLink,
   NavList,
-  SubHeading,
   Text,
   VideoCard,
 } from '../components'
@@ -131,8 +119,8 @@ export default () =>
           <HeadingAccent mb={4} ml={2} id='highlights'>
             Highlights
           </HeadingAccent>
-          <Flex ml={2}mb={3}wrap>
-            <Box width={[1,3/4,1/2,1/3]} pr={'24px'} mb={3,3,4}>
+          <Flex ml={2} mb={3} wrap>
+            <Box width={[1, 3/4, 1/2, 1/3]} pr={'24px'} mb={[3,3,4]}>
               <Card
               src='http://broccolini.net/images/dsc-yellow.png'
               href='http://designsystems.nyc/'
@@ -141,7 +129,7 @@ export default () =>
               <Text mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
               </Text>
             </Box>
-            <Box width={[1,3/4,1/2,1/3]} pl={1} pr={2} mb={3,3,4}>
+            <Box width={[1,3/4,1/2,1/3]} pl={1} pr={2} mb={[3,3,4]}>
               <Card
               src='http://broccolini.net/images/primer.svg'
               href='http://primer.github.io/'
@@ -279,42 +267,42 @@ export default () =>
         <Flex mb={3} ml={['0','20%','0','0']} wrap>
           <Box width={[1,3/4,1/3,1/4]} px={2}>
           </Box>
-          <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
+          <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
             src='http://broccolini.net/images/50-shades.svg'
             href='http://broccolini.net/50shadesofblk/'
             title='50 Shades of black'
             />
           </Box>
-          <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
+          <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
             src='http://broccolini.net/images/wkyuan.svg'
             href='http://whatkeepsyouupatnight.io/'
             title='What keeps you up at night?'
             />
           </Box>
-          <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
+          <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
             src='http://broccolini.net/images/swiss.svg'
             href='http://broccolini.net/swiss/'
             title='Swiss Jekyll theme'
             />
           </Box>
-          <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
+          <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
             src='http://broccolini.net/images/athena.svg'
             href='http://broccolini.net/athena/'
             title='Athena Jekyll theme'
             />
           </Box>
-          <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
+          <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
             src='http://broccolini.net/images/soundsradcakes.svg'
             href='http://soundsradcakes.com/'
             title='Soundsradcakes'
             />
           </Box>
-          <Box width={[1,3/4,1/3,1/4]} px={2} mb={3,3,4}>
+          <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
             src='http://broccolini.net/images/robotodex.svg'
             href='http://robotodex.com/'

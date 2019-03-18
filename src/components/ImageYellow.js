@@ -3,7 +3,6 @@ import { space, fontSize, width, color } from 'styled-system'
 import Image from './Image'
 
 const ImageYellow = styled(Image)(
-  [],
   props => ({
     backgroundBlendMode: 'multiply'
   }),

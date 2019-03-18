@@ -1,23 +1,21 @@
 import styled from 'styled-components'
-import { space, fontSize, width, color, hover } from 'styled-system'
+import { space, fontSize, width, color } from 'styled-system'
 
 const LinkDark = styled('a')(
-  [],
   props => ({
-    textDecoration: 'none'
+    textDecoration: 'none',
+    '&:hover': {
+      color: '#3b52ff'
+    }
   }),
   space,
   fontSize,
   width,
   color,
-  hover
 )
 
 LinkDark.defaultProps = {
   color: 'black',
-  hover: {
-    color: '#3b52ff'
-  }
 }
 
 export default LinkDark

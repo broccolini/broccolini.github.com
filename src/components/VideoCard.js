@@ -1,5 +1,4 @@
 import React from 'react'
-import LinkLight from './LinkLight'
 import Box from './Box'
 import Heading from './Heading'
 import LinkCard from './LinkCard'

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import { space, fontSize, width, color } from 'styled-system'
 
 const ImageBg = styled('div')(
-  [],
   props => ({
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
