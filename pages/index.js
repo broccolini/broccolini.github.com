@@ -345,6 +345,10 @@ export default () =>
             </HeadingAccent>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
               <Media
+              href='https://reactpodcast.com/25'
+              title='React Podcast: Make Brilliant Messes'
+              text='In this episode with Emily Plummer, we talk with Chantastic about Rails, Lerna, monorepos, Figma, component APIs, and the importance of supporting designers and engineers with your design system.'/>
+              <Media
               href='https://spec.fm/podcasts/design-details/141132'
               title='Design Details: Cats & Design Systems'
               text='In this episode with Brent Jackson, we dig into the tools and workflows we’ve developed when working on systems, what we’re excited about in design systems, and talk about the technologies that are changing the way we build.'/>
