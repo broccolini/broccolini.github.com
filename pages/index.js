@@ -48,7 +48,7 @@ export default () =>
         <Box ml={2} bg='yellow'>
           <Box width={[1,1,1,2/3,1/2]}>
             <Text py={3} pl={3} pr={[2,2,2,3,3]}>
-            I’m a designer with a passion for the web. I specialize in design systems and have a background in user-centered design. Currently leading design operations & systems at GitHub and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people.  Living in Brooklyn, NY, and loving it.
+            I’m a designer who likes to code. I specialize in design systems and have a background in user-centered design. Currently Director of Design Infrastructure at GitHub and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people.  Living in Brooklyn, NY, and loving it.
             </Text>
           </Box>
         </Box>
@@ -160,7 +160,7 @@ export default () =>
           </HeadingAccent>
         </Container>
       </Flex>
-      <Flex>
+      {/* <Flex>
         <Container mb={4}>
         <Box ml={2}>
           <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
@@ -169,7 +169,7 @@ export default () =>
           </Link>
         </Box>
         </Container>
-      </Flex>
+      </Flex> */}
       <Container mb={[4]}>
         <Box ml={2} bg='black'>
             <Box width={[1,3/4,1,2/3]} p={3} pr={2}>
@@ -185,6 +185,26 @@ export default () =>
           <Container mb={5}>
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
+              <MediaSmall
+              href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
+              title='Themeability is the path to dark mode'
+              text='ReactConf AU, February 2020'
+              />
+              <MediaSmall
+              href='https://vimeo.com/364382470'
+              title='Component API design and the developer experience'
+              text='Fronteers, October 2019'
+              />
+              <MediaSmall
+              href='https://vimeo.com/showcase/6133041/video/351297451'
+              title='The Secret Lives of Color Systems'
+              text='Smashing Conf Toronto, June 2019'
+              />
+              <MediaSmall
+              href='https://youtu.be/K3Aycyfgicc'
+              title='Color fron Chaos'
+              text='AIGA Design Conference, April 2019'
+              />
               <MediaSmall
               href='https://youtu.be/hftvh9SNEZQ'
               title='Design System APIs and the developer experience'
