@@ -126,7 +126,7 @@ export default () =>
         </Container>
       </Flex>
 
-      <Box mb={5}>
+      <Box mb={4}>
         <Container>
           <HeadingAccent mb={4} ml={2} id='highlights'>
             Highlights
@@ -138,7 +138,7 @@ export default () =>
               href='http://designsystems.nyc/'
               title='Design Systems Coalition NYC'
               />
-              <Text mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
+              <Text fontSize={3} mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
               </Text>
             </Box>
             <Box width={[1,3/4,1/2,1/3]} pl={1} pr={2} mb={3,3,4}>
@@ -147,7 +147,7 @@ export default () =>
               href='http://primer.style'
               title='Primer design system'
               />
-              <Text mt={1}>I helped form the GitHub design systems team in early 2016. I contribute to and guide the evolution of Primer, our (proudly) open-sourced design system.
+              <Text fontSize={3} mt={1}>I helped form the GitHub design systems team in early 2016. I have continued to grow the team and guide the evolution of Primer, our proudly open-sourced design system.
               </Text>
             </Box>
           </Flex>
@@ -166,7 +166,7 @@ export default () =>
         <Box ml={2}>
           <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
           <Link href='https://www.designconference.aiga.org/event/craft'>
-            <SubHeading>AIGA Design Conference - Pasadena CA, April 2019</SubHeading>
+            <SubHeading>Nordic JS - Norway, October 2020</SubHeading>
           </Link>
         </Box>
         </Container>
@@ -182,10 +182,41 @@ export default () =>
             </Box>
           </Box>
         </Container>
+        
         <Flex>
           <Container mb={5}>
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
+              <Heading fontSize="4" mb={3}>Some of my favorite talks:</Heading>
+
+              <Media
+              href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
+              title='Themeability is the path to dark mode'
+              text='ReactConf AU, February 2020'
+              />
+              <Media
+              href='https://youtu.be/K3Aycyfgicc'
+              title='Color fron Chaos'
+              text='AIGA Design Conference, April 2019'
+              />
+              <Media
+              href='https://www.rethinkhq.com/videos/you-vs-the-design-system-they-told-you-not-to-worry-about-diana-mounter-github'
+              title='You vs. the design system they told you not to worry about'
+              text='RETHINK Design Systems, June 2018'
+              />
+              <Media
+              href='https://youtu.be/AbpS3Z3xXE0'
+              title='Interaction of Color Systems'
+              text='CSS Conf Australia, March 2018'
+              />
+              <Media
+              href='https://youtu.be/Hx02SaL_IH0'
+              title='Design Systems: when and how much?'
+              text='Active Ingredients, April 2017'
+              />
+
+              <Heading fontSize="4" pt={3} mb={2}>All the talks:</Heading>
+
               <MediaSmall
               href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
               title='Themeability is the path to dark mode'
@@ -231,7 +262,6 @@ export default () =>
               title='A Colorful Journey Into Design Systems'
               text='Designers and Geeks, May 2018'
               />
-
               <MediaSmall
               href='https://www.webaquebec.org/programmation/interaction-of-color-systems'
               title='Interaction of Color Systems'
@@ -300,12 +330,12 @@ export default () =>
               href='https://speakerdeck.com/broccolini/responding-to-change'
               title='Responding to Change'
               text='Agile Asbury, October 2014'/>
-              <Text pt={4}>More talks on <Link href='https://speakerdeck.com/broccolini'>speakerdeck</Link> and <Link href='https://www.slideshare.net/diana.mounter/presentations'>slideshare</Link>.</Text>
+              <Text fontSize={2} pt={2}>Even more talks on <Link href='https://speakerdeck.com/broccolini'>speakerdeck</Link> and <Link href='https://www.slideshare.net/diana.mounter/presentations'>slideshare</Link>.</Text>
             </Box>
           </Box>
         </Container>
       </Flex>
-      <Box mb={5}>
+      <Box mb={4}>
         <Container>
           <HeadingAccent mb={4} ml={2} id='side-projects'>
             Side projects
@@ -398,7 +428,7 @@ export default () =>
         </Container>
       </Flex>
     </Box>
-    <Box bg='yellow'>
+    <Box bg='green'>
       <Container>
         <Box ml={['10%','0']}>
           <Text py={3} pl={2} pr={[2,2,2,3,3]}>
