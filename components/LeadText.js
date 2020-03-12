@@ -1,11 +1,10 @@
 import styled from 'styled-components'
-import { space, fontSize, fontWeight, width, color } from 'styled-system'
+import { space, fontSize, width, color } from 'styled-system'
 
-const LeadText = styled('div')([], props => ({}), space, fontSize, fontWeight, width, color)
+const LeadText = styled('div')([], props => ({}), space, fontSize, width, color)
 
 LeadText.defaultProps = {
-  fontSize: 4,
-  fontWeight: 500,
+  fontSize: 5
 }
 
 export default LeadText

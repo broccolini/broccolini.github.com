@@ -5,7 +5,6 @@ import {
   ButtonOutline,
   Card,
   Container,
-  GradientBox,
   Heading,
   Heading1,
   HeadingAccent,
@@ -46,13 +45,13 @@ export default () =>
         </Box>
       </Container>
       <Container mb={[5,6,7]}>
-        <GradientBox ml={2}>
-          <Box width={[1,1,1,3/4,1/2]}>
-            <Text fontSize={3} fontWeight={400} py={3} pl={3} pr={[2,2,2,3,3]}>
-            I’m a designer who likes to code. Currently Director of Design Infrastructure at GitHub, and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people. Living in Brooklyn, NY, and loving it.
+        <Box ml={2} bg='yellow'>
+          <Box width={[1,1,1,2/3,1/2]}>
+            <Text py={3} pl={3} pr={[2,2,2,3,3]}>
+            I’m a designer with a passion for the web. I specialize in design systems and have a background in user-centered design. Currently leading design operations & systems at GitHub and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people.  Living in Brooklyn, NY, and loving it.
             </Text>
           </Box>
-        </GradientBox>
+        </Box>
       </Container>
 
       <Container mb={6}>
@@ -92,41 +91,41 @@ export default () =>
               <Media
               href='https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542'
               title='Design Systems at GitHub'
-              text='July, 2018'/>
+              text='For years GitHub designers have documented UI patterns and shared common styles, but it wasn’t until 2016 that the design systems team was formed. This post shares a brief history of how the team grew, what we’ve been working on, and what’s next.'/>
               <Media
               href='https://hackdesign.org/lessons/96-design-system-fundamentals'
               title='Hack Design: Design System Fundamentals'
-              text='This lesson introduces you to the fundamentals of building design systems.'/>
+              text='With so many examples of design systems out there, it can be hard to know where to start or know what is right for your company. This lesson introduces you to the fundamentals of building design systems.'/>
               <Media
               href='https://the-pastry-box-project.net/diana-mounter/2018-january-25'
               title='The Peacock’s Demo: a design fable'
-              text='January, 2018'/>
+              text='I’m contributing to The Pastry Box Project by writing design fables. The fables I choose to write about are inspired by my own experiences as a designer and working in the tech industry.'/>
               <Media
               href='https://www.designbetter.co/design-systems-handbook/putting-design-system-practice'
               title='Design Systems Handbook: putting your design system into practice'
-              text='An online and printed handbook on design systems.'/>
+              text='This chapter focusses on how to encourage adoption of your design system, publishing and distribution methods, and considerations for making your design system public vs private.'/>
               <Media
               href='http://www.creativebloq.com/web-design/empower-designers-code-41619919'
               title='How to Empower Designers to Code'
-              text='April, 2016'/>
+              text='For many designers the best way to learn front-end development is on the job. Many companies want to attract designers who code, but may fall short of providing enough support.'/>
               <Media
               href='https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/'
               title='Rebuilding the Foundation of Etsy’s Seller Tools'
-              text='February, 2015'/>
+              text='How we redesigned the seller-facing web app, and built a new style guide in the process. Written for Etsy’s Code as Craft blog, in collaboration with coworkers from the shop management team.'/>
               <Media
               href='https://medium.com/@broccolini/embracing-change-in-your-workplace-544ec73db0c8'
               title='Embracing Change in Your Workplace'
-              text='January, 2015'/>
+              text='The biggest challenges you face in a workplace are often not in how to build the product but in how to build a healthy work environment.'/>
               <Media
-              href='https://medium.com/@broccolini/move-fast-and-make-something-of-your-life-34b7feabb86f'
+              href='https://medium.com/@broccolini/embracing-change-in-your-workplace-544ec73db0c8'
               title='Move Fast and Make Something (of your life)'
-              text='June, 2013'/>
+              text='I spent the majority of my first trip to America looking at a computer screen, while sat on a bus that traveled from San Francisco to Austin. It turned out to be a life-changing experience.'/>
             </Box>
           </Box>
         </Container>
       </Flex>
 
-      <Box mb={4}>
+      <Box mb={5}>
         <Container>
           <HeadingAccent mb={4} ml={2} id='highlights'>
             Highlights
@@ -134,20 +133,20 @@ export default () =>
           <Flex ml={2}mb={3}wrap>
             <Box width={[1,3/4,1/2,1/3]} pr={'24px'} mb={3,3,4}>
               <Card
-              src='https://user-images.githubusercontent.com/334891/76377116-6acacb80-6320-11ea-930e-1c04cdc40d73.png'
+              src='http://broccolini.net/images/dsc-yellow.png'
               href='http://designsystems.nyc/'
               title='Design Systems Coalition NYC'
               />
-              <Text fontSize={3} mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
+              <Text mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
               </Text>
             </Box>
             <Box width={[1,3/4,1/2,1/3]} pl={1} pr={2} mb={3,3,4}>
               <Card
-              src='https://user-images.githubusercontent.com/334891/54498469-4c351e80-48de-11e9-8602-124af67dba8a.png'
-              href='http://primer.style'
+              src='http://broccolini.net/images/primer.svg'
+              href='http://primer.github.io/'
               title='Primer design system'
               />
-              <Text fontSize={3} mt={1}>I helped form the GitHub design systems team in early 2016. I have continued to grow the team and guide the evolution of Primer, our proudly open-sourced design system.
+              <Text mt={1}>I helped form the GitHub design systems team in early 2016. I contribute to and guide the evolution of Primer, our (proudly) open-sourced design system.
               </Text>
             </Box>
           </Flex>
@@ -161,94 +160,28 @@ export default () =>
           </HeadingAccent>
         </Container>
       </Flex>
-      {/* <Flex>
-        <Container mb={4}>
-        <Box ml={2}>
-          <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
-          <Link href='https://www.designconference.aiga.org/event/craft'>
-            <SubHeading>Nordic JS - Norway, October 2020</SubHeading>
-          </Link>
-        </Box>
-        </Container>
-      </Flex> */}
       <Container mb={[4]}>
         <Box ml={2} bg='black'>
             <Box width={[1,3/4,1,2/3]} p={3} pr={2}>
               <VideoCard
-                src='https://user-images.githubusercontent.com/334891/76375954-736dd280-631d-11ea-870b-97acf26042a4.png'
-                href='https://youtu.be/hftvh9SNEZQ'
-                title='Design System APIs @ Design Systems London'
+                src='https://user-images.githubusercontent.com/334891/41517856-4c054a1c-728c-11e8-8e80-f57ed29b6780.png'
+                href='https://youtu.be/AbpS3Z3xXE0'
+                title='Interaction of Color Systems @ CSS Conf Australia'
                 />
             </Box>
           </Box>
         </Container>
-        
         <Flex>
           <Container mb={5}>
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
-              <Heading fontSize="4" mb={3}>Some of my favorite talks:</Heading>
-
-              <Media
-              href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
-              title='Themeability is the path to dark mode'
-              text='ReactConf AU, February 2020'
-              />
-              <Media
-              href='https://youtu.be/K3Aycyfgicc'
-              title='Color fron Chaos'
-              text='AIGA Design Conference, April 2019'
-              />
-              <Media
-              href='https://www.rethinkhq.com/videos/you-vs-the-design-system-they-told-you-not-to-worry-about-diana-mounter-github'
-              title='You vs. the design system they told you not to worry about'
-              text='RETHINK Design Systems, June 2018'
-              />
-              <Media
-              href='https://youtu.be/AbpS3Z3xXE0'
-              title='Interaction of Color Systems'
-              text='CSS Conf Australia, March 2018'
-              />
-              <Media
-              href='https://youtu.be/Hx02SaL_IH0'
-              title='Design Systems: when and how much?'
-              text='Active Ingredients, April 2017'
-              />
-
-              <Heading fontSize="4" pt={3} mb={2}>All the talks:</Heading>
-
-              <MediaSmall
-              href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
-              title='Themeability is the path to dark mode'
-              text='ReactConf AU, February 2020'
-              />
-              <MediaSmall
-              href='https://vimeo.com/364382470'
-              title='Component API design and the developer experience'
-              text='Fronteers, October 2019'
-              />
-              <MediaSmall
-              href='https://vimeo.com/showcase/6133041/video/351297451'
-              title='The Secret Lives of Color Systems'
-              text='Smashing Conf Toronto, June 2019'
-              />
-              <MediaSmall
-              href='https://youtu.be/K3Aycyfgicc'
-              title='Color fron Chaos'
-              text='AIGA Design Conference, April 2019'
-              />
-              <MediaSmall
-              href='https://youtu.be/hftvh9SNEZQ'
-              title='Design System APIs and the developer experience'
-              text='Design Systems London, November 2018'
-              />
               <MediaSmall
               href='https://github.com/broccolini/design-systems-and-react'
               title='Design Systems and React'
               text='ZEIT React Meetup, August 2018'
               />
               <MediaSmall
-              href='https://www.rethinkhq.com/videos/you-vs-the-design-system-they-told-you-not-to-worry-about-diana-mounter-github'
+              href='https://designsystems.rethinkhq.com/schedule/'
               title='You vs. the design system they told you not to worry about'
               text='RETHINK Design Systems, June 2018'
               />
@@ -262,6 +195,7 @@ export default () =>
               title='A Colorful Journey Into Design Systems'
               text='Designers and Geeks, May 2018'
               />
+
               <MediaSmall
               href='https://www.webaquebec.org/programmation/interaction-of-color-systems'
               title='Interaction of Color Systems'
@@ -330,12 +264,12 @@ export default () =>
               href='https://speakerdeck.com/broccolini/responding-to-change'
               title='Responding to Change'
               text='Agile Asbury, October 2014'/>
-              <Text fontSize={2} pt={2}>Even more talks on <Link href='https://speakerdeck.com/broccolini'>speakerdeck</Link> and <Link href='https://www.slideshare.net/diana.mounter/presentations'>slideshare</Link>.</Text>
+              <Text pt={4}>More talks on <Link href='https://speakerdeck.com/broccolini'>speakerdeck</Link> and <Link href='https://www.slideshare.net/diana.mounter/presentations'>slideshare</Link>.</Text>
             </Box>
           </Box>
         </Container>
       </Flex>
-      <Box mb={4}>
+      <Box mb={5}>
         <Container>
           <HeadingAccent mb={4} ml={2} id='side-projects'>
             Side projects
@@ -396,10 +330,6 @@ export default () =>
             </HeadingAccent>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
               <Media
-              href='https://reactpodcast.com/25'
-              title='React Podcast: Make Brilliant Messes'
-              text='In this episode with Emily Plummer, we talk with Chantastic about Rails, Lerna, monorepos, Figma, component APIs, and the importance of supporting designers and engineers with your design system.'/>
-              <Media
               href='https://spec.fm/podcasts/design-details/141132'
               title='Design Details: Cats & Design Systems'
               text='In this episode with Brent Jackson, we dig into the tools and workflows we’ve developed when working on systems, what we’re excited about in design systems, and talk about the technologies that are changing the way we build.'/>
@@ -428,7 +358,7 @@ export default () =>
         </Container>
       </Flex>
     </Box>
-    <Box bg='green'>
+    <Box bg='yellow'>
       <Container>
         <Box ml={['10%','0']}>
           <Text py={3} pl={2} pr={[2,2,2,3,3]}>

@@ -5,11 +5,11 @@ import Text from './Text'
 import Link from './Link'
 
 const MediaSmall = props => (
-  <Box mb={2}>
+  <Box mb={3}>
     <Link href={props.href}>
-      <SubHeading fontSize={2}>{props.title}</SubHeading>
+      <SubHeading>{props.title}</SubHeading>
     </Link>
-    <Text fontSize={2}>{props.text}</Text>
+    <Text>{props.text}</Text>
   </Box>
 )
 

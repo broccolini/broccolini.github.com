@@ -1,14 +1,13 @@
 import styled from 'styled-components'
-import { space, fontSize, fontFamily, width, color } from 'styled-system'
+import { space, fontSize, width, color } from 'styled-system'
 
 const Heading1 = styled('h1')(
   [],
   props => ({
-    fontWeight: '700',
+    fontWeight: 'bold',
     lineHeight: 1.25
   }),
   space,
-  fontFamily,
   fontSize,
   width,
   color
