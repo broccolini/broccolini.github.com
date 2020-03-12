@@ -7,7 +7,7 @@ import SubHeading from './SubHeading'
 import Link from './Link'
 
 const Media = props => (
-  <Box mb={4}>
+  <Box mb={3}>
     <Link href={props.href}>
       <SubHeading mb={1}>{props.title}</SubHeading>
     </Link>

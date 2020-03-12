@@ -13,7 +13,16 @@ const LinkCard = styled('a')(
   [],
   props => ({
     webkitTextDecoration: 'none',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    '&:hover': {
+      color: '#6AFFC9',
+      '& img': {
+        transitionProperty: 'transform, filter',
+        transitionDuration: '.3s, .10s',
+        transitionTimingFunction: 'ease-in-out, ease-in-out',
+        filter: 'hue-rotate(170deg)'
+      }
+    }
   }),
   space,
   fontSize,
@@ -25,17 +34,8 @@ const LinkCard = styled('a')(
 )
 
 LinkCard.defaultProps = {
-  color: 'yellow',
-  hover: {
-    color: '#fff',
-    '& img': {
-      transition: 'all 0.10s',
-      filter: 'hue-rotate(177deg)',
-      'outline-style': 'solid',
-      'outline-width': '4px',
-      'outline-color': 'white'
-    }
-  }
+  color: '#f352ff',
+  bg: 'white',
 }
 
 export default LinkCard
