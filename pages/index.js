@@ -5,6 +5,7 @@ import {
   ButtonOutline,
   Card,
   Container,
+  GradientBox,
   Heading,
   Heading1,
   HeadingAccent,
@@ -45,13 +46,13 @@ export default () =>
         </Box>
       </Container>
       <Container mb={[5,6,7]}>
-        <Box ml={2} bg='yellow'>
-          <Box width={[1,1,1,2/3,1/2]}>
-            <Text py={3} pl={3} pr={[2,2,2,3,3]}>
-            I’m a designer who likes to code. I specialize in design systems and have a background in user-centered design. Currently Director of Design Infrastructure at GitHub and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people.  Living in Brooklyn, NY, and loving it.
+        <GradientBox ml={2}>
+          <Box width={[1,1,1,3/4,1/2]}>
+            <Text fontSize={3} fontWeight={400} py={3} pl={3} pr={[2,2,2,3,3]}>
+            I’m a designer who likes to code. Currently Director of Design Infrastructure at GitHub, and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people. Living in Brooklyn, NY, and loving it.
             </Text>
           </Box>
-        </Box>
+        </GradientBox>
       </Container>
 
       <Container mb={6}>
@@ -91,35 +92,35 @@ export default () =>
               <Media
               href='https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542'
               title='Design Systems at GitHub'
-              text='For years GitHub designers have documented UI patterns and shared common styles, but it wasn’t until 2016 that the design systems team was formed. This post shares a brief history of how the team grew, what we’ve been working on, and what’s next.'/>
+              text='July, 2018'/>
               <Media
               href='https://hackdesign.org/lessons/96-design-system-fundamentals'
               title='Hack Design: Design System Fundamentals'
-              text='With so many examples of design systems out there, it can be hard to know where to start or know what is right for your company. This lesson introduces you to the fundamentals of building design systems.'/>
+              text='This lesson introduces you to the fundamentals of building design systems.'/>
               <Media
               href='https://the-pastry-box-project.net/diana-mounter/2018-january-25'
               title='The Peacock’s Demo: a design fable'
-              text='I’m contributing to The Pastry Box Project by writing design fables. The fables I choose to write about are inspired by my own experiences as a designer and working in the tech industry.'/>
+              text='January, 2018'/>
               <Media
               href='https://www.designbetter.co/design-systems-handbook/putting-design-system-practice'
               title='Design Systems Handbook: putting your design system into practice'
-              text='This chapter focusses on how to encourage adoption of your design system, publishing and distribution methods, and considerations for making your design system public vs private.'/>
+              text='An online and printed handbook on design systems.'/>
               <Media
               href='http://www.creativebloq.com/web-design/empower-designers-code-41619919'
               title='How to Empower Designers to Code'
-              text='For many designers the best way to learn front-end development is on the job. Many companies want to attract designers who code, but may fall short of providing enough support.'/>
+              text='April, 2016'/>
               <Media
               href='https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/'
               title='Rebuilding the Foundation of Etsy’s Seller Tools'
-              text='How we redesigned the seller-facing web app, and built a new style guide in the process. Written for Etsy’s Code as Craft blog, in collaboration with coworkers from the shop management team.'/>
+              text='February, 2015'/>
               <Media
               href='https://medium.com/@broccolini/embracing-change-in-your-workplace-544ec73db0c8'
               title='Embracing Change in Your Workplace'
-              text='The biggest challenges you face in a workplace are often not in how to build the product but in how to build a healthy work environment.'/>
+              text='January, 2015'/>
               <Media
-              href='https://medium.com/@broccolini/embracing-change-in-your-workplace-544ec73db0c8'
+              href='https://medium.com/@broccolini/move-fast-and-make-something-of-your-life-34b7feabb86f'
               title='Move Fast and Make Something (of your life)'
-              text='I spent the majority of my first trip to America looking at a computer screen, while sat on a bus that traveled from San Francisco to Austin. It turned out to be a life-changing experience.'/>
+              text='June, 2013'/>
             </Box>
           </Box>
         </Container>
@@ -133,7 +134,7 @@ export default () =>
           <Flex ml={2}mb={3}wrap>
             <Box width={[1,3/4,1/2,1/3]} pr={'24px'} mb={3,3,4}>
               <Card
-              src='http://broccolini.net/images/dsc-yellow.png'
+              src='https://user-images.githubusercontent.com/334891/76377116-6acacb80-6320-11ea-930e-1c04cdc40d73.png'
               href='http://designsystems.nyc/'
               title='Design Systems Coalition NYC'
               />
@@ -174,7 +175,7 @@ export default () =>
         <Box ml={2} bg='black'>
             <Box width={[1,3/4,1,2/3]} p={3} pr={2}>
               <VideoCard
-                src='https://user-images.githubusercontent.com/334891/54493950-aff22400-48ab-11e9-9af2-a5a15f398e87.png'
+                src='https://user-images.githubusercontent.com/334891/76375954-736dd280-631d-11ea-870b-97acf26042a4.png'
                 href='https://youtu.be/hftvh9SNEZQ'
                 title='Design System APIs @ Design Systems London'
                 />

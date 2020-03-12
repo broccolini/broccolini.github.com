@@ -19,7 +19,7 @@ NavLink.defaultProps = {
   fontSize: 5,
   fontWeight: 'bold',
   hover: {
-    backgroundColor: '#ffeb3b'
+    backgroundColor: 'green'
   }
 }
 

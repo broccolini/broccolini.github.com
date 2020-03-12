@@ -15,13 +15,12 @@ const LinkCard = styled('a')(
     webkitTextDecoration: 'none',
     textDecoration: 'none',
     '&:hover': {
-      color: 'white',
+      color: '#6AFFC9',
       '& img': {
         transitionProperty: 'transform, filter',
         transitionDuration: '.3s, .10s',
         transitionTimingFunction: 'ease-in-out, ease-in-out',
-        transform: 'scale(1.01)',
-        filter: 'hue-rotate(177deg)'
+        filter: 'hue-rotate(170deg)'
       }
     }
   }),
@@ -35,7 +34,7 @@ const LinkCard = styled('a')(
 )
 
 LinkCard.defaultProps = {
-  color: 'yellow',
+  color: '#f352ff',
   bg: 'white',
 }
 

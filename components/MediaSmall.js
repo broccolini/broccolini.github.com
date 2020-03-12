@@ -7,7 +7,7 @@ import Link from './Link'
 const MediaSmall = props => (
   <Box mb={3}>
     <Link href={props.href}>
-      <SubHeading>{props.title}</SubHeading>
+      <SubHeading mb={1}>{props.title}</SubHeading>
     </Link>
     <Text>{props.text}</Text>
   </Box>

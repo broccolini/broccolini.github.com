@@ -1,17 +1,20 @@
 {
   "fonts":[
-    "Athelas, Georgia, serif"
+    "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
   ],
   "space":[0,8,16,32,64,128,256,320],
   "fontSizes":[12,14,16,20,24,32,48,64,72,96],
   "colors":{
-    "black":"#0c0c0f",
+    "black":"#23232c",
     "gray":"#c6c6cb",
-    "blue":"#3b52ff",
+    "blue":"#514EFD",
     "blueDark":"#3549e5",
-    "yellow":"#ffeb3b",
+    "yellow":"#F5FA1C",
     "white":"#fff",
-    "grayLight":"#ebebec"
+    "grayLight":"#ebebec",
+    "pink":"#f352ff",
+    "purple":"#764aef",
+    "green":"#6AFFC9"
   },
   "textColor":"black",
   "lineHeight":"1.5",

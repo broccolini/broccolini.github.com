@@ -18,10 +18,10 @@
   "homepage": "https://github.com/broccolini/broccolini.github.com#readme",
   "devDependencies": {
     "@compositor/x0": "^5.0.8",
-    "grid-styled": "^4.1.1",
-    "react": "^16.4.1",
-    "styled-components": "^3.3.2",
-    "styled-system": "^2.3.1"
+    "grid-styled": "^4.3.3",
+    "react": "^16.13.0",
+    "styled-components": "^3.4.10",
+    "styled-system": "^2.3.6"
   },
   "x0": {
     "title": "broccolini.net"
