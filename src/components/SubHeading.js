@@ -2,10 +2,10 @@ import styled from 'styled-components'
 import { space, fontSize, fontWeight, width, color } from 'styled-system'
 
 const SubHeading = styled('h2')(
-  props => ({
+  {
     fontWeight: 700,
     lineHeight: 1.25
-  }),
+  },
   space,
   fontSize,
   fontWeight,

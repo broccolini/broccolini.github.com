@@ -8,7 +8,7 @@ import {
 } from 'styled-system'
 
 const ButtonOutline = styled('button')(
-  props => ({
+  {
     display: 'inline-block',
     fontFamily: 'inherit',
     borderWidth: '1px',
@@ -19,7 +19,7 @@ const ButtonOutline = styled('button')(
       color: 'white',
       backgroundColor: 'blue'
     },
-  }),
+  },
   space,
   fontSize,
   width,

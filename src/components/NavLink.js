@@ -3,13 +3,13 @@ import { space, fontSize, width, color, fontWeight } from 'styled-system'
 import LinkDark from './LinkDark'
 
 const NavLink = styled(LinkDark)(
-  props => ({
+  {
     lineHeight: '1.5',
     '&:hover': {
       backgroundColor: '#ffeb3b'
       // backgroundColor: 'green'
     }
-  }),
+  },
   space,
   fontSize,
   width,

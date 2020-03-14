@@ -7,8 +7,7 @@ import {
 } from 'styled-system'
 
 const LinkCard = styled('a')(
-  [],
-  props => ({
+  {
     webkitTextDecoration: 'none',
     textDecoration: 'none',
     '&:hover': {
@@ -20,7 +19,7 @@ const LinkCard = styled('a')(
         filter: 'hue-rotate(170deg)'
       }
     }
-  }),
+  },
   space,
   fontSize,
   width,

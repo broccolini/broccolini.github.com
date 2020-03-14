@@ -2,10 +2,10 @@ import styled from 'styled-components'
 import { space, fontSize, width, color } from 'styled-system'
 
 const ImageFit = styled('img')(
-  props => ({
+  {
     display: 'block',
     width: '100%'
-  }),
+  },
   space,
   fontSize,
   width,
