@@ -12,13 +12,12 @@ const LinkCard = styled('a')(
     webkitTextDecoration: 'none',
     textDecoration: 'none',
     '&:hover': {
-      color: '#fff',
+      color: '#6AFFC9',
       '& img': {
-        transition: 'all 0.10s',
-        filter: 'hue-rotate(177deg)',
-        'outline-style': 'solid',
-        'outline-width': '4px',
-        'outline-color': 'white'
+        transitionProperty: 'transform, filter',
+        transitionDuration: '.3s, .10s',
+        transitionTimingFunction: 'ease-in-out, ease-in-out',
+        filter: 'hue-rotate(170deg)'
       }
     }
   }),
@@ -29,7 +28,8 @@ const LinkCard = styled('a')(
 )
 
 LinkCard.defaultProps = {
-  color: 'yellow',
+  color: '#f352ff',
+  bg: 'white',
 }
 
 export default LinkCard

@@ -5,7 +5,8 @@
   "description": "The personal website of Diana Mounter, built with Gatsby",
   "scripts": {
     "start": "gatsby develop --open",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "publish": "npx gh-pages -d public"
   },
   "repository": {
     "type": "git",

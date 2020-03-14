@@ -4,7 +4,7 @@ import Heading from './Heading'
 
 const HeadingAccent = styled(Heading)(
   props => ({
-    borderBottomColor: 'yellow',
+    borderBottomColor: '#6AFFC9',
     borderBottomWidth: '4px',
     borderBottomStyle: 'solid'
   }),

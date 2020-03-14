@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { space, fontSize, width, color } from 'styled-system'
+import { space, fontSize, width, color, fontWeight } from 'styled-system'
 
 const Text = styled('div')(
   props => ({
@@ -7,12 +7,13 @@ const Text = styled('div')(
   }),
   space,
   fontSize,
+  fontWeight,
   width,
   color
 )
 
 Text.defaultProps = {
-  fontSize: 4
+  fontSize: 3
 }
 
 export default Text
