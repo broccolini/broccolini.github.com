@@ -166,7 +166,7 @@ export default () =>
         <Box ml={2} bg='black'>
             <Box width={[1,3/4,1,2/3]} p={[2,2,2,3]} pr={[2,2,2,2]}>
               <VideoCard
-                src='https://user-images.githubusercontent.com/334891/76375954-736dd280-631d-11ea-870b-97acf26042a4.png'
+                src='dsl.png'
                 href='https://youtu.be/hftvh9SNEZQ'
                 title='Design System APIs @ Design Systems London'
                 />
