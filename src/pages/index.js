@@ -123,18 +123,18 @@ export default () =>
             Highlights
           </HeadingAccent>
           <Flex ml={2} mb={3} flexWrap='wrap'>
-            <Box width={[1, 3/4, 1/2, 1/3]} pr={'24px'} mb={[3,3,4]}>
+            <Box width={[1, 3/4, 1/2, 1/3]} pr={2} mb={[3,3,4]}>
               <Card
-              src='https://user-images.githubusercontent.com/334891/76377116-6acacb80-6320-11ea-930e-1c04cdc40d73.png'
+              src='dsc.png'
               href='http://designsystems.nyc/'
               title='Design Systems Coalition NYC'
               />
               <Text fontSize={3} mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
               </Text>
             </Box>
-            <Box width={[1,3/4,1/2,1/3]} pl={1} pr={2} mb={[3,3,4]}>
+            <Box width={[1, 3/4, 1/2, 1/3]} pr={2} mb={[3,3,4]}>
               <Card
-              src='https://user-images.githubusercontent.com/334891/54498469-4c351e80-48de-11e9-8602-124af67dba8a.png'
+              src='primer.svg'
               href='http://primer.style'
               title='Primer design system'
               />
@@ -164,7 +164,7 @@ export default () =>
       </Flex> */}
       <Container mb={[4]}>
         <Box ml={2} bg='black'>
-            <Box width={[1,3/4,1,2/3]} p={3} pr={2}>
+            <Box width={[1,3/4,1,2/3]} p={[2,2,2,3]} pr={[2,2,2,2]}>
               <VideoCard
                 src='https://user-images.githubusercontent.com/334891/76375954-736dd280-631d-11ea-870b-97acf26042a4.png'
                 href='https://youtu.be/hftvh9SNEZQ'
@@ -337,42 +337,42 @@ export default () =>
           </Box>
           <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
-            src='http://broccolini.net/images/50-shades.svg'
+            src='50-shades.svg'
             href='http://broccolini.net/50shadesofblk/'
             title='50 Shades of black'
             />
           </Box>
           <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
-            src='http://broccolini.net/images/wkyuan.svg'
+            src='wkyuan.svg'
             href='http://whatkeepsyouupatnight.io/'
             title='What keeps you up at night?'
             />
           </Box>
           <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
-            src='http://broccolini.net/images/swiss.svg'
+            src='swiss.svg'
             href='http://broccolini.net/swiss/'
             title='Swiss Jekyll theme'
             />
           </Box>
           <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
-            src='http://broccolini.net/images/athena.svg'
+            src='athena.svg'
             href='http://broccolini.net/athena/'
             title='Athena Jekyll theme'
             />
           </Box>
           <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
-            src='http://broccolini.net/images/soundsradcakes.svg'
+            src='soundsradcakes.svg'
             href='http://soundsradcakes.com/'
             title='Soundsradcakes'
             />
           </Box>
           <Box width={[1,3/4,1/3,1/4]} px={2} mb={[3,3,4]}>
             <Card
-            src='http://broccolini.net/images/robotodex.svg'
+            src='robotodex.svg'
             href='http://robotodex.com/'
             title='Robotodex'
             />
