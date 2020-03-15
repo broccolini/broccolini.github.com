@@ -2,10 +2,11 @@
   "private": true,
   "name": "broccolini.github.com",
   "version": "1.0.0",
-  "description": "The personal website of Diana Mounter, built with [x0](https://github.com/c8r/x0).",
+  "description": "The personal website of Diana Mounter, built with Gatsby",
   "scripts": {
-    "start": "x0 pages -op 8888",
-    "build": "x0 build pages -d . --static"
+    "start": "gatsby develop --open",
+    "build": "gatsby build",
+    "publish": "npx gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -16,14 +17,16 @@
     "url": "https://github.com/broccolini/broccolini.github.com/issues"
   },
   "homepage": "https://github.com/broccolini/broccolini.github.com#readme",
-  "devDependencies": {
-    "@compositor/x0": "^5.0.8",
-    "grid-styled": "^4.3.3",
-    "react": "^16.13.0",
-    "styled-components": "^3.4.10",
-    "styled-system": "^2.3.6"
-  },
-  "x0": {
-    "title": "broccolini.net"
+  "dependencies": {
+    "@rebass/grid": "^6.1.0",
+    "@theme-ui/css": "^0.3.1",
+    "gatsby": "^2.19.43",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-styled-components": "^3.1.20",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "styled-components": "^5.0.1",
+    "styled-system": "^5.1.5"
   }
 }
