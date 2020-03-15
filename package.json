@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gatsby develop --open",
     "build": "gatsby build",
-    "publish": "npx gh-pages -d public"
+    "deploy": "npx gh-pages -d public -b master"
   },
   "repository": {
     "type": "git",
