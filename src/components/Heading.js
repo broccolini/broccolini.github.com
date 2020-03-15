@@ -1,21 +1,21 @@
 import styled from 'styled-components'
 import { space, fontSize, fontFamily, width, color, fontWeight } from 'styled-system'
+import sx from './sx'
+import {css} from '@theme-ui/css'
 
 const Heading = styled('h2')(
-  {
-    lineHeight: 1.25
-  },
+  css({
+    lineHeight: 1.25,
+    fontWeight: 700,
+    fontSize: 5,
+    margin: 0
+  }),
   space,
   fontSize,
   fontWeight,
   width,
-  color
+  color,
+  sx
 )
-
-Heading.defaultProps = {
-  fontWeight: 700,
-  fontSize: 5,
-  m: 0
-}
 
 export default Heading
