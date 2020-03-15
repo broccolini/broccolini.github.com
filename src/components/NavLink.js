@@ -6,8 +6,8 @@ const NavLink = styled(LinkDark)(
   {
     lineHeight: '1.5',
     '&:hover': {
-      backgroundColor: '#ffeb3b'
-      // backgroundColor: 'green'
+      backgroundColor: '#6AFFC9',
+      color: '#23232c'
     }
   },
   space,

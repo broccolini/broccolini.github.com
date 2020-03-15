@@ -12,8 +12,4 @@ const Text = styled('div')(
   color
 )
 
-Text.defaultProps = {
-  fontSize: 3
-}
-
 export default Text

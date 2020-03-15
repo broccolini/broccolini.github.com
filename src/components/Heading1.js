@@ -4,7 +4,8 @@ import { space, fontSize, fontFamily, width, color } from 'styled-system'
 const Heading1 = styled('h1')(
   {
     fontWeight: '700',
-    lineHeight: 1.25
+    lineHeight: 1.25,
+    margin: 0
   },
   space,
   fontFamily,
@@ -15,7 +16,6 @@ const Heading1 = styled('h1')(
 
 Heading1.defaultProps = {
   fontSize: 8,
-  m: 0
 }
 
 export default Heading1

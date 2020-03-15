@@ -419,7 +419,7 @@ export default () =>
         </Container>
       </Flex>
     </Box>
-    <Box bg='green'>
+    <GradientBox>
       <Container>
         <Box ml={['10%','0']}>
           <Text py={3} pl={2} pr={[2,2,2,3,3]}>
@@ -429,5 +429,5 @@ export default () =>
           </Text>
         </Box>
       </Container>
-    </Box>
+    </GradientBox>
   </Layout>

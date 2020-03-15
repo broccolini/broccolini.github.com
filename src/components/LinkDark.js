@@ -5,7 +5,7 @@ const LinkDark = styled('a')(
   {
     textDecoration: 'none',
     '&:hover': {
-      color: '#3b52ff'
+      color: '#514EFD'
     }
   },
   space,

@@ -4,7 +4,8 @@ import { space, fontSize, fontWeight, width, color } from 'styled-system'
 const SubHeading = styled('h2')(
   {
     fontWeight: 700,
-    lineHeight: 1.25
+    lineHeight: 1.25,
+    margin: 0,
   },
   space,
   fontSize,
@@ -15,7 +16,6 @@ const SubHeading = styled('h2')(
 
 SubHeading.defaultProps = {
   fontSize: 3,
-  m: 0
 }
 
 export default SubHeading
