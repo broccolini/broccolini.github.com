@@ -28,6 +28,20 @@ export default ({ children }) =>
   <>
     <Helmet>
       <title>broccolini.net</title>
+      <link
+        rel='icon'
+        type='image/png'
+        href='favicon.png'
+      />
+      <link
+        rel='apple-touch-icon'
+        href='apple-touch-icon.png'
+      />
+      <meta name='og:title' content='broccolini' />
+      <meta name='og:description' content='Diana Mounter’s personal website' />
+      <meta name='og:image' content='http://broccolini.net/apple-touch-icon.png' />
+      <meta name='twitter:card' content='summary_large_image' />
+      <meta name='twitter:site' content='@broccolini' />
     </Helmet>
     <Global />
     <ThemeProvider theme={theme}>
