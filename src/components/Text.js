@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { space, fontSize, width, color, fontWeight } from 'styled-system'
+import { space, fontSize, fontFamily, width, color, fontWeight } from 'styled-system'
 
 const Text = styled('div')(
   {
@@ -7,6 +7,7 @@ const Text = styled('div')(
   },
   space,
   fontSize,
+  fontFamily,
   fontWeight,
   width,
   color
