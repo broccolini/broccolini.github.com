@@ -7,11 +7,26 @@ const Prose = styled('div')(
   css({
     fontSize: 1,
     fontWeight: 400,
+    lineheight: '1.25',
     img: {
         maxWidth: '100%',
     },
+    a: {
+      color: 'black',
+    },
     blockquote: {
-      margin:0,
+      fontFamily:'serif',
+      fontSize: 5,
+      borderLeftColor: 'grayLight',
+      borderLeftWidth: '1',
+      borderLeftStyle: 'solid',
+      margin: 0,
+      paddingLeft: 2,
+    },
+    small: {
+      marginLeft: '-28px',
+      marginTop: -4,
+      backgroundColor: 'grayLight'
     }
   }),
   space,

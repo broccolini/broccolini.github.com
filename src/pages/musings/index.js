@@ -24,9 +24,9 @@ import {
   PostItem,
 } from '../../components'
 import Post2019_12_25 from './post_2019-12-25.mdx'
-import Post2020_02_16 from './post_2020-02-16.mdx'
+import Post2020_02_08 from './post_2020-02-08.mdx'
 import Post2020_03_14 from './post_2020-03-14.mdx'
-import Post2020_03_17 from './post_2019-03-17.mdx'
+import Post2020_03_17 from './post_2020-03-17.mdx'
 
 export default () =>
   <Layout>
@@ -51,7 +51,7 @@ export default () =>
             <Post2020_03_14 />
           </PostItem>
           <PostItem>
-            <Post2020_02_16 />
+            <Post2020_02_08 />
           </PostItem>
           <PostItem>
             <Post2019_12_25 />
