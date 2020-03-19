@@ -1,62 +1,70 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '../../layout'
 import {
   Box,
-  Flex,
-  Card,
   Container,
-  GradientBox,
-  Heading,
   Heading1,
-  HeadingAccent,
   LeadText,
-  Link,
   LinkDark,
-  Media,
-  MediaSmall,
-  Nav,
-  NavList,
   Text,
-  VideoCard,
-  StreamItem,
-  Prose,
-  Post,
   PostItem,
 } from '../../components'
-import Post2019_12_25 from './post_2019-12-25.mdx'
-import Post2020_02_08 from './post_2020-02-08.mdx'
-import Post2020_03_14 from './post_2020-03-14.mdx'
-import Post2020_03_17 from './post_2020-03-17.mdx'
 
-export default () =>
-  <Layout>
-    <Box ml={['10%','0']}>
-      <Container mt={5} mb={2}>
-      <Box width={[1,1,1,2/3]} pl={2} pr={3} mb={5}>
-          <LeadText>
-            <LinkDark href='http://broccolini.net'>
-              broccolini
-            </LinkDark>
-          </LeadText>
-          <Heading1 mb={1}>
-            Musings
-          </Heading1>
-          <Text fontFamily='mono' fontSize={2}>Thoughts, explorations, daydreaming, and reflection</Text>
-        </Box>
-        <Box width={[1,1,1,2/3]} pl={2} pr={3}>
-          <PostItem>
-            <Post2020_03_17 />
-          </PostItem>
-          <PostItem>
-            <Post2020_03_14 />
-          </PostItem>
-          <PostItem>
-            <Post2020_02_08 />
-          </PostItem>
-          <PostItem>
-            <Post2019_12_25 />
-          </PostItem>
-        </Box>      
-      </Container>
-    </Box>
-  </Layout>
+// todo: filter by path if using MDX elsewhere in the site
+export const query = graphql`
+query {
+  posts: allMdx(
+    sort: {
+      fields: frontmatter___date,
+      order: DESC
+    }
+  ) {
+    nodes {
+      id
+      body
+      frontmatter {
+        title
+        date(formatString: "YYYY-MM-DD")
+      }
+    }
+  }
+}
+`
+
+export default ({
+  data,
+}) => {
+  const posts = data.posts.nodes
+
+  return (
+    <Layout>
+      <Box ml={['10%','0']}>
+        <Container mt={5} mb={2}>
+        <Box width={[1,1,1,2/3]} pl={2} pr={3} mb={5}>
+            <LeadText>
+              <LinkDark href='http://broccolini.net'>
+                broccolini
+              </LinkDark>
+            </LeadText>
+            <Heading1 mb={1}>
+              Musings
+            </Heading1>
+            <Text fontFamily='mono' fontSize={2}>Thoughts, explorations, daydreaming, and reflection</Text>
+          </Box>
+          <Box width={[1,1,1,2/3]} pl={2} pr={3}>
+            {posts.map(post => (
+              <PostItem key={post.id}>
+                <pre>{post.frontmatter.date}</pre>
+                <MDXRenderer
+                  children={post.body}
+                />
+              </PostItem>
+            ))}
+          </Box>
+        </Container>
+      </Box>
+    </Layout>
+  )
+}
