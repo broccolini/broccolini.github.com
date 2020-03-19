@@ -23,6 +23,12 @@ import {
   Post,
   PostItem,
 } from '../../components'
+import Post2019_04_01 from './post_2019-04-01.mdx'
+import Post2019_04_02 from './post_2019-04-02.mdx'
+import Post2019_04_03 from './post_2019-04-03.mdx'
+import Post2019_07_01 from './post_2019-07-01.mdx'
+import Post2019_09_28 from './post_2019-09-28.mdx'
+import Post2019_11_19 from './post_2019-11-19.mdx'
 import Post2019_12_25 from './post_2019-12-25.mdx'
 import Post2020_02_08 from './post_2020-02-08.mdx'
 import Post2020_03_14 from './post_2020-03-14.mdx'
@@ -55,6 +61,24 @@ export default () =>
           </PostItem>
           <PostItem>
             <Post2019_12_25 />
+          </PostItem>
+          <PostItem>
+            <Post2019_11_19 />
+          </PostItem>
+          <PostItem>
+            <Post2019_09_28 />
+          </PostItem>
+          <PostItem>
+            <Post2019_07_01 />
+          </PostItem>
+          <PostItem>
+            <Post2019_04_03 />
+          </PostItem>
+          <PostItem>
+            <Post2019_04_02 />
+          </PostItem>
+          <PostItem>
+            <Post2019_04_01 />
           </PostItem>
         </Box>      
       </Container>
