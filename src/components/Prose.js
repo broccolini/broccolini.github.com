@@ -10,7 +10,7 @@ const Prose = styled('div')(
     paddingTop: '1px',
     p: {
       margin: 0,
-      marginTop: '26px'
+      marginTop: '24px'
     },
     img: {
         maxWidth: '100%',
