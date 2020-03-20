@@ -10,7 +10,7 @@ const Typography = styled.div(
   color
 )
 Typography.defaultProps = {
-  fontFamily: '0',
+  fontFamily: 'body',
   lineHeight: 1.5,
   color: 'black'
 }

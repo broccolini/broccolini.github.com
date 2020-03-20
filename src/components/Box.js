@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { space, fontSize, width, color } from 'styled-system'
+import sx from './sx'
 
 const Box = styled('div')(
   {
@@ -8,7 +9,8 @@ const Box = styled('div')(
   space,
   fontSize,
   width,
-  color
+  color,
+  sx
 )
 
 Box.defaultProps = {

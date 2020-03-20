@@ -1,17 +1,19 @@
 {
-  "fonts":[
-    "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
-  ],
+  "fonts":{
+    "body":"-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif",
+    "mono":"SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace",
+    "serif": "Athelas, Georgia, serif"
+  },
   "space":[0,8,16,32,64,128,256,320],
   "fontSizes":[12,14,16,20,24,32,48,64,72,96],
   "colors":{
     "black":"#23232c",
-    "gray":"#c6c6cb",
+    "gray":"#D5D5DE",
+    "grayLight":"#ECECF2",
     "blue":"#514EFD",
     "blueDark":"#3549e5",
     "yellow":"#F5FA1C",
     "white":"#fff",
-    "grayLight":"#ebebec",
     "pink":"#f352ff",
     "purple":"#764aef",
     "green":"#6AFFC9"
