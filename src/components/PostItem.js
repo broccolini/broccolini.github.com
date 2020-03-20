@@ -5,7 +5,7 @@ import Post from './Post'
 import Prose from './Prose'
 
 const PostItem = props => (
-  <Post>
+  <Post pb={3}>
     <Prose>
       {props.children}
     </Prose>

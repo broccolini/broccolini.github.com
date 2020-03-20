@@ -7,7 +7,11 @@ const Prose = styled('div')(
   css({
     fontSize: 1,
     fontWeight: 400,
-    lineheight: '1.25',
+    paddingTop: '1px',
+    p: {
+      margin: 0,
+      marginTop: '26px'
+    },
     img: {
         maxWidth: '100%',
     },
@@ -23,10 +27,12 @@ const Prose = styled('div')(
       margin: 0,
       paddingLeft: 2,
     },
-    small: {
-      marginLeft: '-28px',
-      marginTop: -4,
-      backgroundColor: 'grayLight'
+    pre: {
+      marginLeft: '-29px',
+      marginBottom: 3,
+      marginTop: '2px',
+      backgroundColor: 'grayLight',
+      display: 'inline'
     }
   }),
   space,

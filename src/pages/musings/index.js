@@ -51,9 +51,9 @@ export default ({
             <Heading1 mb={1}>
               Musings
             </Heading1>
-            <Text fontFamily='mono' fontSize={2}>Thoughts, explorations, daydreaming, and reflection</Text>
+            <Text fontFamily='mono' fontSize={2}>Thoughts · explorations · daydreams · reflections</Text>
           </Box>
-          <Box width={[1,1,1,2/3]} pl={2} pr={3}>
+          <Box width={[1,1,1,2/3]} pl={2} pr={[1,2,3,3]}>
             {posts.map(post => (
               <PostItem key={post.id}>
                 <pre>{post.frontmatter.date}</pre>

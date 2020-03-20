@@ -13,7 +13,7 @@ const Post = ({ sx, ...props }) =>
       borderWidth: '2px',
       borderStyle: 'dashed',
       paddingX: 3,
-      paddingBottom: 2,
+      paddingBottom: '40px',
       ...sx
     }}
   />
