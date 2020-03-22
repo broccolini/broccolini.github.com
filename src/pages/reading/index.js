@@ -19,6 +19,13 @@ query {
     sort: {
       fields: frontmatter___date,
       order: DESC
+    },
+    filter: {
+      fields: {
+        category: {
+          eq: "reading"
+        }
+      }
     }
   ) {
     nodes {
