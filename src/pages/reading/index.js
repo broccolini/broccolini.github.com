@@ -8,6 +8,7 @@ import {
   Heading1,
   LeadText,
   LinkDark,
+  Link,
   Text,
   PostItem,
 } from '../../components'
@@ -58,7 +59,7 @@ export default ({
             <Heading1 mb={1}>
               Reading
             </Heading1>
-            <Text fontFamily='mono' fontSize={2}>Fiction books · Non-fiction books · Online books · Articles</Text>
+            <Text fontFamily='mono' fontSize={2}>I read a lot of science fiction books which often generate a lot of fanart. Rather than simply using the cover of each book, where fanart and other representative imagery exist, I've picked images I think create intrigue about the book, or remind me of parts of the story.</Text>  
           </Box>
           <Box width={[1,1,1,2/3]} pl={2} pr={[1,2,3,3]}>
             {posts.map(post => (
@@ -70,6 +71,12 @@ export default ({
               </PostItem>
             ))}
           </Box>
+          <Box width={[1,1,1,2/3]} pl={2} pr={3} mb={5}>
+            <Text fontSize={2} mb={1}>Where possible images are linked to their source, please get in touch if you find incorrect or missing credit for artwork.</Text> 
+            
+            <LinkDark color='blue' href="https://github.com/broccolini/broccolini.github.com/issues/new">Report issue on GitHub →</LinkDark>
+          </Box>
+
         </Container>
       </Box>
     </Layout>
