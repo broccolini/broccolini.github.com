@@ -18,6 +18,9 @@ const Prose = styled('div')(
     a: {
       color: 'black',
     },
+    ul: {
+      paddingLeft: 2,
+    },
     blockquote: {
       fontFamily:'serif',
       fontSize: 5,
