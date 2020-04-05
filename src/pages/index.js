@@ -43,11 +43,11 @@ export default () =>
             </Text>
           </Box>
         </GradientBox>
-        <Box ml={['10%','0']}>
-          <Text fontFamily='mono' fontSize={2} py={3} pl={2} pr={[2,2,2,3,3]}>
-            <LinkDark href='/musings/' mr={2}>Musings</LinkDark>· 
-            <LinkDark href='/reading/' mx={2}>Reading</LinkDark>· 
-            <LinkDark href='https://twitter.com/broccolini' mx={2}>Twitter</LinkDark>
+        <Box ml={2}>
+          <Text fontFamily='mono' fontSize={2} py={3} pr={[2,2,2,3,3]}>
+            <LinkDark href='/musings/' mr={1}>Musings</LinkDark>· 
+            <LinkDark href='/reading/' mx={1}>Reading</LinkDark>· 
+            <LinkDark href='https://twitter.com/broccolini' mx={1}>Twitter</LinkDark>
           </Text>
         </Box>
       </Container>
