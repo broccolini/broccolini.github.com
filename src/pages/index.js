@@ -69,6 +69,10 @@ export default () =>
               href='#interviews'
               title='Interviews'
             />
+            <NavList
+              href='/musings/'
+              title='Musings →'
+            />
           </Nav>
         </Box>
       </Container>
