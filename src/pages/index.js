@@ -38,11 +38,18 @@ export default () =>
       <Container mb={[5,6,7]}>
         <GradientBox ml={2}>
           <Box width={[1,1,1,3/4,1/2]}>
-            <Text fontSize={3} fontWeight={400} py={3} pl={3} pr={[2,2,2,3,3]}>
+            <Text fontWeight='400' fontSize={3} py={3} pl={3} pr={[2,2,2,3,3]}>
             I’m a designer who likes to code. Currently Director of Design Infrastructure at GitHub, and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people. Living in Brooklyn, NY, and loving it.
             </Text>
           </Box>
         </GradientBox>
+        <Box ml={['10%','0']}>
+          <Text fontSize={3} py={3} pl={2} pr={[2,2,2,3,3]}>
+            <LinkDark href='/musings/' mr={3}>Musings</LinkDark>
+            <LinkDark href='/reading/' mr={3}>Reading</LinkDark>
+            <LinkDark href='https://twitter.com/broccolini' mr={2}>Twitter</LinkDark>
+          </Text>
+        </Box>
       </Container>
 
       <Container mb={6}>
@@ -68,10 +75,6 @@ export default () =>
             <NavList
               href='#interviews'
               title='Interviews'
-            />
-            <NavList
-              href='/musings/'
-              title='Musings →'
             />
           </Nav>
         </Box>
@@ -430,6 +433,7 @@ export default () =>
           <LinkDark href='https://twitter.com/broccolini' mr={2}>Twitter</LinkDark>
           <LinkDark href='https://github.com/broccolini' mr={2}>GitHub</LinkDark>
           <LinkDark href='https://medium.com/@broccolini' mr={2}>Medium</LinkDark>
+          <LinkDark href='https://www.linkedin.com/in/dianamounter/' mr={2}>LinkedIn</LinkDark>
           </Text>
         </Box>
       </Container>
