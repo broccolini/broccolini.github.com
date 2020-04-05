@@ -9,7 +9,7 @@ const MediaSmall = props => (
     <Link href={props.href}>
       <SubHeading fontSize={2}>{props.title}</SubHeading>
     </Link>
-    <Text fontSize={2}>{props.text}</Text>
+    <Text fontFamily='mono' fontSize={2}>{props.text}</Text>
   </Box>
 )
 
