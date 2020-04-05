@@ -6,8 +6,15 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'stream',
+        name: 'musings',
         path: __dirname + '/src/pages/musings/',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'reading',
+        path: __dirname + '/src/pages/reading/',
       },
     },
   ]
