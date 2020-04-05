@@ -9,7 +9,7 @@ const Media = props => (
     <Link href={props.href}>
       <SubHeading mb={1}>{props.title}</SubHeading>
     </Link>
-    <Text>{props.text}</Text>
+    <Text fontFamily='mono' fontSize={2}>{props.text}</Text>
   </Box>
 )
 

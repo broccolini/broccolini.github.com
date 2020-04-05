@@ -38,11 +38,18 @@ export default () =>
       <Container mb={[5,6,7]}>
         <GradientBox ml={2}>
           <Box width={[1,1,1,3/4,1/2]}>
-            <Text fontSize={3} fontWeight={400} py={3} pl={3} pr={[2,2,2,3,3]}>
-            I’m a designer who likes to code. Currently Director of Design Infrastructure at GitHub, and organizer for <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark>. I write and speak about design, code, and working with people. Living in Brooklyn, NY, and loving it.
+            <Text fontFamily='mono' fontSize={2} py={3} pl={3} pr={[2,2,2,3,3]}>
+            I’m a designer with an interest in systems thinking, <LinkDark href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</LinkDark>, and inclusive design. I work remotely for GitHub as their Director of Design Infrastructure, and organize the <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark> meetup. Living in Brooklyn, NY, and currently staying inside.
             </Text>
           </Box>
         </GradientBox>
+        <Box ml={2}>
+          <Text fontFamily='mono' fontSize={2} py={3} pr={[2,2,2,3,3]}>
+            <LinkDark href='/musings/' mr={1}>Musings</LinkDark>· 
+            <LinkDark href='/reading/' mx={1}>Reading</LinkDark>· 
+            <LinkDark href='https://twitter.com/broccolini' mx={1}>Twitter</LinkDark>
+          </Text>
+        </Box>
       </Container>
 
       <Container mb={6}>
@@ -129,7 +136,7 @@ export default () =>
               href='http://designsystems.nyc/'
               title='Design Systems Coalition NYC'
               />
-              <Text fontSize={3} mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
+              <Text fontFamily='mono' mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
               </Text>
             </Box>
             <Box width={[1, 3/4, 1/2, 1/3]} pr={2} mb={[3,3,4]}>
@@ -138,7 +145,7 @@ export default () =>
               href='http://primer.style'
               title='Primer design system'
               />
-              <Text fontSize={3} mt={1}>I helped form the GitHub design systems team in early 2016. I have continued to grow the team and guide the evolution of Primer, our proudly open-sourced design system.
+              <Text fontFamily='mono' mt={1}>I formed the GitHub design systems team in early 2016. I continue to grow the team and guide the evolution of Primer, our proudly open-sourced design system.
               </Text>
             </Box>
           </Flex>
@@ -321,7 +328,7 @@ export default () =>
               href='https://speakerdeck.com/broccolini/responding-to-change'
               title='Responding to Change'
               text='Agile Asbury, October 2014'/>
-              <Text fontSize={2} pt={2}>Even more talks on <Link href='https://speakerdeck.com/broccolini'>speakerdeck</Link> and <Link href='https://www.slideshare.net/diana.mounter/presentations'>slideshare</Link>.</Text>
+              <Text fontFamily='mono' fontSize={2} pt={2}>Even more talks on <Link href='https://speakerdeck.com/broccolini'>speakerdeck</Link> and <Link href='https://www.slideshare.net/diana.mounter/presentations'>slideshare</Link>.</Text>
             </Box>
           </Box>
         </Container>
@@ -422,10 +429,11 @@ export default () =>
     <GradientBox>
       <Container>
         <Box ml={['10%','0']}>
-          <Text py={3} pl={2} pr={[2,2,2,3,3]}>
+          <Text fontWeight='500' fontSize={3} py={3} pl={2} pr={[2,2,2,3,3]}>
           <LinkDark href='https://twitter.com/broccolini' mr={2}>Twitter</LinkDark>
           <LinkDark href='https://github.com/broccolini' mr={2}>GitHub</LinkDark>
           <LinkDark href='https://medium.com/@broccolini' mr={2}>Medium</LinkDark>
+          <LinkDark href='https://www.linkedin.com/in/dianamounter/' mr={2}>LinkedIn</LinkDark>
           </Text>
         </Box>
       </Container>
