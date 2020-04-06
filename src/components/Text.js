@@ -3,7 +3,7 @@ import { space, fontSize, fontFamily, width, color, fontWeight } from 'styled-sy
 
 const Text = styled('div')(
   {
-    lineHeight: '1.25'
+    lineHeight: '1.5'
   },
   space,
   fontSize,
