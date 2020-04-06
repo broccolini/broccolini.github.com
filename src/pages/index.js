@@ -44,7 +44,7 @@ export default () =>
           </Box>
         </GradientBox>
         <Box ml={2}>
-          <Text fontFamily='mono' fontSize={2} py={3} pr={[2,2,2,3,3]}>
+          <Text fontFamily='mono' fontSize={[1,1,2,2]} py={3} pr={[2,2,2,3,3]}>
           <LinkDark href='/about/' mr={1}>About</LinkDark>· 
             <LinkDark href='/musings/' mx={1}>Musings</LinkDark>· 
             <LinkDark href='/reading/' mx={1}>Reading</LinkDark>· 
@@ -430,7 +430,7 @@ export default () =>
     <GradientBox>
       <Container>
         <Box ml={['10%','0']}>
-          <Text fontWeight='500' fontSize={3} py={3} pl={2} pr={[2,2,2,3,3]}>
+          <Text fontWeight='500' fontSize={[2,2,3,3]} py={3} pl={2} pr={[2,2,2,3,3]}>
           <LinkDark href='https://twitter.com/broccolini' mr={2}>Twitter</LinkDark>
           <LinkDark href='https://github.com/broccolini' mr={2}>GitHub</LinkDark>
           <LinkDark href='https://medium.com/@broccolini' mr={2}>Medium</LinkDark>

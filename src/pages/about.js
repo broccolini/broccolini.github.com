@@ -34,7 +34,11 @@ export default () =>
             A bit about me
           </HeadingAccent>
           <Text fontFamily='mono' fontSize={2}  mb={3}>
-          I grew up in the UK (Dorset and Hampshire mostly) and I started my career in print design in the UK. I lived in Paris for a few magical years when I was a teenager, where I think I caught the itch to travel. In my early 20's I went back-packing to Australia to see how I'd "survive" on my own, and ended up living there for ~8 years, and became a citizen. While I was there I worked in a state government organization for 5 years and formed a community and conference series for local government web developers. My desire to do meaningful work took me to a small design agency in Syndey that specialized in environmental and social change projects, and I got to do some of my best work and really grow as a designer.
+          I grew up in the UK (Dorset and Hampshire mostly) and I started my career in print design in the UK. I lived in Paris for a few magical years when I was a teenager, where I think I caught the itch to travel.
+          </Text>
+
+          <Text fontFamily='mono' fontSize={2}  mb={3}>
+          In my early 20's I went back-packing to Australia to see how I'd "survive" on my own, and ended up living there for ~8 years, and became a citizen. While I was there I worked in a state government organization for 5 years and formed a community and conference series for local government web developers. My desire to do meaningful work took me to a small design agency in Syndey that specialized in environmental and social change projects, and I got to do some of my best work and grow as a designer.
           </Text> 
           
           <Text fontFamily='mono' fontSize={2}  my={3}>
@@ -45,7 +49,9 @@ export default () =>
           In 2013 I moved to NYC for a job with Etsy, where I helped re-design their seller tools, taught new designers how to push code, and was part of a small team that built a new design system.
           </Text>
 
-          <ImageFit width='66.6%' src="/map.png" />
+          <Box width={[1,1,3/4,3/5]}>
+            <ImageFit src="/map.png" />
+          </Box>
       
           <Text fontFamily='mono' fontSize={2}  my={4}>
           I still live in Brooklyn with my cat, Leia, and my husband, Jackson, working remotly for GitHub. I never had a plan to live in NYC, but there is something about the place that has kept me here, and—at the moment at least—it feels like home. Don't ask me which place I've lived I think is best, I believe in living in the moment. Wherever I am right now is best place to me ;)
@@ -58,7 +64,7 @@ export default () =>
     <GradientBox>
       <Container>
         <Box ml={['10%','0']}>
-          <Text fontWeight='500' fontSize={3} py={3} pl={2} pr={[2,2,2,3,3]}>
+          <Text fontWeight='500' fontSize={[2,2,3,3]} py={3} pl={2} pr={[2,2,2,3,3]}>
           <LinkDark href='https://twitter.com/broccolini' mr={2}>Twitter</LinkDark>
           <LinkDark href='https://github.com/broccolini' mr={2}>GitHub</LinkDark>
           <LinkDark href='https://medium.com/@broccolini' mr={2}>Medium</LinkDark>
