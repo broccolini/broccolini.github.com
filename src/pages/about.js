@@ -45,7 +45,7 @@ export default () =>
           In 2013 I moved to NYC for a job with Etsy, where I helped re-design their seller tools, taught new designers how to push code, and was part of a small team that built a new design system.
           </Text>
 
-          <ImageFit width='66.6%' src="map.png" />
+          <ImageFit width='66.6%' src="/map.png" />
       
           <Text fontFamily='mono' fontSize={2}  my={4}>
           I still live in Brooklyn with my cat, Leia, and my husband, Jackson, working remotly for GitHub. I never had a plan to live in NYC, but there is something about the place that has kept me here, and—at the moment at least—it feels like home. Don't ask me which place I've lived I think is best, I believe in living in the moment. Wherever I am right now is best place to me ;)

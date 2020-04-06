@@ -45,7 +45,8 @@ export default () =>
         </GradientBox>
         <Box ml={2}>
           <Text fontFamily='mono' fontSize={2} py={3} pr={[2,2,2,3,3]}>
-            <LinkDark href='/musings/' mr={1}>Musings</LinkDark>· 
+          <LinkDark href='/about/' mr={1}>About</LinkDark>· 
+            <LinkDark href='/musings/' mx={1}>Musings</LinkDark>· 
             <LinkDark href='/reading/' mx={1}>Reading</LinkDark>· 
             <LinkDark href='https://twitter.com/broccolini' mx={1}>Twitter</LinkDark>
           </Text>
