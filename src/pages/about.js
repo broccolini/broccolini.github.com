@@ -28,7 +28,7 @@ export default () =>
               Diana Mounter
           </Heading1>
           <Text fontFamily='mono' fontSize={2} mb={5}>
-          I’m a designer with an interest in systems thinking, <Link href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</Link>, and inclusive design. I work remotely for GitHub as their Director of Design Infrastructure, and organize the <Link href='http://designsystems.nyc'>Design Systems Coalition NYC</Link> meetup. Living in Brooklyn, NY, and currently staying inside.
+          I’m a designer with an interest in systems thinking, <LinkDark href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</LinkDark>, and inclusive design. I work remotely for GitHub as their Head of Design. I live in Brooklyn, NY, with my husband and two cats.
           </Text>
           <HeadingAccent mb={3}>
             A bit about me

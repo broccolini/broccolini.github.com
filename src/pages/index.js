@@ -39,7 +39,7 @@ export default () =>
         <GradientBox ml={2}>
           <Box width={[1,1,1,3/4,1/2]}>
             <Text fontFamily='mono' fontSize={2} py={3} pl={3} pr={[2,2,2,3,3]}>
-            I’m a designer with an interest in systems thinking, <LinkDark href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</LinkDark>, and inclusive design. I work remotely for GitHub as their Director of Design Infrastructure, and organize the <LinkDark href='http://designsystems.nyc'>Design Systems Coalition NYC</LinkDark> meetup. Living in Brooklyn, NY, and currently staying inside.
+            I’m a designer with an interest in systems thinking, <LinkDark href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</LinkDark>, and inclusive design. I work remotely for GitHub as their Head of Design. I live in Brooklyn, NY, with my husband and two cats.
             </Text>
           </Box>
         </GradientBox>
