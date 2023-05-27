@@ -4,7 +4,7 @@ import { space, fontSize, width, color } from 'styled-system'
 const Link = styled('a')(
   {
     '&:hover': {
-      color: '#f240ff'
+      color: '#514EFD'
     }
   },
   space,
@@ -14,7 +14,7 @@ const Link = styled('a')(
 )
 
 Link.defaultProps = {
-  color: 'blue',
+  color: 'black',
 }
 
 export default Link
