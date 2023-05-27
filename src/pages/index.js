@@ -17,6 +17,7 @@ import {
   Nav,
   NavList,
   Text,
+  SubHeading,
   VideoCard,
 } from '../components'
 
@@ -164,16 +165,16 @@ export default () =>
           </HeadingAccent>
         </Container>
       </Flex>
-      {/* <Flex>
+      <Flex>
         <Container mb={4}>
         <Box ml={2}>
           <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
           <Link href='https://www.designconference.aiga.org/event/craft'>
-            <SubHeading>Nordic JS - Norway, October 2020</SubHeading>
+            <SubHeading>Figma Config - San Francisco, June 2023</SubHeading>
           </Link>
         </Box>
         </Container>
-      </Flex> */}
+      </Flex>
       <Container mb={[4]}>
         <Box ml={2} bg='black'>
             <Box width={[1,3/4,1,2/3]} p={[2,2,2,3]} pr={[2,2,2,2]}>
@@ -190,14 +191,6 @@ export default () =>
           <Container mb={5}>
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
-
-            <Heading fontSize="4" mb={3}>Upcoming talks:</Heading>
-
-            <Media
-            href='https://config.figma.com/agenda?session=050592de-82af-48e6-9d78-4a6019988ebc'
-            title='A PR to Design Leadership'
-            text='Figma Config, June 2023'
-            />
 
               <Heading fontSize="4" mb={3}>Some of my favorite talks:</Heading>
 
