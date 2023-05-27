@@ -88,6 +88,10 @@ export default () =>
               Writing
             </HeadingAccent>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
+            <Media
+              href='https://github.blog/2023-05-17-designs-journey-towards-accessibility/'
+              title='Design’s journey towards Accessivility'
+              text='May, 2023'/>
               <Media
               href='https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542'
               title='Design Systems at GitHub'
@@ -186,8 +190,22 @@ export default () =>
           <Container mb={5}>
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
+
+            <Heading fontSize="4" mb={3}>Upcoming talks:</Heading>
+
+            <Media
+            href='https://config.figma.com/agenda?session=050592de-82af-48e6-9d78-4a6019988ebc'
+            title='A PR to Design Leadership'
+            text='Figma Config, June 2023'
+            />
+
               <Heading fontSize="4" mb={3}>Some of my favorite talks:</Heading>
 
+              <Media
+              href='https://www.clarityconf.com/session/the-diff-after-dark-mode'
+              title='The Diff After Dark Mode'
+              text='Clarity Conf, October 2021'
+              />
               <Media
               href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
               title='Themeability is the path to dark mode'
@@ -216,6 +234,11 @@ export default () =>
 
               <Heading fontSize="4" pt={3} mb={2}>All the talks:</Heading>
 
+              <MediaSmall
+              href='https://www.clarityconf.com/session/the-diff-after-dark-mode'
+              title='The Diff After Dark Mode'
+              text='Clarity Conf, October 2021'
+              />
               <MediaSmall
               href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
               title='Themeability is the path to dark mode'
