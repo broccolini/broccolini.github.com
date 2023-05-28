@@ -58,7 +58,7 @@ export default ({
             <Heading1 mb={1}>
               Musings
             </Heading1>
-            <Text fontFamily='mono' fontSize={2}>Thoughts · explorations · daydreams · reflections</Text>
+            <Text fontFamily='mono' fontSize={2}>Thinking · noodling · musing</Text>
           </Box>
           <Box width={[1,1,1,2/3]} pl={2} pr={[1,2,3,3]}>
             {posts.map(post => (
