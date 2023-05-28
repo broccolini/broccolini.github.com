@@ -91,7 +91,7 @@ export default () =>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
             <Media
               href='https://github.blog/2023-05-17-designs-journey-towards-accessibility/'
-              title='Design’s journey towards Accessivility'
+              title='Design’s journey towards Accessibility'
               text='May, 2023'/>
               <Media
               href='https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542'
