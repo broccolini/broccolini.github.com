@@ -19,6 +19,7 @@ import {
   Text,
   SubHeading,
   VideoCard,
+  LinkLight,
 } from '../components'
 
 export default () =>
@@ -57,6 +58,11 @@ export default () =>
       <Container mb={6}>
         <Box py={2} ml={2}>
           <Nav>
+          <NavList width={1/5}
+              color='black'
+              href='#work'
+              title='Work'
+            />
             <NavList width={1/5}
               color='black'
               href='#writing'
@@ -81,6 +87,39 @@ export default () =>
           </Nav>
         </Box>
       </Container>
+
+      <Flex>
+        <Container mb={4}>
+          <Box ml={2}>
+            <HeadingAccent mb={4} id='work'>
+              Work
+            </HeadingAccent>
+            <Box width={[1,1,1,3/4,1/2]}>
+            <Heading fontSize="3" mb={1}>GitHub</Heading>
+            <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
+            As GitHub's Head of Design I lead a cross-functional team including Product Design, Customer Research, Brand and Marketing Design, Design Infrastructure, Design Engineering, and Design Operations. My team is responsible for the end-to-end user experience of GitHub's products, brand direction for key events such as <Link href='https://twitter.com/broccolini/status/1590889579389005824'>GitHub Universe</Link>, and delivering compelling launch campaigns such as <Link href='https://youtu.be/4RfD5JiXt3A'>Copilot X</Link>. 
+            </Text>
+            <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
+            Since joining GitHub in 2015 I led the <Link href='http://primer.style/'>Primer</Link> design systems team and developed Primer from a CSS framework to mature design system of components, documentation, and tooling. Under my leadership, the team also shipped a significant <Link href='https://twitter.com/broccolini/status/1265746006974611461?s=20'>visual rededesign</Link> and the biggest <Link href='https://github.blog/changelog/2020-06-23-design-updates-to-repositories-and-github-ui/'>changes to the repository homepage</Link> in 5+ years. In 2020, my team delivered one of GitHub's most highly requested features – <Link href='https://twitter.com/github/status/1336362679506784256'>Dark mode</Link>.
+            </Text>
+            <Text fontFamily='mono' fontSize={2} mb={3} pr={[2,2,2,3,3]}>
+            In the first half of 2022 we were in a hyper-growth phase and I grew the team by 42%; onboarding designers, researchers, design engineers, managers and directors across the organization. I've developed the teams practices and processes, and built new specialist design teams such as growth design and accessibility design. Through my role leading design systems and now leading the Design Org, I've also been working to build a more <Link href='https://github.blog/2023-05-17-designs-journey-towards-accessibility/'>inclusive design culture</Link> and experience for our customers.
+            </Text>
+            <Heading fontSize="3" mb={1}>Etsy</Heading>
+            <Text fontFamily='mono' fontSize={2} mb={3} pr={[2,2,2,3,3]}>
+            Prior to joining GitHub, I spent several years at Etsy, where I worked on <Link href='https://www.etsy.com/codeascraft/rebuilding-the-foundation-of-etsy-seller-tools/'>re-designing seller tools</Link>, developed the design onboarding process and taught new designers how to push code, and was part of a small team that <Link href='http://slides.com/dianamounter/building-scalable-design#/'>built a new design system</Link>. 
+            </Text>
+            <Heading fontSize="3" mb={1}>Where it started</Heading>
+            <Text fontFamily='mono' fontSize={2} mb={3} pr={[2,2,2,3,3]}>
+            I started my career in print design in the UK, then moved to Australia where I worked in the public sector and a small strategic design agency, before moving the US (by way of a <Link href='https://medium.com/@broccolini/move-fast-and-make-something-of-your-life-34b7feabb86f'>hackathon on a bus</Link>) to experience the startup scene in silicon valley. 
+            </Text>
+            <Text fontFamily='mono' fontSize={2} mb={4} pr={[2,2,2,3,3]}>
+            Check out my <Link href='https://www.linkedin.com/in/dianamounter/'>LinkedIn</Link> profile for more details on my work history. 
+            </Text>
+          </Box>
+          </Box>
+        </Container>
+      </Flex>
 
       <Flex>
         <Container mb={4}>
