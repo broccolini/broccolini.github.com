@@ -361,6 +361,12 @@ export default () =>
           <HeadingAccent mb={4} ml={2} id='side-projects'>
             Side projects
           </HeadingAccent>
+                    
+            <Box ml={2} mb={4} width={[1,1,1,3/4,1/2]}>
+            <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
+            Most of these side projects are no longer active but sometimes I like to look back at them and remember what inspired me to do them at the time. 
+            </Text>
+            </Box>
         </Container>
         <Flex mb={3} ml={['0','20%','0','0']} flexWrap='wrap'>
           <Box width={[1,3/4,1/3,1/4]} px={2}>
