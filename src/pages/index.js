@@ -63,14 +63,14 @@ export default () =>
               href='#work'
               title='Work'
             />
+            <NavList
+              href='#talks'
+              title='Talks'
+            />
             <NavList width={1/5}
               color='black'
               href='#writing'
               title='Writing'
-            />
-            <NavList
-              href='#talks'
-              title='Talks'
             />
             <NavList
               href='#side-projects'
@@ -118,54 +118,6 @@ export default () =>
       </Flex>
 
       <Flex>
-        <Container mb={4}>
-          <Box ml={2}>
-            <HeadingAccent mb={4} id='writing'>
-              Writing
-            </HeadingAccent>
-            <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
-            <Media
-              href='https://github.blog/2023-05-17-designs-journey-towards-accessibility/'
-              title='Design’s journey towards Accessibility'
-              text='May, 2023'/>
-              <Media
-              href='https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542'
-              title='Design Systems at GitHub'
-              text='July, 2018'/>
-              <Media
-              href='https://hackdesign.org/lessons/96-design-system-fundamentals'
-              title='Hack Design: Design System Fundamentals'
-              text='This lesson introduces you to the fundamentals of building design systems.'/>
-              <Media
-              href='https://the-pastry-box-project.net/diana-mounter/2018-january-25'
-              title='The Peacock’s Demo: a design fable'
-              text='January, 2018'/>
-              <Media
-              href='https://www.designbetter.co/design-systems-handbook/putting-design-system-practice'
-              title='Design Systems Handbook: putting your design system into practice'
-              text='An online and printed handbook on design systems.'/>
-              <Media
-              href='http://www.creativebloq.com/web-design/empower-designers-code-41619919'
-              title='How to Empower Designers to Code'
-              text='April, 2016'/>
-              <Media
-              href='https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/'
-              title='Rebuilding the Foundation of Etsy’s Seller Tools'
-              text='February, 2015'/>
-              <Media
-              href='https://medium.com/@broccolini/embracing-change-in-your-workplace-544ec73db0c8'
-              title='Embracing Change in Your Workplace'
-              text='January, 2015'/>
-              <Media
-              href='https://medium.com/@broccolini/move-fast-and-make-something-of-your-life-34b7feabb86f'
-              title='Move Fast and Make Something (of your life)'
-              text='June, 2013'/>
-            </Box>
-          </Box>
-        </Container>
-      </Flex>
-
-      <Flex>
         <Container>
           <HeadingAccent mb={4} ml={2} id='talks'>
             Talks
@@ -202,7 +154,7 @@ export default () =>
               <Heading fontSize="4" mb={3}>Some of my favorite talks:</Heading>
 
               <Media
-              href='https://www.clarityconf.com/session/the-diff-after-dark-mode'
+              href='https://youtu.be/_-8RKnpwu9U'
               title='The Diff After Dark Mode'
               text='Clarity Conf, October 2021'
               />
@@ -213,7 +165,7 @@ export default () =>
               />
               <Media
               href='https://youtu.be/K3Aycyfgicc'
-              title='Color fron Chaos'
+              title='Color from Chaos'
               text='AIGA Design Conference, April 2019'
               />
               <Media
@@ -256,7 +208,7 @@ export default () =>
               />
               <MediaSmall
               href='https://youtu.be/K3Aycyfgicc'
-              title='Color fron Chaos'
+              title='Color from Chaos'
               text='AIGA Design Conference, April 2019'
               />
               <MediaSmall
@@ -357,6 +309,53 @@ export default () =>
           </Box>
         </Container>
       </Flex>
+      <Flex>
+        <Container mb={4}>
+          <Box ml={2}>
+            <HeadingAccent mb={4} id='writing'>
+              Writing
+            </HeadingAccent>
+            <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
+            <MediaSmall
+              href='https://github.blog/2023-05-17-designs-journey-towards-accessibility/'
+              title='Design’s journey towards Accessibility'
+              text='May, 2023'/>
+              <MediaSmall
+              href='https://medium.com/@broccolini/design-systems-at-github-c8e5378d2542'
+              title='Design Systems at GitHub'
+              text='July, 2018'/>
+              <MediaSmall
+              href='https://hackdesign.org/lessons/96-design-system-fundamentals'
+              title='Hack Design: Design System Fundamentals'
+              text='This lesson introduces you to the fundamentals of building design systems.'/>
+              <MediaSmall
+              href='https://the-pastry-box-project.net/diana-mounter/2018-january-25'
+              title='The Peacock’s Demo: a design fable'
+              text='January, 2018'/>
+              <MediaSmall
+              href='https://www.designbetter.co/design-systems-handbook/putting-design-system-practice'
+              title='Design Systems Handbook: putting your design system into practice'
+              text='An online and printed handbook on design systems.'/>
+              <MediaSmall
+              href='http://www.creativebloq.com/web-design/empower-designers-code-41619919'
+              title='How to Empower Designers to Code'
+              text='April, 2016'/>
+              <MediaSmall
+              href='https://codeascraft.com/2015/02/05/rebuilding-the-foundation-of-etsy-seller-tools/'
+              title='Rebuilding the Foundation of Etsy’s Seller Tools'
+              text='February, 2015'/>
+              <MediaSmall
+              href='https://medium.com/@broccolini/embracing-change-in-your-workplace-544ec73db0c8'
+              title='Embracing Change in Your Workplace'
+              text='January, 2015'/>
+              <MediaSmall
+              href='https://medium.com/@broccolini/move-fast-and-make-something-of-your-life-34b7feabb86f'
+              title='Move Fast and Make Something (of your life)'
+              text='June, 2013'/>
+            </Box>
+          </Box>
+        </Container>
+      </Flex>
       <Box mb={4}>
         <Container>
           <HeadingAccent mb={4} ml={2} id='side-projects'>
@@ -417,31 +416,31 @@ export default () =>
             Interviews
             </HeadingAccent>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
-              <Media
+              <MediaSmall
               href='https://reactpodcast.com/25'
               title='React Podcast: Make Brilliant Messes'
               text='In this episode with Emily Plummer, we talk with Chantastic about Rails, Lerna, monorepos, Figma, component APIs, and the importance of supporting designers and engineers with your design system.'/>
-              <Media
+              <MediaSmall
               href='https://spec.fm/podcasts/design-details/141132'
               title='Design Details: Cats & Design Systems'
               text='In this episode with Brent Jackson, we dig into the tools and workflows we’ve developed when working on systems, what we’re excited about in design systems, and talk about the technologies that are changing the way we build.'/>
-              <Media
+              <MediaSmall
               href='https://www.designbetter.co/podcast/diana-mounter'
               title='Design Better Podcast: from design silos to design system'
               text='From design silos to design systems. I talk with Eli Woolery and Aaron Walter from InVision about navigating the path from style guide contributor to full-time design systems manager.'/>
-              <Media
+              <MediaSmall
               href='http://journalmetro.com/opinions/urelles/1500030/diana-mounter-lexperte-de-la-couleur-sur-le-web/'
               title='Interview avec Chloe Freslon pour URelles.com'
               text='De travailler avec la couleur dans l’imprimé et sur le web, les défis techniques, et pourquoi il est difficile de devenir un expert en couleur.'/>
-              <Media
+              <MediaSmall
               href='http://www.fullstackradio.com/75'
               title='Full Stack Radio, episode 75'
               text='In this interview I talk about using design systems to tame legacy CSS, and how GitHub is using utility classes to make it easier to build more consistent, maintainable user interfaces.'/>
-              <Media
+              <MediaSmall
               href='https://www.uxpin.com/studio/blog/githubs-design-system-interview-diana-mounter/'
               title='UXPin interview'
               text='In this interview I talk about lessons learned in building and maintaining GitHub’s design system, Primer.'/>
-              <Media
+              <MediaSmall
               href='http://spec.fm/podcasts/design-details/19431'
               title='Design Details:  Itchy Feet'
               text='In this episode I talk about my journey to Etsy, the startup bus, why Git is a valuable tool for designers and the hardest part about onboarding designers.'/>
