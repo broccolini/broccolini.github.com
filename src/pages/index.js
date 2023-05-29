@@ -69,10 +69,6 @@ export default () =>
               title='Writing'
             />
             <NavList
-              href='#highlights'
-              title='Highlights'
-            />
-            <NavList
               href='#talks'
               title='Talks'
             />
@@ -168,34 +164,6 @@ export default () =>
           </Box>
         </Container>
       </Flex>
-
-      <Box mb={4}>
-        <Container>
-          <HeadingAccent mb={4} ml={2} id='highlights'>
-            Highlights
-          </HeadingAccent>
-          <Flex ml={2} mb={3} flexWrap='wrap'>
-            <Box width={[1, 3/4, 1/2, 1/3]} pr={2} mb={[3,3,4]}>
-              <Card
-              src='dsc.png'
-              href='http://designsystems.nyc/'
-              title='Design Systems Coalition NYC'
-              />
-              <Text fontFamily='mono' mt={1}>The <LinkDark href='http://design.systems/coalition/'>DSC</LinkDark> is a community for people who build design systems to share and learn from each other. I organize the NYC chapter which I formed in December 2016.
-              </Text>
-            </Box>
-            <Box width={[1, 3/4, 1/2, 1/3]} pr={2} mb={[3,3,4]}>
-              <Card
-              src='primer.svg'
-              href='http://primer.style'
-              title='Primer design system'
-              />
-              <Text fontFamily='mono' mt={1}>I formed the GitHub design systems team in early 2016. I continue to grow the team and guide the evolution of Primer, our proudly open-sourced design system.
-              </Text>
-            </Box>
-          </Flex>
-        </Container>
-      </Box>
 
       <Flex>
         <Container>
