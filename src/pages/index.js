@@ -38,21 +38,24 @@ export default () =>
         </Box>
       </Container>
       <Container mb={[5,6,7]}>
-        <GradientBox ml={2}>
+      <GradientBox ml={2} p={1}>
+      </GradientBox>
           <Box width={[1,1,1,3/4,1/2]}>
-            <Text fontFamily='mono' fontSize={2} py={3} pl={3} pr={[2,2,2,3,3]}>
+            <Text fontFamily='mono' fontSize={2} py={3} pl={2} pr={[2,2,2,3,3]}>
             I’m a designer with an interest in systems thinking, <LinkDark href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</LinkDark>, and inclusive design. I work remotely for GitHub as their Head of Design. I live in Brooklyn, NY, with my husband and two cats.
             </Text>
           </Box>
-        </GradientBox>
+        
+        
         <Box ml={2}>
-          <Text fontFamily='mono' fontSize={[1,1,2,2]} py={3} pr={[2,2,2,3,3]}>
+          <Text fontFamily='mono' fontSize={[1,1,2,2]} py={1} pr={[2,2,2,3,3]}>
           <LinkDark href='/about/' mr={1}>About</LinkDark>· 
             <LinkDark href='/musings/' mx={1}>Musings</LinkDark>· 
             <LinkDark href='/reading/' mx={1}>Reading</LinkDark>· 
             <LinkDark href='https://twitter.com/broccolini' mx={1}>Twitter</LinkDark>
           </Text>
         </Box>
+        
       </Container>
 
       <Container mb={6}>
@@ -91,23 +94,20 @@ export default () =>
               Work
             </HeadingAccent>
             <Box width={[1,1,1,3/4,1/2]}>
-            <Heading fontSize="3" mb={1}>GitHub</Heading>
+            
+            <Heading fontSize="3" mb={1}>GitHub: Dec 2015 - present</Heading>
             <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
             As GitHub's Head of Design I lead a cross-functional team including Product Design, Customer Research, Brand and Marketing Design, Design Infrastructure, Design Engineering, and Design Operations. My team is responsible for the end-to-end user experience of GitHub's products, brand direction for key events such as <Link href='https://twitter.com/broccolini/status/1590889579389005824'>GitHub Universe</Link>, and delivering compelling launch campaigns such as <Link href='https://youtu.be/4RfD5JiXt3A'>Copilot X</Link>. 
             </Text>
             <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
-            Since joining GitHub in 2015 I led the <Link href='http://primer.style/'>Primer</Link> design systems team and developed Primer from a CSS framework to mature design system of components, documentation, and tooling. Under my leadership, the team also shipped a significant <Link href='https://twitter.com/broccolini/status/1265746006974611461?s=20'>visual rededesign</Link> and the biggest <Link href='https://github.blog/changelog/2020-06-23-design-updates-to-repositories-and-github-ui/'>changes to the repository homepage</Link> in 5+ years. In 2020, my team delivered one of GitHub's most highly requested features – <Link href='https://twitter.com/github/status/1336362679506784256'>Dark mode</Link>.
+            Since joining GitHub in 2015, I led the <Link href='http://primer.style/'>Primer</Link> design systems team and developed Primer from a CSS framework to mature design system of components, documentation, and tooling. Under my leadership, the team also shipped a significant <Link href='https://twitter.com/broccolini/status/1265746006974611461?s=20'>visual rededesign</Link> and the biggest <Link href='https://github.blog/changelog/2020-06-23-design-updates-to-repositories-and-github-ui/'>changes to the repository homepage</Link> in 5+ years. In 2020, my team delivered one of GitHub's most highly requested features – <Link href='https://twitter.com/github/status/1336362679506784256'>Dark mode</Link>.
             </Text>
             <Text fontFamily='mono' fontSize={2} mb={3} pr={[2,2,2,3,3]}>
-            In the first half of 2022 we were in a hyper-growth phase and I grew the team by 42%; onboarding designers, researchers, design engineers, managers and directors across the organization. I've developed the teams practices and processes, and built new specialist design teams such as growth design and accessibility design. Through my role leading design systems and now leading the Design Org, I've also been working to build a more <Link href='https://github.blog/2023-05-17-designs-journey-towards-accessibility/'>inclusive design culture</Link> and experience for our customers.
+            In the first half of 2022 we were in a hyper-growth phase and I grew the team by 42%, onboarding designers, researchers, design engineers, managers and directors across the organization. I've developed the team’s practices and processes, and built new specialist design teams such as growth design and accessibility design. Through my role leading design systems and now leading the Design Org, I've also been working to build a more <Link href='https://github.blog/2023-05-17-designs-journey-towards-accessibility/'>inclusive design culture</Link> and experience for our customers.
             </Text>
-            <Heading fontSize="3" mb={1}>Etsy</Heading>
+            <Heading fontSize="3" mb={1}>Etsy: Dec 2013 - Dec 2015</Heading>
             <Text fontFamily='mono' fontSize={2} mb={3} pr={[2,2,2,3,3]}>
-            Prior to joining GitHub, I spent several years at Etsy, where I worked on <Link href='https://www.etsy.com/codeascraft/rebuilding-the-foundation-of-etsy-seller-tools/'>re-designing seller tools</Link>, developed the design onboarding process and taught new designers how to push code, and was part of a small team that <Link href='http://slides.com/dianamounter/building-scalable-design#/'>built a new design system</Link>. 
-            </Text>
-            <Heading fontSize="3" mb={1}>Where it started</Heading>
-            <Text fontFamily='mono' fontSize={2} mb={3} pr={[2,2,2,3,3]}>
-            I started my career in print design in the UK, then moved to Australia where I worked in the public sector and a small strategic design agency, before moving the US (by way of a <Link href='https://medium.com/@broccolini/move-fast-and-make-something-of-your-life-34b7feabb86f'>hackathon on a bus</Link>) to experience the startup scene in silicon valley. 
+            Prior to joining GitHub, I spent several years at Etsy, where I worked on <Link href='https://www.etsy.com/codeascraft/rebuilding-the-foundation-of-etsy-seller-tools/'>re-designing seller tools</Link>, developed the design onboarding process, taught new designers how to push code, and was part of a small team that <Link href='http://slides.com/dianamounter/building-scalable-design#/'>built a new design system</Link>. 
             </Text>
             <Text fontFamily='mono' fontSize={2} mb={4} pr={[2,2,2,3,3]}>
             Check out my <Link href='https://www.linkedin.com/in/dianamounter/'>LinkedIn</Link> profile for more details on my work history. 
@@ -127,10 +127,11 @@ export default () =>
       <Flex>
         <Container mb={4}>
         <Box ml={2}>
-          <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
-          <Link href='https://www.designconference.aiga.org/event/craft'>
-            <SubHeading>Figma Config - San Francisco, June 2023</SubHeading>
-          </Link>
+        <Box mb={2} width={[1,1,1,3/4,1/2]}>
+            <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
+            I am fortunate to have spoken at events locally in NYC, across the U.S. and around the world. I am motivated by the opportunity to share my experiences and learnings with others, and to help others grow in their careers. Many of my talks in recent years are focused on design systems, but I also speak about leadership, design culture, and inclusive design. 
+            </Text>
+          </Box>
         </Box>
         </Container>
       </Flex>
@@ -147,59 +148,26 @@ export default () =>
         </Container>
 
         <Flex>
-          <Container mb={5}>
+          <Container mb={4}>
+          
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
+              <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
+              <Link href='https://www.designconference.aiga.org/event/craft'>
+              <SubHeading>Figma Config - San Francisco, June 2023</SubHeading>
+              </Link>
 
-              <Heading fontSize="4" mb={3}>Some of my favorite talks:</Heading>
+              <Heading fontSize="4" pt={4} mb={3}>A selection of my talks:</Heading>
 
-              <Media
+              <MediaSmall
               href='https://youtu.be/_-8RKnpwu9U'
               title='The Diff After Dark Mode'
               text='Clarity Conf, October 2021'
               />
-              <Media
-              href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
-              title='Themeability is the path to dark mode'
-              text='ReactConf AU, February 2020'
-              />
-              <Media
-              href='https://youtu.be/K3Aycyfgicc'
-              title='Color from Chaos'
-              text='AIGA Design Conference, April 2019'
-              />
-              <Media
-              href='https://www.rethinkhq.com/videos/you-vs-the-design-system-they-told-you-not-to-worry-about-diana-mounter-github'
-              title='You vs. the design system they told you not to worry about'
-              text='RETHINK Design Systems, June 2018'
-              />
-              <Media
-              href='https://youtu.be/AbpS3Z3xXE0'
-              title='Interaction of Color Systems'
-              text='CSS Conf Australia, March 2018'
-              />
-              <Media
-              href='https://youtu.be/Hx02SaL_IH0'
-              title='Design Systems: when and how much?'
-              text='Active Ingredients, April 2017'
-              />
-
-              <Heading fontSize="4" pt={3} mb={2}>All the talks:</Heading>
-
-              <MediaSmall
-              href='https://www.clarityconf.com/session/the-diff-after-dark-mode'
-              title='The Diff After Dark Mode'
-              text='Clarity Conf, October 2021'
-              />
               <MediaSmall
               href='https://reactconfau.com/talks/themeability-is-the-path-to-dark-mode?from=schedule'
               title='Themeability is the path to dark mode'
               text='ReactConf AU, February 2020'
-              />
-              <MediaSmall
-              href='https://vimeo.com/364382470'
-              title='Component API design and the developer experience'
-              text='Fronteers, October 2019'
               />
               <MediaSmall
               href='https://vimeo.com/showcase/6133041/video/351297451'
@@ -210,11 +178,6 @@ export default () =>
               href='https://youtu.be/K3Aycyfgicc'
               title='Color from Chaos'
               text='AIGA Design Conference, April 2019'
-              />
-              <MediaSmall
-              href='https://youtu.be/hftvh9SNEZQ'
-              title='Design System APIs and the developer experience'
-              text='Design Systems London, November 2018'
               />
               <MediaSmall
               href='https://github.com/broccolini/design-systems-and-react'
@@ -232,79 +195,24 @@ export default () =>
               text='Web Conf Asia, June 2018'
               />
               <MediaSmall
-              href='https://designersandgeeks.com/events/colorful-journey-into-design-systems'
-              title='A Colorful Journey Into Design Systems'
-              text='Designers and Geeks, May 2018'
-              />
-              <MediaSmall
-              href='https://www.webaquebec.org/programmation/interaction-of-color-systems'
-              title='Interaction of Color Systems'
-              text='Web A Québec, April 2018'
-              />
-              <MediaSmall
               href='https://youtu.be/AbpS3Z3xXE0'
               title='Interaction of Color Systems'
               text='CSS Conf Australia, March 2018'
               />
               <MediaSmall
-              href='https://www.clarityconf.com/the-interaction-of-color-systems/'
-              title='Interaction of Color Systems'
-              text='Clarity, November 2017'
-              />
-              <MediaSmall
-              href='https://youtu.be/FZSi1bK-BRM'
-              title='Introducing Systems into Chaos'
-              text='RETHINK Product Design Series, August 2017'
-              />
-              <MediaSmall
               href='https://youtu.be/Hx02SaL_IH0'
               title='Design Systems: when and how much?'
-              text='Active Ingredients, April 2017'/>
-              <MediaSmall
-              href='http://firstmarkcap.com/insights/color-systems-at-github/'
-              title='Color Systems'
-              text='Design Driven, March 2017'/>
+              text='Active Ingredients, April 2017'
+              />
               <MediaSmall
               href='http://aigany.org/event/real-talk-about-design-systems/'
               title='Panel: Real Talk About Design Systems'
               text='AIGA, February 2017'/>
               <MediaSmall
-              href='https://speakerdeck.com/broccolini/building-design-systems-at-github'
-              title='Building Design Systems at GitHub'
-              text='Design Systems Coalition NYC, December 2016'/>
-              <MediaSmall
-              href='https://speakerdeck.com/broccolini/competence-compassion-and-confidence'
-              title='Competence, Compassion, and Confidence'
-              text='Wildhacks, November 2016'/>
-              <MediaSmall
-              href='https://speakerdeck.com/broccolini/empowering-designers-to-code-2'
-              title='Empowering Designers to Code - 2nd edition'
-              text='Awwwards, November 2016'/>
-              <MediaSmall
-              href='http://dwc.io/events/2016/design-night-at-mongodb-hq/'
-              title='How to Build Style Guides Everyone Loves'
-              text='Designers Who Code, June 2016'/>
-              <MediaSmall
-              href='https://speakerdeck.com/broccolini/all-the-things-i-know-about-building-design-systems'
-              title='All The Things I Know About Design Systems'
-              text='Clarity, March 2016'/>
-              <MediaSmall
-              href='https://speakerdeck.com/broccolini/empowering-designers-to-code'
-              title='Empowering Designers to Code'
-              text='FOWD, November 2015'/>
-              <MediaSmall
               href='http://slides.com/dianamounter/building-scalable-design#/'
               title='Building Scalable Design'
               text='Design Driven, November 2014'/>
-              <MediaSmall
-              href='http://www.thisismetis.com/blog/design-for-people'
-              title='Design for People'
-              text='Metis, November 2014'/>
-              <MediaSmall
-              href='https://speakerdeck.com/broccolini/responding-to-change'
-              title='Responding to Change'
-              text='Agile Asbury, October 2014'/>
-              <Text fontFamily='mono' fontSize={2} pt={2}>Even more talks on <Link href='https://speakerdeck.com/broccolini'>speakerdeck</Link> and <Link href='https://www.slideshare.net/diana.mounter/presentations'>slideshare</Link>.</Text>
+              
             </Box>
           </Box>
         </Container>
