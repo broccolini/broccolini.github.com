@@ -37,28 +37,15 @@ export default () =>
           </Heading1>
         </Box>
       </Container>
-      <Container mb={[5,6,7]}>
-      <GradientBox ml={2} p={1}>
-      </GradientBox>
+      <Container mb={[3,4,5]}>
           <Box width={[1,1,1,3/4,1/2]}>
-            <Text fontFamily='mono' fontSize={2} py={3} pl={2} pr={[2,2,2,3,3]}>
+            <Text fontFamily='mono' fontSize={2} pl={2} pr={[2,2,2,3,3]}>
             I’m a designer with an interest in systems thinking, <LinkDark href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</LinkDark>, and inclusive design. I work remotely for GitHub as their Head of Design. I live in Brooklyn, NY, with my husband and two cats.
             </Text>
           </Box>
-        
-        
-        <Box ml={2}>
-          <Text fontFamily='mono' fontSize={[1,1,2,2]} py={1} pr={[2,2,2,3,3]}>
-          <LinkDark href='/about/' mr={1}>About</LinkDark>· 
-            <LinkDark href='/musings/' mx={1}>Musings</LinkDark>· 
-            <LinkDark href='/reading/' mx={1}>Reading</LinkDark>· 
-            <LinkDark href='https://twitter.com/broccolini' mx={1}>Twitter</LinkDark>
-          </Text>
-        </Box>
-        
       </Container>
 
-      <Container mb={6}>
+      <Container mb={[5,6,7]}>
         <Box py={2} ml={2}>
           <Nav>
           <NavList width={1/5}
@@ -366,11 +353,12 @@ export default () =>
     <GradientBox>
       <Container>
         <Box ml={['10%','0']}>
-          <Text fontWeight='500' fontSize={[2,2,3,3]} py={3} pl={2} pr={[2,2,2,3,3]}>
+          <Text fontWeight='500' fontSize={[1,2,2,2]} py={2} pl={2} pr={[2,2,2,3,3]}>
+          <LinkDark href='/about/' mr={2}>About</LinkDark>
+          <LinkDark href='/reading/' mr={2}>Reading</LinkDark>
           <LinkDark href='https://twitter.com/broccolini' mr={2}>Twitter</LinkDark>
           <LinkDark href='https://github.com/broccolini' mr={2}>GitHub</LinkDark>
-          <LinkDark href='https://medium.com/@broccolini' mr={2}>Medium</LinkDark>
-          <LinkDark href='https://www.linkedin.com/in/dianamounter/' mr={2}>LinkedIn</LinkDark>
+          <LinkDark href='https://www.linkedin.com/in/dianamounter/'>LinkedIn</LinkDark>
           </Text>
         </Box>
       </Container>
