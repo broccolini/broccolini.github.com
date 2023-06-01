@@ -116,7 +116,7 @@ export default () =>
         <Box ml={2}>
         <Box mb={2} width={[1,1,1,3/4,1/2]}>
             <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
-            I am fortunate to have spoken at events locally in NYC, across the U.S. and around the world. I am motivated by the opportunity to share my experiences and learnings with others, and to help others grow in their careers. Many of my talks in recent years are focused on design systems, but I also speak about leadership, design culture, and inclusive design. 
+            I speak at design and technology events across the U.S. and around the world. I am motivated by the opportunity to share my experiences and learnings with others and to help others grow in their careers. Many of my talks have been focused on design systems, but I also speak about leadership, design culture, and inclusive design. 
             </Text>
           </Box>
         </Box>
@@ -139,13 +139,18 @@ export default () =>
           
           <Box ml={2}>
             <Box width={[1,1,1,2/3,1/2]} pr={[2,2,2,3,3]}>
-              <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
+              {/* <Heading fontSize="4" mb={1}>Next speaking at:</Heading>
               <Link href='https://www.designconference.aiga.org/event/craft'>
               <SubHeading>Figma Config - San Francisco, June 2023</SubHeading>
-              </Link>
+              </Link> */}
 
-              <Heading fontSize="4" pt={4} mb={3}>A selection of my talks:</Heading>
+              <Heading fontSize="4" mb={3}>A selection of my talks:</Heading>
 
+              <MediaSmall
+              href='https://youtu.be/7h8dxDKYKMo'
+              title='A PR to Design Leadership'
+              text='Figma Config, June 2023'
+              />
               <MediaSmall
               href='https://youtu.be/_-8RKnpwu9U'
               title='The Diff After Dark Mode'
@@ -175,11 +180,6 @@ export default () =>
               href='https://www.rethinkhq.com/videos/you-vs-the-design-system-they-told-you-not-to-worry-about-diana-mounter-github'
               title='You vs. the design system they told you not to worry about'
               text='RETHINK Design Systems, June 2018'
-              />
-              <MediaSmall
-              href='https://www.webconf.asia/speakers'
-              title='Interaction of Color Systems'
-              text='Web Conf Asia, June 2018'
               />
               <MediaSmall
               href='https://youtu.be/AbpS3Z3xXE0'
@@ -259,7 +259,7 @@ export default () =>
                     
             <Box ml={2} mb={4} width={[1,1,1,3/4,1/2]}>
             <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
-            Most of these side projects are no longer active but sometimes I like to look back at them and remember what inspired me to do them at the time. 
+            Most of these side projects are no longer active, but sometimes I like to look back at them and remember what inspired me to do them at the time. 
             </Text>
             </Box>
         </Container>
