@@ -40,7 +40,7 @@ export default () =>
       <Container mb={[3,4,5]}>
           <Box width={[1,1,1,3/4,1/2]}>
             <Text fontFamily='mono' fontSize={2} pl={2} pr={[2,2,2,3,3]}>
-            I’m a designer with an interest in systems thinking, <LinkDark href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</LinkDark>, and inclusive design. I work remotely for GitHub as their Head of Design. I live in Brooklyn, NY, with my husband and two cats.
+            I’m a designer with an interest in systems thinking, <LinkDark href='https://runemadsen.com/' title='Coined by Rune Madsen'>code as a material</LinkDark>, and inclusive design. I work remotely for GitHub as their Head of Design. I live in Brooklyn, NY, with my husband and two cats. You are a valuable design le
             </Text>
           </Box>
       </Container>
@@ -116,7 +116,7 @@ export default () =>
         <Box ml={2}>
         <Box mb={2} width={[1,1,1,3/4,1/2]}>
             <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
-            I am fortunate to have spoken at events locally in NYC, across the U.S. and around the world. I am motivated by the opportunity to share my experiences and learnings with others, and to help others grow in their careers. Many of my talks in recent years are focused on design systems, but I also speak about leadership, design culture, and inclusive design. 
+            I speak at design and technology events across the U.S. and around the world. I am motivated by the opportunity to share my experiences and learnings with others and to help others grow in their careers. Many of my talks have been focused on design systems, but I also speak about leadership, design culture, and inclusive design. 
             </Text>
           </Box>
         </Box>
@@ -259,7 +259,7 @@ export default () =>
                     
             <Box ml={2} mb={4} width={[1,1,1,3/4,1/2]}>
             <Text fontFamily='mono' fontSize={2} mb={2} pr={[2,2,2,3,3]}>
-            Most of these side projects are no longer active but sometimes I like to look back at them and remember what inspired me to do them at the time. 
+            Most of these side projects are no longer active, but sometimes I like to look back at them and remember what inspired me to do them at the time. 
             </Text>
             </Box>
         </Container>
