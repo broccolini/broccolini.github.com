@@ -1,8 +1,8 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 import { fontFamily, lineHeight, color } from 'styled-system'
-import { theme } from './components'
+import { ThemeProvider } from './components'
 
 const Typography = styled.div(
   fontFamily,
@@ -12,20 +12,24 @@ const Typography = styled.div(
 Typography.defaultProps = {
   fontFamily: 'body',
   lineHeight: 1.5,
-  color: 'black'
+  color: 'text'
 }
 
-const Global = createGlobalStyle({
-  '*': {
-    boxSizing: 'border-box',
-  },
-  body: {
-    margin: 0,
+const Global = createGlobalStyle`
+  * {
+    box-sizing: border-box;
   }
-})
+  
+  body {
+    margin: 0;
+    background-color: ${props => props.theme.colors.background};
+    color: ${props => props.theme.colors.text};
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+`
 
 export default ({ children }) =>
-  <>
+  <ThemeProvider>
     <Helmet>
       <title>broccolini.net</title>
       <link
@@ -44,9 +48,7 @@ export default ({ children }) =>
       <meta name='twitter:site' content='@broccolini' />
     </Helmet>
     <Global />
-    <ThemeProvider theme={theme}>
-      <Typography>
-        {children}
-      </Typography>
-    </ThemeProvider>
-  </>
+    <Typography>
+      {children}
+    </Typography>
+  </ThemeProvider>
