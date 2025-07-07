@@ -15,7 +15,7 @@ const LinkDark = styled('a')(
 )
 
 LinkDark.defaultProps = {
-  color: 'black',
+  color: 'text',
 }
 
 export default LinkDark

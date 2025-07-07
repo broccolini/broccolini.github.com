@@ -16,7 +16,25 @@
     "white":"#fff",
     "pink":"#f352ff",
     "purple":"#764aef",
-    "green":"#6AFFC9"
+    "green":"#6AFFC9",
+    "darkGray":"#1e1e1e",
+    "lightGray":"#f8f9fa"
+  },
+  "modes": {
+    "light": {
+      "text": "#23232c",
+      "background": "#fff",
+      "primary": "#514EFD",
+      "secondary": "#6AFFC9",
+      "muted": "#D5D5DE"
+    },
+    "dark": {
+      "text": "#fff",
+      "background": "#23232c",
+      "primary": "#6AFFC9",
+      "secondary": "#514EFD", 
+      "muted": "#5a5a5a"
+    }
   },
   "textColor":"black",
   "lineHeight":"1.5",

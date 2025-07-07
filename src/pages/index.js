@@ -20,22 +20,28 @@ import {
   SubHeading,
   VideoCard,
   LinkLight,
+  ThemeToggle,
 } from '../components'
 
 export default () =>
   <Layout>
     <Box ml={['10%','0']}>
       <Container mt={[5,6,6,'20%']} mb={2}>
-        <Box width={[1,1,1,2/3]} pl={2} pr={3}>
-          <LeadText>
-            <LinkDark href='http://broccolini.net'>
-              broccolini
-            </LinkDark>
-          </LeadText>
-          <Heading1>
-            Diana Mounter
-          </Heading1>
-        </Box>
+        <Flex justifyContent="space-between" alignItems="flex-start">
+          <Box width={[1,1,1,2/3]} pl={2} pr={3}>
+            <LeadText>
+              <LinkDark href='http://broccolini.net'>
+                broccolini
+              </LinkDark>
+            </LeadText>
+            <Heading1>
+              Diana Mounter
+            </Heading1>
+          </Box>
+          <Box pr={2} pt={2}>
+            <ThemeToggle />
+          </Box>
+        </Flex>
       </Container>
       <Container mb={[3,4,5]}>
           <Box width={[1,1,1,3/4,1/2]}>
