@@ -1,0 +1,49 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const musingsPosts = await getCollection('musings');
+  return musingsPosts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+
+type Props = CollectionEntry<'musings'>;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<Layout title={`${post.data.title} - broccolini.net`}>
+  <main>
+    <div style="margin-left: 10%;">
+      <div class="container" style="margin-top: 20%; margin-bottom: var(--space-4);">
+        <div style="width: 75%; padding-left: var(--space-2); padding-right: var(--space-3);">
+          <div style="font-size: var(--font-size-6); font-weight: 700;">
+            <a href="/" style="color: var(--color-black); text-decoration: none;">
+              broccolini
+            </a>
+          </div>
+          <h1 style="font-size: var(--font-size-8); font-weight: 700; line-height: 1.25; margin: 0;">
+            {post.data.title}
+          </h1>
+          <p style="font-family: var(--font-mono); font-size: var(--font-size-2); color: var(--color-gray); margin-top: var(--space-2);">
+            {post.data.date}
+          </p>
+        </div>
+      </div>
+      
+      <div class="container" style="margin-bottom: var(--space-5);">
+        <div style="width: 75%;">
+          <div style="padding-left: var(--space-2); padding-right: var(--space-3);">
+            <div style="font-family: var(--font-mono); font-size: var(--font-size-2); line-height: 1.6;">
+              <Content />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>

@@ -1,0 +1,82 @@
+/* Theme variables */
+:root {
+  /* Colors */
+  --color-black: #23232c;
+  --color-gray: #D5D5DE;
+  --color-gray-light: #ECECF2;
+  --color-blue: #514EFD;
+  --color-blue-dark: #3549e5;
+  --color-yellow: #F5FA1C;
+  --color-white: #fff;
+  --color-pink: #f352ff;
+  --color-purple: #764aef;
+  --color-green: #6AFFC9;
+  
+  /* Fonts */
+  --font-body: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+  --font-mono: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  --font-serif: Athelas, Georgia, serif;
+  
+  /* Spacing */
+  --space-0: 0;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 32px;
+  --space-4: 64px;
+  --space-5: 128px;
+  --space-6: 256px;
+  --space-7: 320px;
+  
+  /* Font sizes */
+  --font-size-0: 12px;
+  --font-size-1: 14px;
+  --font-size-2: 16px;
+  --font-size-3: 20px;
+  --font-size-4: 24px;
+  --font-size-5: 32px;
+  --font-size-6: 48px;
+  --font-size-7: 64px;
+  --font-size-8: 72px;
+  --font-size-9: 96px;
+  
+  /* Breakpoints */
+  --breakpoint-sm: 40em;
+  --breakpoint-md: 60em;
+  --breakpoint-lg: 90em;
+  --breakpoint-xl: 132em;
+}
+
+/* Utility classes for common patterns */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-2);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Responsive utilities */
+@media (min-width: 40em) {
+  .container {
+    padding: 0 var(--space-3);
+  }
+}
+
+/* Background gradient utility */
+.gradient-bg {
+  background: linear-gradient(135deg, var(--color-blue) 0%, var(--color-purple) 100%);
+}
