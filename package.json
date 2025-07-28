@@ -2,13 +2,14 @@
   "private": true,
   "name": "broccolini.github.com",
   "version": "1.0.0",
-  "description": "The personal website of Diana Mounter, built with Gatsby",
+  "description": "The personal website of Diana Mounter, built with Astro",
   "scripts": {
-    "start": "gatsby develop --open",
-    "build": "gatsby build",
-    "deploy": "npx gh-pages -d public -b master",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy": "npm run build && npx gh-pages -d dist -b master",
+    "astro": "astro"
   },
   "repository": {
     "type": "git",
@@ -20,19 +21,17 @@
   },
   "homepage": "https://github.com/broccolini/broccolini.github.com#readme",
   "dependencies": {
-    "@mdx-js/mdx": "^1.5.7",
-    "@mdx-js/react": "^1.5.7",
-    "@rebass/grid": "^6.1.0",
-    "@theme-ui/css": "^0.3.1",
-    "gatsby": "^2.19.43",
-    "gatsby-plugin-mdx": "^1.0.83",
-    "gatsby-plugin-react-helmet": "^3.1.23",
-    "gatsby-plugin-styled-components": "^3.1.20",
-    "gatsby-source-filesystem": "^2.1.57",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-helmet": "^5.2.0",
-    "styled-components": "^5.0.1",
+    "@astrojs/mdx": "^4.0.0",
+    "@astrojs/react": "^4.0.0",
+    "astro": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "styled-components": "^6.0.0",
     "styled-system": "^5.1.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
   }
 }
